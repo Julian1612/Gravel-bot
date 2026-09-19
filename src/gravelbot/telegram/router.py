@@ -43,11 +43,32 @@ class Router:
             except Exception:
                 log.exception("Update %s fehlgeschlagen", update.get("update_id"))
 
+    def _ist_autorisiert(self, chat_id: str) -> bool:
+        """Nur der in TELEGRAM_CHAT_ID konfigurierte Chat darf den Bot steuern.
+
+        Ohne diese Pruefung wuerde der Bot auf jede Nachricht von jedem
+        Telegram-Nutzer reagieren, der seinen Benutzernamen kennt — /setup,
+        /reset, /pause eingeschlossen. TELEGRAM_CHAT_ID ist kein Geheimnis,
+        aber es ist die einzige Stelle, an der feststeht, wer der Besitzer ist.
+        """
+        return chat_id == self.settings.telegram_chat_id
+
     def _verarbeite_update(self, update: dict) -> None:
         if "callback_query" in update:
-            self._callback(update["callback_query"])
+            cq = update["callback_query"]
+            chat_id = str(cq["message"]["chat"]["id"])
+            if not self._ist_autorisiert(chat_id):
+                log.warning("Callback von nicht autorisiertem Chat %s ignoriert", chat_id)
+                self.telegram.answer_callback_query(cq["id"])
+                return
+            self._callback(cq)
         elif "message" in update and "text" in update["message"]:
-            self._nachricht(update["message"])
+            message = update["message"]
+            chat_id = str(message["chat"]["id"])
+            if not self._ist_autorisiert(chat_id):
+                log.warning("Nachricht von nicht autorisiertem Chat %s ignoriert", chat_id)
+                return
+            self._nachricht(message)
 
     # ── Nachrichten (Text) ──────────────────────────────────────────────
 
