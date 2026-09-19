@@ -1,0 +1,1871 @@
+{
+ "geo": {
+  "de:51702": [
+   51.0333,
+   7.65
+  ],
+  "de:52152": [
+   50.6068,
+   6.3005
+  ],
+  "de:53902": [
+   50.55,
+   6.7634
+  ],
+  "de:53919": [
+   50.7554,
+   6.8395
+  ],
+  "de:64673": [
+   49.7264,
+   8.6186
+  ],
+  "de:67251": [
+   49.5139,
+   8.21
+  ],
+  "de:83671": [
+   47.7,
+   11.4
+  ]
+ },
+ "last_run": "2026-09-19T12:47:51+00:00",
+ "listings": {
+  "bikemarkt:1666803": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     550.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Sequoia Elite 2018 RH 54 verkauft",
+   "url": "https://bikemarkt.mtb-news.de/article/1666803-specialized-sequoia-elite-2018-rh-54-verkauft",
+   "zip": null
+  },
+  "bikemarkt:1698145": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3450.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Basic Bikes BASIC Gravelbike SRAM Apex AXS XPLR 1x12",
+   "url": "https://bikemarkt.mtb-news.de/article/1698145-basic-bikes-basic-gravelbike-sram-apex-axs-xplr-1x12",
+   "zip": null
+  },
+  "bikemarkt:1742656": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1400.0
+    ]
+   ],
+   "shipping": true,
+   "title": "Spyder Dealer - Gravel One 50 53 56cm SRAM Apex1 UVP 2099,- JobRad",
+   "url": "https://bikemarkt.mtb-news.de/article/1742656-spyder-dealer-gravel-one-50-53-56cm-sram-apex1-uvp-2099-jobrad",
+   "zip": null
+  },
+  "bikemarkt:1745747": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2900.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant TCX Advanced Pro 0 - Größe ML - AXS, Powermeter, DT Swiss  2300km",
+   "url": "https://bikemarkt.mtb-news.de/article/1745747-giant-tcx-advanced-pro-0-groesse-ml-axs-powermeter-dt-swiss-2300km",
+   "zip": null
+  },
+  "bikemarkt:1778375": {
+   "alerted": {
+    "under_market": [
+     "2026-09-19T12:47:51+00:00",
+     1499.0
+    ]
+   },
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1499.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 400 Gravelbike 2024 GRX 400 2x10 Alu Black(Grey/Tita",
+   "url": "https://bikemarkt.mtb-news.de/article/1778375-merida-silex-400-gravelbike-2024-grx-400-2x10-alu-black-grey-tita",
+   "zip": null
+  },
+  "bikemarkt:1778461": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ridley Kanzo Adventure",
+   "url": "https://bikemarkt.mtb-news.de/article/1778461-ridley-kanzo-adventure",
+   "zip": null
+  },
+  "bikemarkt:1778528": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 500 Gravelbike 2026 Sram Apex 1x12 Alu Moose Green Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1778528-merida-silex-500-gravelbike-2026-sram-apex-1x12-alu-moose-green-neu",
+   "zip": null
+  },
+  "bikemarkt:1778543": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2600.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt Advanced 0 M",
+   "url": "https://bikemarkt.mtb-news.de/article/1778543-giant-revolt-advanced-0-m",
+   "zip": null
+  },
+  "bikemarkt:1778840": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1399.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Norco Search XR S2 (50.5)",
+   "url": "https://bikemarkt.mtb-news.de/article/1778840-norco-search-xr-s2-50-5",
+   "zip": null
+  },
+  "bikemarkt:1779033": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1999.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Vannicholas Amazonas Titan Gravel Bike Gr. L Tune LRS - custom Aufbau",
+   "url": "https://bikemarkt.mtb-news.de/article/1779033-vannicholas-amazonas-titan-gravel-bike-gr-l-tune-lrs-custom-aufbau",
+   "zip": null
+  },
+  "bikemarkt:1779278": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3099.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Crossworx Bikes RIDE280 – Größe M – Vorführrad – RAL3015 – Hellrosa",
+   "url": "https://bikemarkt.mtb-news.de/article/1779278-crossworx-bikes-ride280-groesse-m-vorfuehrrad-ral3015-hellrosa",
+   "zip": null
+  },
+  "bikemarkt:1779574": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1299.99
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Booz ST, Verschiedene Größen",
+   "url": "https://bikemarkt.mtb-news.de/article/1779574-rondo-booz-st-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1779824": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     650.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Canyon Roadlight Preisupdate",
+   "url": "https://bikemarkt.mtb-news.de/article/1779824-canyon-roadlight-preisupdate",
+   "zip": null
+  },
+  "bikemarkt:1781159": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "67251 Freinsheim",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2499.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ceepo Rindo Gravelbike – Showbike / Aussteller – Größe L",
+   "url": "https://bikemarkt.mtb-news.de/article/1781159-ceepo-rindo-gravelbike-showbike-aussteller-groesse-l",
+   "zip": "67251"
+  },
+  "bikemarkt:1782147": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1599.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Canyon Grizl 58",
+   "url": "https://bikemarkt.mtb-news.de/article/1782147-canyon-grizl-58",
+   "zip": null
+  },
+  "bikemarkt:1782830": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2500.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Salca Warbird GRX 810 2 x 11 Carbon Gravelbike oliv Größe 56",
+   "url": "https://bikemarkt.mtb-news.de/article/1782830-salca-warbird-grx-810-2-x-11-carbon-gravelbike-oliv-groesse-56",
+   "zip": null
+  },
+  "bikemarkt:1782957": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     700.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Kona ROVE AL DL Gravelbike Aluminium RH. 58 rostbraun",
+   "url": "https://bikemarkt.mtb-news.de/article/1782957-kona-rove-al-dl-gravelbike-aluminium-rh-58-rostbraun",
+   "zip": null
+  },
+  "bikemarkt:1783109": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3500.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Orbea Terra M20i, Carbon, DI2, Zipp Carbon LR",
+   "url": "https://bikemarkt.mtb-news.de/article/1783109-orbea-terra-m20i-carbon-di2-zipp-carbon-lr",
+   "zip": null
+  },
+  "bikemarkt:1783160": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3099.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes Backroad Carbon EQ XPLR AXS Gravel Bike Gr. 59 cm",
+   "url": "https://bikemarkt.mtb-news.de/article/1783160-rose-bikes-backroad-carbon-eq-xplr-axs-gravel-bike-gr-59-cm",
+   "zip": null
+  },
+  "bikemarkt:1783212": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2000.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Diverge Comp Carbon",
+   "url": "https://bikemarkt.mtb-news.de/article/1783212-specialized-diverge-comp-carbon",
+   "zip": null
+  },
+  "bikemarkt:1783312": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1900.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 7000 Größe M modifiziert und 2 Paar DT-Swiss Felgen",
+   "url": "https://bikemarkt.mtb-news.de/article/1783312-merida-silex-7000-groesse-m-modifiziert-und-2-paar-dt-swiss-felgen",
+   "zip": null
+  },
+  "bikemarkt:1783396": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Cervélo Aspero GRX RX610 Peaches and Cream Carbon Gr.: 54",
+   "url": "https://bikemarkt.mtb-news.de/article/1783396-cervelo-aspero-grx-rx610-peaches-and-cream-carbon-gr-54",
+   "zip": null
+  },
+  "bikemarkt:1783545": {
+   "alerted": {
+    "under_market": [
+     "2026-09-19T12:47:51+00:00",
+     980.0
+    ]
+   },
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     980.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt 1 2021 Größe ML",
+   "url": "https://bikemarkt.mtb-news.de/article/1783545-giant-revolt-1-2021-groesse-ml",
+   "zip": null
+  },
+  "bikemarkt:1784101": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     990.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Cube Nulane Race 2024 - Shimano GRX 800/600",
+   "url": "https://bikemarkt.mtb-news.de/article/1784101-cube-nulane-race-2024-shimano-grx-800-600",
+   "zip": null
+  },
+  "bikemarkt:1784449": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1399.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Carbon CFR-707 GRAVEL BIKE CARBONDA M APEX 1x12 DT 370 NEUWERTIG",
+   "url": "https://bikemarkt.mtb-news.de/article/1784449-carbon-cfr-707-gravel-bike-carbonda-m-apex-1x12-dt-370-neuwertig",
+   "zip": null
+  },
+  "bikemarkt:1784563": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.99
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo MYLC CF1 Gravel Plus, SRAM Rival XLPR eTap AXS, verschiedene Größen",
+   "url": "https://bikemarkt.mtb-news.de/article/1784563-rondo-mylc-cf1-gravel-plus-sram-rival-xlpr-etap-axs-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1784583": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2400.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Trek Checkpoint SL5 Größe L 61cm",
+   "url": "https://bikemarkt.mtb-news.de/article/1784583-trek-checkpoint-sl5-groesse-l-61cm",
+   "zip": null
+  },
+  "bikemarkt:1785725": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2100.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Ruut CF2 2X Carbon Gravel Bike | Rh M (54) | Shimano GRX |",
+   "url": "https://bikemarkt.mtb-news.de/article/1785725-rondo-ruut-cf2-2x-carbon-gravel-bike-rh-m-54-shimano-grx",
+   "zip": null
+  },
+  "bikemarkt:1785789": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Kona Ouroboros CR Gravelbike 2025 Apex 1x12 Carbon Fox Blue Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1785789-kona-ouroboros-cr-gravelbike-2025-apex-1x12-carbon-fox-blue-neu",
+   "zip": null
+  },
+  "bikemarkt:1786106": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3490.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nicolai Argon GX - Gr. M - Rival AXS, Tune, RS Rudy, 3T, Hope",
+   "url": "https://bikemarkt.mtb-news.de/article/1786106-nicolai-argon-gx-gr-m-rival-axs-tune-rs-rudy-3t-hope",
+   "zip": null
+  },
+  "bikemarkt:1786420": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1700.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes ROSE Backroad AL GRX RX810 1x11 Olive Gr. 55",
+   "url": "https://bikemarkt.mtb-news.de/article/1786420-rose-bikes-rose-backroad-al-grx-rx810-1x11-olive-gr-55",
+   "zip": null
+  },
+  "bikemarkt:1786659": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Custom Breezer Gravel / MTB 29er Manitou Sram Tune DT Swiss nur 10,9 kg!!",
+   "url": "https://bikemarkt.mtb-news.de/article/1786659-custom-breezer-gravel-mtb-29er-manitou-sram-tune-dt-swiss-nur-10-9-kg",
+   "zip": null
+  },
+  "bikemarkt:1786972": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1395.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Genesis Croix de Fer",
+   "url": "https://bikemarkt.mtb-news.de/article/1786972-genesis-croix-de-fer",
+   "zip": null
+  },
+  "bikemarkt:1786979": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1699.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Trek Gravel FX Sport SL 5 Carbon Gr. L - neuwertig-",
+   "url": "https://bikemarkt.mtb-news.de/article/1786979-trek-gravel-fx-sport-sl-5-carbon-gr-l-neuwertig",
+   "zip": null
+  },
+  "bikemarkt:1787163": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1550.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ridley Kanzo E",
+   "url": "https://bikemarkt.mtb-news.de/article/1787163-ridley-kanzo-e",
+   "zip": null
+  },
+  "bikemarkt:1787272": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 4000 Gravelbike 2024 Carbon 2x10 Grey Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1787272-merida-silex-4000-gravelbike-2024-carbon-2x10-grey-neu",
+   "zip": null
+  },
+  "bikemarkt:1787364": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Pivot Cycles Vault Gravelbike Vollcarbon Custom XL, DT Swiss, GRX, Easton parts",
+   "url": "https://bikemarkt.mtb-news.de/article/1787364-pivot-cycles-vault-gravelbike-vollcarbon-custom-xl-dt-swiss-grx-easton-parts",
+   "zip": null
+  },
+  "bikemarkt:1787902": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3006.0
+    ]
+   ],
+   "shipping": true,
+   "title": "Van Rysel GCR SRAM Force AXS Reynolds Carbon neuwertig + Zubehör",
+   "url": "https://bikemarkt.mtb-news.de/article/1787902-van-rysel-gcr-sram-force-axs-reynolds-carbon-neuwertig-zubehoer",
+   "zip": null
+  },
+  "bikemarkt:1788575": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     900.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Canyon Pathlite 7",
+   "url": "https://bikemarkt.mtb-news.de/article/1788575-canyon-pathlite-7",
+   "zip": null
+  },
+  "bikemarkt:1788582": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3200.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Dinolfo Cycles Gravel Bike, handgeschweißter Stahlrahmen, feinste Carbonanbauteile",
+   "url": "https://bikemarkt.mtb-news.de/article/1788582-dinolfo-cycles-gravel-bike-handgeschweisster-stahlrahmen-feinste-carbonanbauteile",
+   "zip": null
+  },
+  "bikemarkt:1788775": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2499.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Kona Sutra LTD",
+   "url": "https://bikemarkt.mtb-news.de/article/1788775-kona-sutra-ltd",
+   "zip": null
+  },
+  "bikemarkt:1788984": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1500.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ridley Kanzo E",
+   "url": "https://bikemarkt.mtb-news.de/article/1788984-ridley-kanzo-e",
+   "zip": null
+  },
+  "bikemarkt:1789541": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes Backroad Carbon GRX 820 1x12 Gravelbike Green 55 Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1789541-rose-bikes-backroad-carbon-grx-820-1x12-gravelbike-green-55-neu",
+   "zip": null
+  },
+  "bikemarkt:1789542": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes Backroad EKAR Carbon Gravelbike Wasabi Grey Purple Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1789542-rose-bikes-backroad-ekar-carbon-gravelbike-wasabi-grey-purple-neu",
+   "zip": null
+  },
+  "bikemarkt:1789543": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1699.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes Backroad AL Sram Apex XPLR 1x12 Gravelbike Dijon Pickl Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1789543-rose-bikes-backroad-al-sram-apex-xplr-1x12-gravelbike-dijon-pickl-neu",
+   "zip": null
+  },
+  "bikemarkt:1789544": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes Backroad AL GRX 610 1x12 Gravelbike Pickle Dijon Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1789544-rose-bikes-backroad-al-grx-610-1x12-gravelbike-pickle-dijon-neu",
+   "zip": null
+  },
+  "bikemarkt:1789586": {
+   "alerted": {
+    "under_market": [
+     "2026-09-19T12:47:51+00:00",
+     1200.0
+    ]
+   },
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Diverge",
+   "url": "https://bikemarkt.mtb-news.de/article/1789586-specialized-diverge",
+   "zip": null
+  },
+  "bikemarkt:1790420": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2450.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Trek Checkpoint SL5 Gr. XL 58 Gravel Bike",
+   "url": "https://bikemarkt.mtb-news.de/article/1790420-trek-checkpoint-sl5-gr-xl-58-gravel-bike",
+   "zip": null
+  },
+  "bikemarkt:1791296": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1000.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Marin Bikes DSX 3",
+   "url": "https://bikemarkt.mtb-news.de/article/1791296-marin-bikes-dsx-3",
+   "zip": null
+  },
+  "bikemarkt:1791614": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 7000 Gravelbike 2024 GRX 820 1x12 Carbon Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1791614-merida-silex-7000-gravelbike-2024-grx-820-1x12-carbon-neu",
+   "zip": null
+  },
+  "bikemarkt:1792228": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1650.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Bogan ST 1",
+   "url": "https://bikemarkt.mtb-news.de/article/1792228-rondo-bogan-st-1",
+   "zip": null
+  },
+  "bikemarkt:1792718": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2100.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Diverge",
+   "url": "https://bikemarkt.mtb-news.de/article/1792718-specialized-diverge",
+   "zip": null
+  },
+  "bikemarkt:1793122": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2399.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Cannondale Topstone Carbon Lefty Gr. L | Carbon LRS | SRAM AXS",
+   "url": "https://bikemarkt.mtb-news.de/article/1793122-cannondale-topstone-carbon-lefty-gr-l-carbon-lrs-sram-axs",
+   "zip": null
+  },
+  "bikemarkt:1793374": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1999.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Sc Juniper Gravel Carbon- Bike braun 1 x 11 Rival Gr. XL",
+   "url": "https://bikemarkt.mtb-news.de/article/1793374-sc-juniper-gravel-carbon-bike-braun-1-x-11-rival-gr-xl",
+   "zip": null
+  },
+  "bikemarkt:1793680": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2299.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt Advanced 1 Rival AXS",
+   "url": "https://bikemarkt.mtb-news.de/article/1793680-giant-revolt-advanced-1-rival-axs",
+   "zip": null
+  },
+  "bikemarkt:1794067": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1400.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Diverge",
+   "url": "https://bikemarkt.mtb-news.de/article/1794067-specialized-diverge",
+   "zip": null
+  },
+  "bikemarkt:1794202": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     950.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Scott speedster",
+   "url": "https://bikemarkt.mtb-news.de/article/1794202-scott-speedster",
+   "zip": null
+  },
+  "bikemarkt:1794221": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1999.99
+    ]
+   ],
+   "shipping": false,
+   "title": "Fairdale WEEKENDER NOMAD NEU",
+   "url": "https://bikemarkt.mtb-news.de/article/1794221-fairdale-weekender-nomad-neu",
+   "zip": null
+  },
+  "bikemarkt:1794582": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2750.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ghost Bikes Asket",
+   "url": "https://bikemarkt.mtb-news.de/article/1794582-ghost-bikes-asket",
+   "zip": null
+  },
+  "bikemarkt:1794654": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3300.0
+    ]
+   ],
+   "shipping": true,
+   "title": "Specialized Diverge Comp Carbon Gravel gr. 52 grx - wie neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1794654-specialized-diverge-comp-carbon-gravel-gr-52-grx-wie-neu",
+   "zip": null
+  },
+  "bikemarkt:1794711": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3000.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Cannondale Topstone Carbon lefty 1 axs",
+   "url": "https://bikemarkt.mtb-news.de/article/1794711-cannondale-topstone-carbon-lefty-1-axs",
+   "zip": null
+  },
+  "bikemarkt:1795506": {
+   "alerted": {
+    "under_market": [
+     "2026-09-19T12:47:51+00:00",
+     1799.0
+    ]
+   },
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "64673 Zwingenberg",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger Comp 2021 Gravel Bike Cyclocross Komplettbike - Größe M",
+   "url": "https://bikemarkt.mtb-news.de/article/1795506-nukeproof-digger-comp-2021-gravel-bike-cyclocross-komplettbike-groesse-m",
+   "zip": "64673"
+  },
+  "bikemarkt:1795507": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe XL",
+   "url": "https://bikemarkt.mtb-news.de/article/1795507-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-xl",
+   "zip": null
+  },
+  "bikemarkt:1795508": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe M",
+   "url": "https://bikemarkt.mtb-news.de/article/1795508-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-m",
+   "zip": null
+  },
+  "bikemarkt:1795509": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2799.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe L",
+   "url": "https://bikemarkt.mtb-news.de/article/1795509-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-l",
+   "zip": null
+  },
+  "bikemarkt:1795510": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "64673 Zwingenberg",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger Factory Gravel Bike Cyclocross Komplettbike - Größe L",
+   "url": "https://bikemarkt.mtb-news.de/article/1795510-nukeproof-digger-factory-gravel-bike-cyclocross-komplettbike-groesse-l",
+   "zip": "64673"
+  },
+  "bikemarkt:1795511": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "64673 Zwingenberg",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger Factory Gravel Bike Cyclocross Komplettbike - Größe S",
+   "url": "https://bikemarkt.mtb-news.de/article/1795511-nukeproof-digger-factory-gravel-bike-cyclocross-komplettbike-groesse-s",
+   "zip": "64673"
+  },
+  "bikemarkt:1795512": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "64673 Zwingenberg",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2199.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Nukeproof Digger Factory 2021 Gravel Bike Cyclocross Komplettbike - Größe L",
+   "url": "https://bikemarkt.mtb-news.de/article/1795512-nukeproof-digger-factory-2021-gravel-bike-cyclocross-komplettbike-groesse-l",
+   "zip": "64673"
+  },
+  "bikemarkt:1795779": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2350.0
+    ]
+   ],
+   "shipping": false,
+   "title": "KTM X-Strada Prime",
+   "url": "https://bikemarkt.mtb-news.de/article/1795779-ktm-x-strada-prime",
+   "zip": null
+  },
+  "bikemarkt:1796200": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1160.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Trek Checkpoint SL6",
+   "url": "https://bikemarkt.mtb-news.de/article/1796200-trek-checkpoint-sl6",
+   "zip": null
+  },
+  "bikemarkt:1796445": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2999.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Scott Addict Gravel 20 S | SRAM AXS | petrol-black | unisex",
+   "url": "https://bikemarkt.mtb-news.de/article/1796445-scott-addict-gravel-20-s-sram-axs-petrol-black-unisex",
+   "zip": null
+  },
+  "bikemarkt:1796483": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1190.0
+    ]
+   ],
+   "shipping": true,
+   "title": "Pasculli Lisore, Cross-/Allroad, Carbon, Ultegra, Sehr leicht (9,5 kg)",
+   "url": "https://bikemarkt.mtb-news.de/article/1796483-pasculli-lisore-cross-allroad-carbon-ultegra-sehr-leicht-9-5-kg",
+   "zip": null
+  },
+  "bikemarkt:1797298": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1350.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Diverge E5 Comp 2021  RH56 + diverse upgrades",
+   "url": "https://bikemarkt.mtb-news.de/article/1797298-specialized-diverge-e5-comp-2021-rh56-diverse-upgrades",
+   "zip": null
+  },
+  "bikemarkt:1797591": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2999.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Orbea Terra M30 TEAM Carbon Nickel - Metallic Cinamon (Matt) Gr.: L",
+   "url": "https://bikemarkt.mtb-news.de/article/1797591-orbea-terra-m30-team-carbon-nickel-metallic-cinamon-matt-gr-l",
+   "zip": null
+  },
+  "bikemarkt:1797634": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3300.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Otso Warakin stainless, 58cm, Onyx, Beast, Ingrid,...",
+   "url": "https://bikemarkt.mtb-news.de/article/1797634-otso-warakin-stainless-58cm-onyx-beast-ingrid",
+   "zip": null
+  },
+  "bikemarkt:1797648": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": "51702 Bergneustadt Versand",
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1790.0
+    ]
+   ],
+   "shipping": true,
+   "title": "Scott Scale Gravel NEU",
+   "url": "https://bikemarkt.mtb-news.de/article/1797648-scott-scale-gravel-neu",
+   "zip": "51702"
+  },
+  "bikemarkt:1797801": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1333.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Scott Speedster Gravel 10",
+   "url": "https://bikemarkt.mtb-news.de/article/1797801-scott-speedster-gravel-10",
+   "zip": null
+  },
+  "bikemarkt:1797809": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2899.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Crux DSW Gr 54",
+   "url": "https://bikemarkt.mtb-news.de/article/1797809-specialized-crux-dsw-gr-54",
+   "zip": null
+  },
+  "bikemarkt:1797889": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2500.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized Crux Expert (58)",
+   "url": "https://bikemarkt.mtb-news.de/article/1797889-specialized-crux-expert-58",
+   "zip": null
+  },
+  "bikemarkt:1798046": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1666.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Specialized CruX Elite Custom Umbau 58er ca.8.5 kg",
+   "url": "https://bikemarkt.mtb-news.de/article/1798046-specialized-crux-elite-custom-umbau-58er-ca-8-5-kg",
+   "zip": null
+  },
+  "bikemarkt:1798121": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2500.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Mondraker gravel Arid M/L custom build",
+   "url": "https://bikemarkt.mtb-news.de/article/1798121-mondraker-gravel-arid-m-l-custom-build",
+   "zip": null
+  },
+  "bikemarkt:1798185": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1300.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Orbea Terra",
+   "url": "https://bikemarkt.mtb-news.de/article/1798185-orbea-terra",
+   "zip": null
+  },
+  "bikemarkt:1798235": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2100.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt Advanced Pro 0 XL - Carbon - GRX Di2 - top Zustand",
+   "url": "https://bikemarkt.mtb-news.de/article/1798235-giant-revolt-advanced-pro-0-xl-carbon-grx-di2-top-zustand",
+   "zip": null
+  },
+  "bikemarkt:1798288": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2000.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Mutt AL Audax Road Plus Bike, Gr. XL - Custom build",
+   "url": "https://bikemarkt.mtb-news.de/article/1798288-rondo-mutt-al-audax-road-plus-bike-gr-xl-custom-build",
+   "zip": null
+  },
+  "bikemarkt:1798425": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2300.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Cube Nuroad C:62 Pro FE vulcan´n´prism XS",
+   "url": "https://bikemarkt.mtb-news.de/article/1798425-cube-nuroad-c-62-pro-fe-vulcan-n-prism-xs",
+   "zip": null
+  },
+  "bikemarkt:1798677": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     849.99
+    ]
+   ],
+   "shipping": false,
+   "title": "NS Bikes RAG+ 2, 700C Gravel, verschiedene Größen",
+   "url": "https://bikemarkt.mtb-news.de/article/1798677-ns-bikes-rag-2-700c-gravel-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1798678": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     729.99
+    ]
+   ],
+   "shipping": false,
+   "title": "NS Bikes RAG+ 3 Road & Gravel Plus 700C Abverkauf, Gr. M oder L",
+   "url": "https://bikemarkt.mtb-news.de/article/1798678-ns-bikes-rag-3-road-gravel-plus-700c-abverkauf-gr-m-oder-l",
+   "zip": null
+  },
+  "bikemarkt:1798742": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt",
+   "url": "https://bikemarkt.mtb-news.de/article/1798742-giant-revolt",
+   "zip": null
+  },
+  "bikemarkt:1798842": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1100.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Ruut AL2 - Gravelbike | Gr. M | Shimano GRX 400",
+   "url": "https://bikemarkt.mtb-news.de/article/1798842-rondo-ruut-al2-gravelbike-gr-m-shimano-grx-400",
+   "zip": null
+  },
+  "bikemarkt:1798955": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1699.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Ridley Kanzo Adventure",
+   "url": "https://bikemarkt.mtb-news.de/article/1798955-ridley-kanzo-adventure",
+   "zip": null
+  },
+  "bikemarkt:1799470": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1999.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Merida Silex 700 Gravelbike 2024 GRX 810 1x12 Alu Neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1799470-merida-silex-700-gravelbike-2024-grx-810-1x12-alu-neu",
+   "zip": null
+  },
+  "bikemarkt:1799506": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     975.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt 0 ML (2022) M L",
+   "url": "https://bikemarkt.mtb-news.de/article/1799506-giant-revolt-0-ml-2022-m-l",
+   "zip": null
+  },
+  "bikemarkt:1799583": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1690.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Rose Bikes ROSE Backroad Carbon 62 | GRX 600 | DTSwiss GR1600 27,5 | Redshift",
+   "url": "https://bikemarkt.mtb-news.de/article/1799583-rose-bikes-rose-backroad-carbon-62-grx-600-dtswiss-gr1600-27-5-redshift",
+   "zip": null
+  },
+  "bikemarkt:1799775": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     3200.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Propain Terrel CF Raw Black - Grösse M - Gravelbike (Neuwertig)",
+   "url": "https://bikemarkt.mtb-news.de/article/1799775-propain-terrel-cf-raw-black-groesse-m-gravelbike-neuwertig",
+   "zip": null
+  },
+  "bikemarkt:1799824": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1350.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Canyon Inflite CF SL Gravel",
+   "url": "https://bikemarkt.mtb-news.de/article/1799824-canyon-inflite-cf-sl-gravel",
+   "zip": null
+  },
+  "bikemarkt:1799880": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2699.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Giant Revolt Advanced 2 - NEU - Carbon Gravel Bike - M/L -Shimano GRX 2x12",
+   "url": "https://bikemarkt.mtb-news.de/article/1799880-giant-revolt-advanced-2-neu-carbon-gravel-bike-m-l-shimano-grx-2x12",
+   "zip": null
+  },
+  "bikemarkt:1799920": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     900.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Kona Libre 2026 Gr. 56cm wie neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1799920-kona-libre-2026-gr-56cm-wie-neu",
+   "zip": null
+  },
+  "bikemarkt:1799940": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2499.0
+    ]
+   ],
+   "shipping": false,
+   "title": "Canyon Grizl CF SL 8 AXS",
+   "url": "https://bikemarkt.mtb-news.de/article/1799940-canyon-grizl-cf-sl-8-axs",
+   "zip": null
+  },
+  "bikemarkt:1799977": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     1699.99
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo MYLC CF2 Gravel Plus, verschiedene Größen",
+   "url": "https://bikemarkt.mtb-news.de/article/1799977-rondo-mylc-cf2-gravel-plus-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1800090": {
+   "alerted": {},
+   "first_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T12:47:51+00:00",
+   "location": null,
+   "prices": [
+    [
+     "2026-09-19T12:47:51+00:00",
+     2299.98
+    ]
+   ],
+   "shipping": false,
+   "title": "Rondo Ruut CF 1 Gravel Plus Bike, verschiedene Größen",
+   "url": "https://bikemarkt.mtb-news.de/article/1800090-rondo-ruut-cf-1-gravel-plus-bike-verschiedene-groessen",
+   "zip": null
+  }
+ },
+ "market": {
+  "basic bikes basic": [
+   3450.0
+  ],
+  "cannondale topstone": [
+   3000.0,
+   2399.0
+  ],
+  "canyon grizl": [
+   2499.0,
+   1599.0
+  ],
+  "canyon inflite": [
+   1350.0
+  ],
+  "canyon pathlite": [
+   900.0
+  ],
+  "canyon roadlight": [
+   650.0
+  ],
+  "carbon cfr": [
+   1399.0
+  ],
+  "ceepo rindo": [
+   2499.0
+  ],
+  "cervélo cerv": [
+   3199.0
+  ],
+  "crossworx bikes ride280": [
+   3099.0
+  ],
+  "cube nulane": [
+   990.0
+  ],
+  "cube nuroad": [
+   2300.0
+  ],
+  "custom breezer": [
+   1199.0
+  ],
+  "dinolfo cycles handgeschweißter": [
+   3200.0
+  ],
+  "fairdale weekender": [
+   1999.99
+  ],
+  "genesis croix": [
+   1395.0
+  ],
+  "ghost bikes": [
+   2750.0
+  ],
+  "giant revolt": [
+   2699.0,
+   975.0,
+   1200.0,
+   2100.0,
+   2299.0,
+   980.0,
+   2600.0
+  ],
+  "giant tcx": [
+   2900.0
+  ],
+  "kona libre": [
+   900.0
+  ],
+  "kona ouroboros": [
+   1799.0
+  ],
+  "kona rove": [
+   700.0
+  ],
+  "kona sutra": [
+   2499.0
+  ],
+  "ktm x": [
+   2350.0
+  ],
+  "marin bikes dsx": [
+   1000.0
+  ],
+  "merida silex": [
+   1999.0,
+   2799.0,
+   2199.0,
+   1900.0,
+   1799.0,
+   1499.0
+  ],
+  "mondraker arid": [
+   2500.0
+  ],
+  "nicolai argon": [
+   3490.0
+  ],
+  "norco search": [
+   1399.0
+  ],
+  "ns bikes rag": [
+   729.99,
+   849.99
+  ],
+  "nukeproof digger": [
+   2199.0,
+   2199.0,
+   2199.0,
+   2799.0,
+   2799.0,
+   2799.0,
+   1799.0
+  ],
+  "orbea terra": [
+   1300.0,
+   2999.0,
+   3500.0
+  ],
+  "otso warakin": [
+   3300.0
+  ],
+  "pasculli lisore": [
+   1190.0
+  ],
+  "pivot cycles": [
+   2799.0
+  ],
+  "propain terrel": [
+   3200.0
+  ],
+  "ridley kanzo": [
+   1699.0,
+   1550.0,
+   1500.0,
+   2799.0
+  ],
+  "rondo bogan": [
+   1650.0
+  ],
+  "rondo booz": [
+   1299.99
+  ],
+  "rondo mutt": [
+   2000.0
+  ],
+  "rondo mylc": [
+   1699.99,
+   2799.99
+  ],
+  "rondo ruut": [
+   2299.98,
+   1100.0,
+   2100.0
+  ],
+  "rose bikes backroad": [
+   1799.0,
+   1699.0,
+   2799.0,
+   2199.0,
+   3099.0
+  ],
+  "rose bikes rose": [
+   1690.0,
+   1700.0
+  ],
+  "salca warbird": [
+   2500.0
+  ],
+  "sc juniper": [
+   1999.0
+  ],
+  "scott addict": [
+   2999.0
+  ],
+  "scott scale": [
+   1790.0
+  ],
+  "scott speedster": [
+   1333.0,
+   950.0
+  ],
+  "specialized crux": [
+   1666.0,
+   2500.0,
+   2899.0
+  ],
+  "specialized diverge": [
+   1350.0,
+   3300.0,
+   1400.0,
+   2100.0,
+   1200.0,
+   2000.0
+  ],
+  "specialized sequoia": [
+   550.0
+  ],
+  "spyder dealer": [
+   1400.0
+  ],
+  "trek checkpoint": [
+   1160.0,
+   2450.0,
+   2400.0
+  ],
+  "trek fx": [
+   1699.0
+  ],
+  "van rysel": [
+   3006.0
+  ],
+  "vannicholas amazonas": [
+   1999.0
+  ]
+ }
+}
