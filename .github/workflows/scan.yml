@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "*/30 5-21 * * *"
   workflow_dispatch:
+    inputs:
+      modus:
+        description: "Was soll passieren?"
+        type: choice
+        default: normal
+        options:
+          - normal
+          - probelauf
+          - telegram-test
 
 permissions:
   contents: write
@@ -24,13 +33,19 @@ jobs:
 
       - run: pip install requests beautifulsoup4 lxml
 
-      - name: Scan
+      - name: Lauf
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python bot.py
+        run: |
+          case "${{ inputs.modus || 'normal' }}" in
+            probelauf)      python bot.py --dry-run ;;
+            telegram-test)  python bot.py --test-telegram ;;
+            *)              python bot.py ;;
+          esac
 
       - name: Preisdaten sichern
+        if: ${{ (inputs.modus || 'normal') == 'normal' }}
         run: |
           git config user.name  "gravel-bot"
           git config user.email "bot@users.noreply.github.com"
