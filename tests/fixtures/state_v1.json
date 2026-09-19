@@ -1,0 +1,22 @@
+{
+  "listings": {
+    "bikemarkt:1782147": {
+      "title": "Canyon Grizl 58",
+      "url": "https://bikemarkt.mtb-news.de/article/1782147-canyon-grizl-58",
+      "first_seen": "2026-08-01T10:00:00+00:00",
+      "last_seen": "2026-09-19T18:45:00+00:00",
+      "prices": [["2026-08-01T10:00:00+00:00", 1799.0], ["2026-09-01T10:00:00+00:00", 1599.0]],
+      "alerted": {},
+      "zip": "70173",
+      "location": "70173 Stuttgart",
+      "shipping": false
+    }
+  },
+  "market": {
+    "canyon grizl": [1599.0, 1699.0, 1899.0, 2099.0]
+  },
+  "geo": {
+    "de:70173": [48.7784, 9.1815]
+  },
+  "last_run": "2026-09-19T18:45:00+00:00"
+}
