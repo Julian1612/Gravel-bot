@@ -1,0 +1,44 @@
+name: Gravel Scan
+
+on:
+  schedule:
+    - cron: "*/30 5-21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gravel-scan
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4 lxml
+
+      - name: Scan
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bot.py
+
+      - name: Preisdaten sichern
+        run: |
+          git config user.name  "gravel-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state.json
+          if git diff --staged --quiet; then
+            echo "keine Aenderung"
+          else
+            git commit -m "Preisdaten $(date -u +%Y-%m-%dT%H:%M)"
+            git pull --rebase --autostash origin ${{ github.ref_name }}
+            git push
+          fi
