@@ -29,12 +29,12 @@
    11.4
   ]
  },
- "last_run": "2026-09-19T12:47:51+00:00",
+ "last_run": "2026-09-19T16:02:27+00:00",
  "listings": {
   "bikemarkt:1666803": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -50,7 +50,7 @@
   "bikemarkt:1698145": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -66,7 +66,7 @@
   "bikemarkt:1742656": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -74,7 +74,7 @@
      1400.0
     ]
    ],
-   "shipping": true,
+   "shipping": false,
    "title": "Spyder Dealer - Gravel One 50 53 56cm SRAM Apex1 UVP 2099,- JobRad",
    "url": "https://bikemarkt.mtb-news.de/article/1742656-spyder-dealer-gravel-one-50-53-56cm-sram-apex1-uvp-2099-jobrad",
    "zip": null
@@ -82,7 +82,7 @@
   "bikemarkt:1745747": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -103,7 +103,7 @@
     ]
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -119,7 +119,7 @@
   "bikemarkt:1778461": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -135,7 +135,7 @@
   "bikemarkt:1778528": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -151,7 +151,7 @@
   "bikemarkt:1778543": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -167,7 +167,7 @@
   "bikemarkt:1778840": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -183,7 +183,7 @@
   "bikemarkt:1779033": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -199,7 +199,7 @@
   "bikemarkt:1779278": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -215,7 +215,7 @@
   "bikemarkt:1779574": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -231,7 +231,7 @@
   "bikemarkt:1779824": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -247,7 +247,7 @@
   "bikemarkt:1781159": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "67251 Freinsheim",
    "prices": [
     [
@@ -263,7 +263,7 @@
   "bikemarkt:1782147": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -279,7 +279,7 @@
   "bikemarkt:1782830": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -295,7 +295,7 @@
   "bikemarkt:1782957": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -311,7 +311,7 @@
   "bikemarkt:1783109": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -327,7 +327,7 @@
   "bikemarkt:1783160": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -343,7 +343,7 @@
   "bikemarkt:1783212": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -359,7 +359,7 @@
   "bikemarkt:1783312": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -375,7 +375,7 @@
   "bikemarkt:1783396": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -396,7 +396,7 @@
     ]
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -412,7 +412,7 @@
   "bikemarkt:1784101": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -428,7 +428,7 @@
   "bikemarkt:1784449": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -444,7 +444,7 @@
   "bikemarkt:1784563": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -460,7 +460,7 @@
   "bikemarkt:1784583": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -476,7 +476,7 @@
   "bikemarkt:1785725": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -492,7 +492,7 @@
   "bikemarkt:1785789": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -508,7 +508,7 @@
   "bikemarkt:1786106": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -524,7 +524,7 @@
   "bikemarkt:1786420": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -540,7 +540,7 @@
   "bikemarkt:1786659": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -556,7 +556,7 @@
   "bikemarkt:1786972": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -572,7 +572,7 @@
   "bikemarkt:1786979": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -588,7 +588,7 @@
   "bikemarkt:1787163": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -604,7 +604,7 @@
   "bikemarkt:1787272": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -620,7 +620,7 @@
   "bikemarkt:1787364": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -636,7 +636,7 @@
   "bikemarkt:1787902": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -644,7 +644,7 @@
      3006.0
     ]
    ],
-   "shipping": true,
+   "shipping": false,
    "title": "Van Rysel GCR SRAM Force AXS Reynolds Carbon neuwertig + Zubehör",
    "url": "https://bikemarkt.mtb-news.de/article/1787902-van-rysel-gcr-sram-force-axs-reynolds-carbon-neuwertig-zubehoer",
    "zip": null
@@ -652,7 +652,7 @@
   "bikemarkt:1788575": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -668,7 +668,7 @@
   "bikemarkt:1788582": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -684,7 +684,7 @@
   "bikemarkt:1788775": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -700,7 +700,7 @@
   "bikemarkt:1788984": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -716,7 +716,7 @@
   "bikemarkt:1789541": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -732,7 +732,7 @@
   "bikemarkt:1789542": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -746,9 +746,14 @@
    "zip": null
   },
   "bikemarkt:1789543": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:27+00:00",
+     1699.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -762,9 +767,14 @@
    "zip": null
   },
   "bikemarkt:1789544": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:26+00:00",
+     1799.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -785,7 +795,7 @@
     ]
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -801,7 +811,7 @@
   "bikemarkt:1790420": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -817,7 +827,7 @@
   "bikemarkt:1791296": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -833,7 +843,7 @@
   "bikemarkt:1791614": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -849,7 +859,7 @@
   "bikemarkt:1792228": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -865,7 +875,7 @@
   "bikemarkt:1792718": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -881,7 +891,7 @@
   "bikemarkt:1793122": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -897,7 +907,7 @@
   "bikemarkt:1793374": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -913,7 +923,7 @@
   "bikemarkt:1793680": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -927,9 +937,14 @@
    "zip": null
   },
   "bikemarkt:1794067": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:27+00:00",
+     1400.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -945,7 +960,7 @@
   "bikemarkt:1794202": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -961,7 +976,7 @@
   "bikemarkt:1794221": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -977,7 +992,7 @@
   "bikemarkt:1794582": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -993,7 +1008,7 @@
   "bikemarkt:1794654": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1001,7 +1016,7 @@
      3300.0
     ]
    ],
-   "shipping": true,
+   "shipping": false,
    "title": "Specialized Diverge Comp Carbon Gravel gr. 52 grx - wie neu",
    "url": "https://bikemarkt.mtb-news.de/article/1794654-specialized-diverge-comp-carbon-gravel-gr-52-grx-wie-neu",
    "zip": null
@@ -1009,7 +1024,7 @@
   "bikemarkt:1794711": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1030,7 +1045,7 @@
     ]
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "64673 Zwingenberg",
    "prices": [
     [
@@ -1046,7 +1061,7 @@
   "bikemarkt:1795507": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1062,7 +1077,7 @@
   "bikemarkt:1795508": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1078,7 +1093,7 @@
   "bikemarkt:1795509": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1094,7 +1109,7 @@
   "bikemarkt:1795510": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "64673 Zwingenberg",
    "prices": [
     [
@@ -1110,7 +1125,7 @@
   "bikemarkt:1795511": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "64673 Zwingenberg",
    "prices": [
     [
@@ -1126,7 +1141,7 @@
   "bikemarkt:1795512": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "64673 Zwingenberg",
    "prices": [
     [
@@ -1142,7 +1157,7 @@
   "bikemarkt:1795779": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1158,7 +1173,7 @@
   "bikemarkt:1796200": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1174,7 +1189,7 @@
   "bikemarkt:1796445": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1190,7 +1205,7 @@
   "bikemarkt:1796483": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1198,15 +1213,20 @@
      1190.0
     ]
    ],
-   "shipping": true,
+   "shipping": false,
    "title": "Pasculli Lisore, Cross-/Allroad, Carbon, Ultegra, Sehr leicht (9,5 kg)",
    "url": "https://bikemarkt.mtb-news.de/article/1796483-pasculli-lisore-cross-allroad-carbon-ultegra-sehr-leicht-9-5-kg",
    "zip": null
   },
   "bikemarkt:1797298": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:26+00:00",
+     1350.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1222,7 +1242,7 @@
   "bikemarkt:1797591": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1238,7 +1258,7 @@
   "bikemarkt:1797634": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1254,7 +1274,7 @@
   "bikemarkt:1797648": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": "51702 Bergneustadt Versand",
    "prices": [
     [
@@ -1270,7 +1290,7 @@
   "bikemarkt:1797801": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1286,7 +1306,7 @@
   "bikemarkt:1797809": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1302,7 +1322,7 @@
   "bikemarkt:1797889": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1318,7 +1338,7 @@
   "bikemarkt:1798046": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1334,7 +1354,7 @@
   "bikemarkt:1798121": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1350,7 +1370,7 @@
   "bikemarkt:1798185": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1366,7 +1386,7 @@
   "bikemarkt:1798235": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1382,7 +1402,7 @@
   "bikemarkt:1798288": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1398,7 +1418,7 @@
   "bikemarkt:1798425": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1414,7 +1434,7 @@
   "bikemarkt:1798677": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1430,7 +1450,7 @@
   "bikemarkt:1798678": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1444,9 +1464,14 @@
    "zip": null
   },
   "bikemarkt:1798742": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:25+00:00",
+     1200.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1460,9 +1485,14 @@
    "zip": null
   },
   "bikemarkt:1798842": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:25+00:00",
+     1100.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1478,7 +1508,7 @@
   "bikemarkt:1798955": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1494,7 +1524,7 @@
   "bikemarkt:1799470": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1508,9 +1538,14 @@
    "zip": null
   },
   "bikemarkt:1799506": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-19T16:02:24+00:00",
+     975.0
+    ]
+   },
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1526,7 +1561,7 @@
   "bikemarkt:1799583": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1542,7 +1577,7 @@
   "bikemarkt:1799775": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1558,7 +1593,7 @@
   "bikemarkt:1799824": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1574,7 +1609,7 @@
   "bikemarkt:1799880": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1590,7 +1625,7 @@
   "bikemarkt:1799920": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1606,7 +1641,7 @@
   "bikemarkt:1799940": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1622,7 +1657,7 @@
   "bikemarkt:1799977": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1638,7 +1673,7 @@
   "bikemarkt:1800090": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
-   "last_seen": "2026-09-19T12:47:51+00:00",
+   "last_seen": "2026-09-19T16:02:24+00:00",
    "location": null,
    "prices": [
     [
@@ -1654,56 +1689,75 @@
  },
  "market": {
   "basic bikes basic": [
+   3450.0,
    3450.0
   ],
   "cannondale topstone": [
+   3000.0,
+   2399.0,
    3000.0,
    2399.0
   ],
   "canyon grizl": [
    2499.0,
+   1599.0,
+   2499.0,
    1599.0
   ],
   "canyon inflite": [
+   1350.0,
    1350.0
   ],
   "canyon pathlite": [
+   900.0,
    900.0
   ],
   "canyon roadlight": [
+   650.0,
    650.0
   ],
   "carbon cfr": [
+   1399.0,
    1399.0
   ],
   "ceepo rindo": [
+   2499.0,
    2499.0
   ],
   "cervélo cerv": [
+   3199.0,
    3199.0
   ],
   "crossworx bikes ride280": [
+   3099.0,
    3099.0
   ],
   "cube nulane": [
+   990.0,
    990.0
   ],
   "cube nuroad": [
+   2300.0,
    2300.0
   ],
   "custom breezer": [
+   1199.0,
    1199.0
   ],
   "dinolfo cycles handgeschweißter": [
+   3200.0,
    3200.0
   ],
   "fairdale weekender": [
+   1999.99,
    1999.99
   ],
   "genesis croix": [
+   1395.0,
    1395.0
   ],
   "ghost bikes": [
+   2750.0,
    2750.0
   ],
   "giant revolt": [
@@ -1713,27 +1767,41 @@
    2100.0,
    2299.0,
    980.0,
+   2600.0,
+   2699.0,
+   975.0,
+   1200.0,
+   2100.0,
+   2299.0,
+   980.0,
    2600.0
   ],
   "giant tcx": [
+   2900.0,
    2900.0
   ],
   "kona libre": [
+   900.0,
    900.0
   ],
   "kona ouroboros": [
+   1799.0,
    1799.0
   ],
   "kona rove": [
+   700.0,
    700.0
   ],
   "kona sutra": [
+   2499.0,
    2499.0
   ],
   "ktm x": [
+   2350.0,
    2350.0
   ],
   "marin bikes dsx": [
+   1000.0,
    1000.0
   ],
   "merida silex": [
@@ -1742,22 +1810,40 @@
    2199.0,
    1900.0,
    1799.0,
+   1499.0,
+   1999.0,
+   2799.0,
+   2199.0,
+   1900.0,
+   1799.0,
    1499.0
   ],
   "mondraker arid": [
+   2500.0,
    2500.0
   ],
   "nicolai argon": [
+   3490.0,
    3490.0
   ],
   "norco search": [
+   1399.0,
    1399.0
   ],
   "ns bikes rag": [
    729.99,
+   849.99,
+   729.99,
    849.99
   ],
   "nukeproof digger": [
+   2199.0,
+   2199.0,
+   2199.0,
+   2799.0,
+   2799.0,
+   2799.0,
+   1799.0,
    2199.0,
    2199.0,
    2199.0,
@@ -1769,40 +1855,59 @@
   "orbea terra": [
    1300.0,
    2999.0,
+   3500.0,
+   1300.0,
+   2999.0,
    3500.0
   ],
   "otso warakin": [
+   3300.0,
    3300.0
   ],
   "pasculli lisore": [
+   1190.0,
    1190.0
   ],
   "pivot cycles": [
+   2799.0,
    2799.0
   ],
   "propain terrel": [
+   3200.0,
    3200.0
   ],
   "ridley kanzo": [
    1699.0,
    1550.0,
    1500.0,
+   2799.0,
+   1699.0,
+   1550.0,
+   1500.0,
    2799.0
   ],
   "rondo bogan": [
+   1650.0,
    1650.0
   ],
   "rondo booz": [
+   1299.99,
    1299.99
   ],
   "rondo mutt": [
+   2000.0,
    2000.0
   ],
   "rondo mylc": [
    1699.99,
+   2799.99,
+   1699.99,
    2799.99
   ],
   "rondo ruut": [
+   2299.98,
+   1100.0,
+   2100.0,
    2299.98,
    1100.0,
    2100.0
@@ -1812,29 +1917,45 @@
    1699.0,
    2799.0,
    2199.0,
+   3099.0,
+   1799.0,
+   1699.0,
+   2799.0,
+   2199.0,
    3099.0
   ],
   "rose bikes rose": [
    1690.0,
+   1700.0,
+   1690.0,
    1700.0
   ],
   "salca warbird": [
+   2500.0,
    2500.0
   ],
   "sc juniper": [
+   1999.0,
    1999.0
   ],
   "scott addict": [
+   2999.0,
    2999.0
   ],
   "scott scale": [
+   1790.0,
    1790.0
   ],
   "scott speedster": [
    1333.0,
+   950.0,
+   1333.0,
    950.0
   ],
   "specialized crux": [
+   1666.0,
+   2500.0,
+   2899.0,
    1666.0,
    2500.0,
    2899.0
@@ -1845,26 +1966,40 @@
    1400.0,
    2100.0,
    1200.0,
+   2000.0,
+   1350.0,
+   3300.0,
+   1400.0,
+   2100.0,
+   1200.0,
    2000.0
   ],
   "specialized sequoia": [
+   550.0,
    550.0
   ],
   "spyder dealer": [
+   1400.0,
    1400.0
   ],
   "trek checkpoint": [
    1160.0,
    2450.0,
+   2400.0,
+   1160.0,
+   2450.0,
    2400.0
   ],
   "trek fx": [
+   1699.0,
    1699.0
   ],
   "van rysel": [
+   3006.0,
    3006.0
   ],
   "vannicholas amazonas": [
+   1999.0,
    1999.0
   ]
  }
