@@ -1,0 +1,28 @@
+{
+  "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=Gravelbike",
+  "total": 2,
+  "itemSummaries": [
+    {
+      "itemId": "v1|123456789012|0",
+      "title": "Canyon Grail CF SL 7 Gravelbike RH 54",
+      "price": {"value": "1850.00", "currency": "EUR"},
+      "itemWebUrl": "https://www.ebay.de/itm/123456789012",
+      "condition": "Gebraucht",
+      "itemLocation": {"city": "Stuttgart", "postalCode": "70173", "country": "DE"},
+      "seller": {"username": "radhaus_stuttgart", "sellerAccountType": "BUSINESS"},
+      "shippingOptions": [
+        {"shippingCost": {"value": "0.00", "currency": "EUR"}, "shippingCostType": "FIXED"}
+      ]
+    },
+    {
+      "itemId": "v1|987654321098|0",
+      "title": "Cube Nuroad Race Gravelbike",
+      "price": {"value": "999.00", "currency": "EUR"},
+      "itemWebUrl": "https://www.ebay.de/itm/987654321098",
+      "condition": "Gebraucht",
+      "itemLocation": {"city": "Muenchen", "postalCode": "80331", "country": "DE"},
+      "seller": {"username": "privat_verkauf_99", "sellerAccountType": "INDIVIDUAL"},
+      "shippingOptions": []
+    }
+  ]
+}
