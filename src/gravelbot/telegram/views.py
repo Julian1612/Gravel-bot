@@ -172,6 +172,14 @@ def render_setup_step(schritt: str, daten: dict) -> tuple[str, Keyboard | None]:
     if schritt == dialogs.PREISRAHMEN:
         return ("In welchem Preisrahmen? Als 'MIN-MAX' schicken, z.B. 500-3500.", None)
 
+    if schritt == dialogs.RAHMENGROESSE:
+        text_ = (
+            "Welche Rahmengroesse passt dir? Schick entweder deine Koerpergroesse "
+            "in cm (z.B. 178) — ich rechne dir eine passende Spanne aus — oder "
+            "direkt Rahmengroessen (z.B. 56,58 oder M,L). 'egal' fuer keine Einschraenkung."
+        )
+        return (text_, None)
+
     if schritt == dialogs.SCHWELLE:
         rows = [[_btn(f"{p}%", f"schwelle:{p}") for p in SCHWELLE_PRESETS]]
         return ("Ab wie viel Prozent unter Marktwert soll es ein Deal sein?", rows)
@@ -194,6 +202,7 @@ def render_profil(
         f"🚲 Radtyp: {radtypen_text}",
         f"📍 Standort: PLZ {profil.home_plz or '(nicht gesetzt)'} · Radius {profil.max_distance_km} km",
         f"💶 Preisrahmen: {fmt_eur(profil.min_price_eur)} – {fmt_eur(profil.max_price_eur)}",
+        f"📏 Rahmengroesse: {', '.join(profil.frame_sizes) if profil.frame_sizes else '(egal)'}",
         f"🔥 Schwelle: {profil.min_discount_pct:.0f}% unter Markt, "
         f"{profil.min_price_drop_pct:.0f}% Preissenkung",
         f"🕐 Digest-Zeiten: {', '.join(profil.digest_times)}",
@@ -214,6 +223,7 @@ def render_profil(
     keyboard: Keyboard = [
         [_btn("Radtyp ändern", "edit:radtyp"), _btn("Standort ändern", "edit:standort")],
         [_btn("Radius ändern", "edit:radius"), _btn("Preisrahmen ändern", "edit:preisrahmen")],
+        [_btn("Rahmengröße ändern", "edit:rahmengroesse")],
         [_btn("Schwelle ändern", "edit:schwelle"), _btn("Zeiten ändern", "edit:zeiten")],
         [_btn("Blockliste ansehen", "blockliste:zeigen")],
         [_btn("Profil zuruecksetzen", "reset:fragen")],

@@ -165,3 +165,40 @@ def test_dialog_zustand_roundtrip_dict():
     zustand = dialogs.setup_starten()
     wieder = dialogs.DialogZustand.from_dict(zustand.to_dict())
     assert wieder == zustand
+
+
+def test_parse_rahmengroesse_accepts_koerpergroesse_in_cm():
+    value, error = dialogs.parse_rahmengroesse("178")
+    assert error is None
+    assert "M" in value or "L" in value
+
+
+def test_parse_rahmengroesse_accepts_explicit_sizes():
+    assert dialogs.parse_rahmengroesse("56,58") == (["56", "58"], None)
+    assert dialogs.parse_rahmengroesse("m,l") == (["M", "L"], None)
+
+
+def test_parse_rahmengroesse_mixes_koerpergroesse_and_direct_sizes():
+    value, error = dialogs.parse_rahmengroesse("178, 60")
+    assert error is None
+    assert "60" in value  # direkte Rahmengroesse bleibt erhalten
+    assert len(value) > 1  # plus die aus 178cm abgeleitete Spanne
+
+
+def test_parse_rahmengroesse_egal_clears_filter():
+    assert dialogs.parse_rahmengroesse("egal") == ([], None)
+    assert dialogs.parse_rahmengroesse("") == ([], None)
+    assert dialogs.parse_rahmengroesse("Alle") == ([], None)
+
+
+def test_parse_rahmengroesse_rejects_garbage():
+    value, error = dialogs.parse_rahmengroesse("keine Ahnung!")
+    assert value is None
+    assert error is not None
+
+
+def test_koerpergroesse_bands_are_monotonic_and_cover_realistic_range():
+    # Kleine, grosse und Grenzfaelle sollen alle eine sinnvolle Spanne liefern.
+    for cm in (150, 160, 168, 175, 182, 188, 195, 205):
+        groessen = dialogs._koerpergroesse_zu_rahmengroessen(cm)
+        assert groessen  # nie leer

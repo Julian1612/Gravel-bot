@@ -166,6 +166,8 @@ class Router:
             self.telegram.send(text_, chat_id=chat_id, keyboard=kb or None)
         elif cmd == "/zeiten":
             self._starte_einzelfeld(chat_id, dialogs.ZEITEN)
+        elif cmd == "/groesse":
+            self._starte_einzelfeld(chat_id, dialogs.RAHMENGROESSE)
         elif cmd == "/schwelle":
             self._starte_einzelfeld(chat_id, dialogs.SCHWELLE)
         elif cmd == "/scan":
@@ -353,6 +355,11 @@ class Router:
             if rahmen:
                 zustand.daten["preisrahmen"] = list(rahmen)
 
+        elif schritt == dialogs.RAHMENGROESSE:
+            groessen, fehler = dialogs.parse_rahmengroesse(wert)
+            if groessen is not None:
+                zustand.daten["rahmengroesse"] = groessen
+
         elif schritt == dialogs.SCHWELLE:
             roh = wert.split(":", 1)[1] if ist_callback else wert
             prozent, fehler = dialogs.parse_prozent(roh)
@@ -403,6 +410,11 @@ class Router:
             profil.max_distance_km = int(daten["radius"])
         if daten.get("preisrahmen"):
             profil.min_price_eur, profil.max_price_eur = daten["preisrahmen"]
+        if "rahmengroesse" in daten:
+            # Leere Liste ist hier ein gueltiger, bewusster Wert ("egal" —
+            # Filter ausschalten), deshalb Praesenz statt Wahrheitswert
+            # pruefen, anders als bei den restigen Feldern oben.
+            profil.frame_sizes = daten["rahmengroesse"]
         if daten.get("schwelle"):
             profil.min_discount_pct = daten["schwelle"]
         if daten.get("zeiten"):
@@ -489,6 +501,7 @@ def _profil_als_dialogdaten(profil: Profil) -> dict:
         "standort": profil.home_plz,
         "radius": profil.max_distance_km,
         "preisrahmen": [profil.min_price_eur, profil.max_price_eur],
+        "rahmengroesse": list(profil.frame_sizes),
         "schwelle": profil.min_discount_pct,
         "zeiten": list(profil.digest_times),
     }
