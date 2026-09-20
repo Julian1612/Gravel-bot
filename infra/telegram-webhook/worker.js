@@ -11,14 +11,20 @@
  * docs/telegram-webhook-setup.md fuer die Einrichtung Schritt fuer Schritt
  * und docs/adr/0006-telegram-webhook.md fuer die Begruendung.
  *
- * Benoetigte Worker-Umgebungsvariablen (als Secrets/Vars im Cloudflare-
- * Dashboard oder per `wrangler secret put` setzen):
- *   TELEGRAM_WEBHOOK_SECRET  — selbst gewaehlter zufaelliger String, muss mit
- *                              dem secret_token aus setWebhook uebereinstimmen
- *   GITHUB_TOKEN             — Personal Access Token mit Zugriff auf dieses
- *                              Repo (Actions: read/write)
- *   GITHUB_OWNER             — z.B. "Julian1612"
- *   GITHUB_REPO              — z.B. "Gravel-bot"
+ * Benoetigte Umgebungsvariablen:
+ *   TELEGRAM_WEBHOOK_SECRET  — als Secret im Cloudflare-Dashboard oder per
+ *                              `wrangler secret put`. Selbst gewaehlter
+ *                              zufaelliger String, muss mit dem secret_token
+ *                              aus setWebhook uebereinstimmen.
+ *   GITHUB_TOKEN             — als Secret, s.o. Personal Access Token mit
+ *                              Contents:read/write auf dieses Repo.
+ *   GITHUB_OWNER, GITHUB_REPO — NICHT als Dashboard-Secret/Variable setzen,
+ *                              sondern im [vars]-Block der wrangler.toml
+ *                              dieses Ordners. Grund: unverschluesselte
+ *                              "Variables" aus dem Dashboard wirft Cloudflare
+ *                              bei jedem Git-Deploy wieder raus, weil es sie
+ *                              mit der wrangler.toml abgleicht — Secrets
+ *                              sind davon nicht betroffen.
  */
 
 export default {

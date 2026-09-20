@@ -17,29 +17,49 @@ nur Weiterleitung.
 tokens → Generate new token*
 
 - Repository access: nur `Gravel-bot` auswählen
-- Permissions: **Contents** → Read and write, **Actions** → Read and
-  write, **Metadata** → Read-only (wird automatisch mit ausgewählt)
+- Permissions: **Contents** → Read and write (das ist die einzige
+  tatsächlich benötigte Berechtigung für den `/dispatches`-Endpunkt —
+  bestätigt über den Response-Header `x-accepted-github-permissions:
+  contents=write`; "Actions" braucht es dafür nicht)
 - Ablaufdatum nach Belieben (bei Ablauf einfach neuen Token erzeugen und
   im Worker-Secret ersetzen)
 
 Token kopieren — wird gleich als Worker-Secret gebraucht, nicht ins Repo
 eintragen.
 
-## 2. Cloudflare Worker anlegen
+## 2. Cloudflare Worker anlegen (Git-Integration)
 
 1. Kostenlosen Account auf [dash.cloudflare.com](https://dash.cloudflare.com/) anlegen (falls noch keiner existiert)
-2. *Workers & Pages → Create → Create Worker*, einen Namen geben (z. B. `gravel-bot-telegram-webhook`)
-3. Im Editor den kompletten Inhalt von [`infra/telegram-webhook/worker.js`](../infra/telegram-webhook/worker.js) einfügen, *Deploy* klicken
-4. Unter *Settings → Variables and Secrets* vier **Secrets** anlegen (nicht "Variables" — Secrets werden verschlüsselt gespeichert):
+2. *Workers & Pages → Create application → Connect to Git*, das Repo
+   `Julian1612/Gravel-bot` auswählen
+3. Build-Konfiguration:
+   - **Build command**: leer lassen
+   - **Deploy command**: `npx wrangler deploy`
+   - **Root directory**: `infra/telegram-webhook` (wichtig! liegt nicht im
+     Repo-Root — sonst versucht Cloudflare, das Python-Projekt im Root zu
+     bauen und scheitert)
+   - **Protect with Cloudflare Access**: **ausgeschaltet lassen** — sonst
+     kann Telegram den Worker nicht erreichen
+4. *Deploy* — der erste Build läuft ohne Secrets durch (Worker antwortet
+   danach erstmal mit 401 auf alles, das ist normal, siehe Schritt 4)
+5. Unter *Settings → Variables and Secrets* zwei **Secrets** anlegen
+   (Typ "Secret", nicht "Variable" — Secrets werden verschlüsselt
+   gespeichert und überleben, anders als unverschlüsselte Variables,
+   künftige Git-Deploys unverändert):
    - `TELEGRAM_WEBHOOK_SECRET` — ein selbst ausgedachter zufälliger String, z. B. mit `openssl rand -hex 32` erzeugt
    - `GITHUB_TOKEN` — der Token aus Schritt 1
-   - `GITHUB_OWNER` — `Julian1612`
-   - `GITHUB_REPO` — `Gravel-bot`
-5. Die Worker-URL notieren (steht oben auf der Worker-Seite, Format `https://gravel-bot-telegram-webhook.<dein-account>.workers.dev`)
+6. Die Worker-URL notieren (Tab *Overview*, Format `https://gravel-bot.<dein-account>.workers.dev`)
+
+`GITHUB_OWNER`/`GITHUB_REPO` müssen **nicht** im Dashboard gesetzt werden —
+die stehen schon fest in [`infra/telegram-webhook/wrangler.toml`](../infra/telegram-webhook/wrangler.toml)
+(`[vars]`-Block). Das ist bewusst so: unverschlüsselte "Variables", die nur
+im Dashboard gesetzt werden, wirft Cloudflare bei jedem Git-Deploy wieder
+raus, weil es sie mit der `wrangler.toml` abgleicht — das hat uns beim
+Einrichten eine Weile gekostet. Secrets sind davon nicht betroffen.
 
 Alternativ per CLI (`npm install -g wrangler`, dann `wrangler login`):
-im Ordner `infra/telegram-webhook/` `wrangler secret put <NAME>` für jedes
-der vier Secrets ausführen und mit `wrangler deploy` deployen.
+im Ordner `infra/telegram-webhook/` `wrangler secret put TELEGRAM_WEBHOOK_SECRET`
+und `wrangler secret put GITHUB_TOKEN` ausführen, dann `wrangler deploy`.
 
 ## 3. Telegram-Webhook registrieren
 
