@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import html
 
-from gravelbot.config import RADTYP_LABELS, RADTYPEN
+from gravelbot.config import BOT_COMMANDS, RADTYP_LABELS, RADTYPEN
 from gravelbot.models import Deal, Listing, Profil
 
 Keyboard = list[list[dict[str, str]]]
@@ -44,18 +44,29 @@ def fmt_eur(value: float) -> str:
 
 
 def render_help() -> str:
+    """Baut die Befehlsuebersicht aus config.BOT_COMMANDS — derselben
+    Liste, die auch das native Telegram-Kommandomenue befuellt
+    (`python bot.py --register-commands`). Ein Befehl kann so nie in der
+    Hilfe auftauchen, ohne auch im Menue zu stehen, oder umgekehrt."""
+    zeilen = ["<b>Gravel Deal Bot</b>", "", "Das kann ich:"]
+    for befehl, beschreibung in BOT_COMMANDS:
+        if befehl == "start":
+            continue  # /start ist der Einstieg, gehoert nicht in die eigene Hilfe
+        zeilen.append(f"/{befehl} — {beschreibung}")
+    zeilen.append("")
+    zeilen.append("Tipp: tipp '/' im Nachrichtenfeld — Telegram zeigt dann alle Befehle als Menü.")
+    return "\n".join(zeilen)
+
+
+def render_start() -> str:
     return (
-        "<b>Gravel Deal Bot</b>\n\n"
-        "/setup — Suchprofil neu einrichten\n"
-        "/profil — aktuelles Profil ansehen und bearbeiten\n"
-        "/zeiten — Digest-Uhrzeiten setzen\n"
-        "/schwelle — Deal-Schwellenwerte setzen\n"
-        "/markt — Marktpreise & Neupreise je Modell\n"
-        "/merkliste — gemerkte Inserate\n"
-        "/suche <Text> — Freitextsuche ueber alle Quellen\n"
-        "/scan — Lauf sofort anstossen\n"
-        "/pause — Suche pausieren/fortsetzen\n"
-        "/reset — Profil auf Standardwerte zuruecksetzen"
+        "👋 <b>Willkommen beim Gravel Deal Bot!</b>\n\n"
+        "Ich durchsuche laufend Gebraucht- und Neuware-Quellen nach "
+        "Renn-/Gravelbikes und melde dir Schnäppchen automatisch per "
+        "Telegram.\n\n"
+        "Am besten legst du gleich mit /setup los, um dein Suchprofil "
+        "einzurichten (Radtyp, Standort, Preisrahmen, Schwelle). "
+        "/help zeigt dir jederzeit alle Befehle."
     )
 
 

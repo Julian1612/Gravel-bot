@@ -112,9 +112,19 @@ class Router:
             return
         cmd, *rest = teile
         arg = rest[0] if rest else ""
-        cmd = cmd.lower()
+        # Modernes, tolerantes Parsing: "@botname" abschneiden (Telegram
+        # haengt das in manchen Clients an, z.B. "/setup@gravel_bot"),
+        # und den Slash optional machen — "setup" soll genauso funktionieren
+        # wie "/setup", damit man den Bot nicht erst "richtig" ansprechen muss.
+        cmd = cmd.lower().split("@", 1)[0]
+        if not cmd.startswith("/"):
+            cmd = "/" + cmd
 
-        if cmd == "/setup":
+        if cmd in ("/help", "/hilfe", "/?"):
+            self.telegram.send(views.render_help(), chat_id=chat_id)
+        elif cmd == "/start":
+            self.telegram.send(views.render_start(), chat_id=chat_id)
+        elif cmd == "/setup":
             zustand = dialogs.setup_starten()
             self.store.set_dialog(chat_id, zustand.to_dict())
             prompt, kb = views.render_setup_step(zustand.schritt, zustand.daten)

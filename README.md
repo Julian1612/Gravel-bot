@@ -50,10 +50,11 @@ pip install -r requirements-dev.txt   # Laufzeit- + Test-Abhaengigkeiten
 Ausfuehren:
 
 ```bash
-python bot.py --dry-run          # scannen, nichts senden/speichern
-python bot.py --test-telegram    # nur eine Testnachricht schicken
-python bot.py --scan-only        # Telegram-Befehle ueberspringen, nur scannen
-python bot.py                    # normaler Lauf (wie in der Action)
+python bot.py --dry-run             # scannen, nichts senden/speichern
+python bot.py --test-telegram       # nur eine Testnachricht schicken
+python bot.py --register-commands   # Befehlsliste bei Telegram registrieren (einmalig, siehe unten)
+python bot.py --scan-only           # Telegram-Befehle ueberspringen, nur scannen
+python bot.py                       # normaler Lauf (wie in der Action)
 ```
 
 Tests, Linting, Typcheck:
@@ -92,6 +93,8 @@ ausschließlich zur Laufzeit in den Speicher, nie in `state.json`.
 
 | Befehl | Wirkung |
 | --- | --- |
+| `/start` | Willkommensnachricht, Einstieg für neue Chats |
+| `/help` | Zeigt diese Befehlsliste an (auch `hilfe` oder einfach `help` ohne Schrägstrich funktioniert) |
 | `/setup` | Suchprofil neu einrichten (Radtyp, Standort, Radius, Preis, Schwelle, Digest-Zeiten) |
 | `/profil` | Profil ansehen, mit Bearbeiten-Buttons je Zeile, Trefferzahl im Bestand, Quellenstatus |
 | `/zeiten` | Digest-Uhrzeiten setzen |
@@ -102,6 +105,19 @@ ausschließlich zur Laufzeit in den Speicher, nie in `state.json`.
 | `/scan` | Lauf sofort anstoßen (läuft im selben Cron-Durchlauf mit) |
 | `/pause` | Suche pausieren/fortsetzen |
 | `/reset` | Profil auf Standardwerte zurücksetzen (mit Rückfrage) |
+
+Befehle sind tolerant: der Schrägstrich ist optional (`setup` funktioniert
+genauso wie `/setup`), und ein angehängter Bot-Username (`/setup@dein_bot`,
+wie ihn manche Telegram-Clients automatisch anfügen) wird ignoriert.
+
+**Natives Befehlsmenü:** einmalig im Repo unter *Actions → Gravel Scan →
+Run workflow* den Modus **`befehle-registrieren`** auswählen (oder lokal
+`python bot.py --register-commands`) — danach zeigt Telegram beim Tippen
+von `/` im Chat alle Befehle mit Beschreibung als Menü an, statt dass man
+sie auswendig kennen muss. Die Liste kommt aus
+[`src/gravelbot/config.py`](src/gravelbot/config.py) (`BOT_COMMANDS`) —
+dieselbe Quelle, aus der sich auch `/help` aufbaut, beide können also nie
+auseinanderlaufen.
 
 Der Bot läuft nicht als Dauerprozess — ein `/setup`-Dialog zieht sich über
 mehrere Cron-Läufe (alle 30 Minuten), nicht über Sekunden. Wer das nicht
