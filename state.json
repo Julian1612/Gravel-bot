@@ -10,16 +10,7 @@
   },
   "verkaeufer": []
  },
- "dialoge": {
-  "8687118091": {
-   "daten": {
-    "radtypen": []
-   },
-   "flow": "setup",
-   "rueckkehr": null,
-   "schritt": "radtyp"
-  }
- },
+ "dialoge": {},
  "digest_puffer": [],
  "erstlauf_abgeschlossen": true,
  "geo": {
@@ -52,7 +43,7 @@
    11.4
   ]
  },
- "last_run": "2026-09-20T14:01:28+00:00",
+ "last_run": "2026-09-20T14:12:35+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
@@ -3447,5 +3438,5 @@
   "seed_run_silent": true
  },
  "schema_version": 2,
- "telegram_offset": 593941363
+ "telegram_offset": 593941364
 }
