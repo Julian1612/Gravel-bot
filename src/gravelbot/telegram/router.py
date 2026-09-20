@@ -9,6 +9,7 @@ Cron-Laeufe (siehe telegram/client.py).
 
 from __future__ import annotations
 
+import html
 import logging
 
 from gravelbot.enrich.geocode import Geocoder
@@ -102,7 +103,14 @@ class Router:
         self._befehl(chat_id, text)
 
     def _befehl(self, chat_id: str, text: str) -> None:
-        cmd, *rest = text.split(maxsplit=1)
+        teile = text.split(maxsplit=1)
+        if not teile:
+            # leere/nur-Whitespace-Nachricht (z.B. ein Sticker ohne Text) —
+            # text.split() waere hier [] und ein direktes cmd, *rest = ...
+            # wuerde mit ValueError abstuerzen.
+            self.telegram.send(views.render_help(), chat_id=chat_id)
+            return
+        cmd, *rest = teile
         arg = rest[0] if rest else ""
         cmd = cmd.lower()
 
@@ -182,7 +190,13 @@ class Router:
         if data.startswith("blockliste:verkaeufer_entsperren:"):
             name = data.split(":", 2)[2]
             self.store.unblock_seller(name)
-            self.telegram.send(f"Verkaeufer '{name}' wieder freigegeben.", chat_id=chat_id)
+            self.telegram.send(f"Verkaeufer '{html.escape(name)}' wieder freigegeben.", chat_id=chat_id)
+            return
+        if data.startswith("blockliste:verkaeufer_sperren:"):
+            name = data.split(":", 2)[2]
+            self.store.block_seller(name)
+            text_ = f"🚫 Verkaeufer '{html.escape(name)}' blockiert — wird nicht mehr gemeldet."
+            self.telegram.send(text_, chat_id=chat_id)
             return
         if data.startswith("blockliste:inserat_entsperren:"):
             key = data.split(":", 2)[2]
@@ -349,7 +363,7 @@ class Router:
         from gravelbot.enrich.attributes import apply_attributes
         from gravelbot.scoring.filters import passes_filters
 
-        self.telegram.send(f"🔎 Suche nach '{query}' ueber alle Quellen …", chat_id=chat_id)
+        self.telegram.send(views.render_suche_laeuft(query), chat_id=chat_id)
         treffer = volltextsuche_alle(
             self.quellen,
             query,
@@ -357,19 +371,20 @@ class Router:
             gesamtlimit=self.settings.suche_gesamtlimit,
         )
         profil = self.store.profil
-        passend = [t for t in treffer if passes_filters(t, profil)]
+        passend = [
+            t
+            for t in treffer
+            if passes_filters(t, profil)
+            and not self.store.is_listing_blocked(t.key)
+            and not self.store.is_seller_blocked(t.seller_name)
+        ]
         passend.sort(key=lambda t: t.price_eur)
         if not passend:
             self.telegram.send("Keine Treffer im Preisrahmen des Profils gefunden.", chat_id=chat_id)
             return
         for listing in passend[:8]:
             apply_attributes(listing)
-            keyboard = [
-                [
-                    {"text": "🔖 merken", "callback_data": f"merkliste:hinzufuegen:{listing.key}"},
-                    {"text": "🚫 blocken", "callback_data": f"blockliste:inserat_sperren:{listing.key}"},
-                ]
-            ]
+            keyboard = views.render_deal_keyboard(listing.key, listing.seller_name)
             self.store.record(listing)
             self.telegram.send(views.render_deal_freitext(listing), chat_id=chat_id, keyboard=keyboard)
         if len(passend) > 8:

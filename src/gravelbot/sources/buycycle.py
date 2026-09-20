@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 
@@ -132,7 +133,7 @@ class BuycycleQuelle(QuelleBasis):
     def _suchen_query(self, query: str, max_seiten: int, radtyp: str | None) -> list[Listing]:
         found: dict[str, Listing] = {}
         for page in range(1, max_seiten + 1):
-            resp = self.http.get(f"{BASE}/de-de/shop?query={query}&page={page}")
+            resp = self.http.get(f"{BASE}/de-de/shop?query={quote(query)}&page={page}")
             if resp is None:
                 break
             items = parse_buycycle_page(resp.text, radtyp=radtyp)

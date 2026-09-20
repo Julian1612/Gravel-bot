@@ -36,12 +36,38 @@ from gravelbot.sources.registry import QuellenLauf, alle_quellen, durchsuche_all
 from gravelbot.storage.store import Store
 from gravelbot.telegram.client import Telegram
 from gravelbot.telegram.router import Router
-from gravelbot.telegram.views import render_deal
+from gravelbot.telegram.views import render_deal, render_deal_keyboard
 
 log = logging.getLogger("gravel.app")
 
 DIGEST_ZEITZONE = ZoneInfo("Europe/Berlin")
 DIGEST_FENSTER_MINUTEN = 20
+# Telegram lehnt Nachrichten ueber 4096 Zeichen komplett ab. Konservativ
+# darunter bleiben, damit noch Platz fuer den Digest-Kopf in der ersten
+# Nachricht ist.
+TELEGRAM_MAX_MESSAGE_CHARS = 3500
+
+
+def _chunk_by_length(texte: list[str], trenner: str, max_len: int) -> list[str]:
+    """Fasst Texte zu Nachrichten zusammen, ohne max_len (Zeichen) je
+    Nachricht zu ueberschreiten. Ein fester Eintrag pro Nachricht (z.B. 20)
+    reicht nicht: 20 volle Deal-Texte koennen leicht ueber Telegrams
+    4096-Zeichen-Limit kommen, was die GANZE Nachricht scheitern liesse.
+    """
+    nachrichten: list[str] = []
+    aktuell: list[str] = []
+    aktuelle_laenge = 0
+    for text in texte:
+        zusatz = len(text) + (len(trenner) if aktuell else 0)
+        if aktuell and aktuelle_laenge + zusatz > max_len:
+            nachrichten.append(trenner.join(aktuell))
+            aktuell, aktuelle_laenge = [], 0
+            zusatz = len(text)
+        aktuell.append(text)
+        aktuelle_laenge += zusatz
+    if aktuell:
+        nachrichten.append(trenner.join(aktuell))
+    return nachrichten
 
 
 def _anreichern(listing: Listing, store: Store, geocoder: Geocoder, quellen_by_name: dict) -> None:
@@ -77,7 +103,7 @@ def _ist_digest_zeit(digest_times: list[str], jetzt: datetime | None = None) -> 
 
 
 def _schreibe_zusammenfassung(
-    berichte: list[QuellenLauf], gefiltert: int, gemeldet: int, laufzeit_s: float
+    berichte: list[QuellenLauf], gefiltert: int, gefunden: int, gemeldet: int, laufzeit_s: float
 ) -> None:
     pfad = os.environ.get("GITHUB_STEP_SUMMARY")
     zeilen = ["## Gravel Scan Zusammenfassung", "", "| Quelle | Status | Treffer |", "| --- | --- | --- |"]
@@ -89,10 +115,12 @@ def _schreibe_zusammenfassung(
         else:
             status = "ok"
         zeilen.append(f"| {b.name} | {status} | {b.treffer} |")
+    zusatz = "" if gefunden == gemeldet else " (Rest: stiller Lauf oder Digest-Puffer)"
     zeilen += [
         "",
         f"- Inserate im Filter: **{gefiltert}**",
-        f"- gemeldete Deals: **{gemeldet}**",
+        f"- Deals gefunden: **{gefunden}**",
+        f"- tatsächlich gemeldet: **{gemeldet}**{zusatz}",
         f"- Laufzeit: **{laufzeit_s:.1f}s**",
     ]
     text = "\n".join(zeilen)
@@ -131,7 +159,7 @@ def _scan_und_melden(
 
     deals, kept = [], 0
     for lg in listings:
-        if store.is_listing_blocked(lg.key):
+        if store.is_listing_blocked(lg.key) or store.is_seller_blocked(lg.seller_name):
             continue
         if not passes_filters(lg, profil):
             continue
@@ -162,12 +190,7 @@ def _scan_und_melden(
             store.mark_alerted(deal.listing.key, deal.reason, deal.listing.price_eur)
     else:
         for deal in selected:
-            keyboard = [
-                [
-                    {"text": "🔖 merken", "callback_data": f"merkliste:hinzufuegen:{deal.listing.key}"},
-                    {"text": "🚫 blocken", "callback_data": f"blockliste:inserat_sperren:{deal.listing.key}"},
-                ]
-            ]
+            keyboard = render_deal_keyboard(deal.listing.key, deal.listing.seller_name)
             if telegram.send(render_deal(deal), keyboard=keyboard) is not None or not telegram.enabled:
                 store.mark_alerted(deal.listing.key, deal.reason, deal.listing.price_eur)
             log.info("ALERT %s | %s | %s", deal.headline, f"{deal.listing.price_eur:.0f}€", deal.listing.url)
@@ -180,17 +203,21 @@ def _scan_und_melden(
             puffer = store.digest_pop_all()
             if puffer:
                 kopf = f"📬 <b>Digest — {len(puffer)} weitere Treffer</b>\n\n"
-                telegram.send(kopf + "\n\n".join(e["text"] for e in puffer[:20]))
-                for rest_start in range(20, len(puffer), 20):
-                    telegram.send("\n\n".join(e["text"] for e in puffer[rest_start : rest_start + 20]))
+                nachrichten = _chunk_by_length(
+                    [e["text"] for e in puffer], "\n\n", TELEGRAM_MAX_MESSAGE_CHARS
+                )
+                telegram.send(kopf + nachrichten[0])
+                for nachricht in nachrichten[1:]:
+                    telegram.send(nachricht)
 
     removed = store.prune()
     if removed:
         log.info("%s veraltete Inserate entfernt", removed)
 
     laufzeit = time.monotonic() - start
-    _schreibe_zusammenfassung(berichte, kept, len(selected), laufzeit)
-    return len(selected)
+    gemeldet = 0 if silent else len(selected)
+    _schreibe_zusammenfassung(berichte, kept, len(deals), gemeldet, laufzeit)
+    return gemeldet
 
 
 def run(dry_run: bool = False, scan_only: bool = False) -> int:

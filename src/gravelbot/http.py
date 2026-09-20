@@ -17,6 +17,19 @@ from gravelbot.config import Settings
 log = logging.getLogger("gravel.http")
 
 
+def _retry_after_seconds(header_value: str | None, fallback: int) -> int:
+    """Retry-After ist laut RFC 7231 entweder eine Ganzzahl Sekunden ODER ein
+    HTTP-Datum ("Wed, 21 Oct 2026 07:28:00 GMT") — ein blankes int() auf dem
+    Header wuerde bei der Datums-Form mit ValueError crashen.
+    """
+    if not header_value:
+        return fallback
+    try:
+        return int(header_value)
+    except ValueError:
+        return fallback
+
+
 class Http:
     def __init__(self, settings: Settings):
         self.settings = settings
@@ -45,7 +58,7 @@ class Http:
             if resp.status_code == 200:
                 return resp
             if resp.status_code in (429, 503):
-                time.sleep(int(resp.headers.get("Retry-After", 5 * attempt)))
+                time.sleep(_retry_after_seconds(resp.headers.get("Retry-After"), 5 * attempt))
                 continue
             if 400 <= resp.status_code < 500:
                 log.warning("GET %s -> HTTP %s", url, resp.status_code)

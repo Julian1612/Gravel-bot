@@ -66,6 +66,18 @@ def test_parse_preisrahmen_rejects_garbage():
     assert error is not None
 
 
+def test_parse_preisrahmen_accepts_bis_as_a_word():
+    assert dialogs.parse_preisrahmen("500 bis 3500") == ((500.0, 3500.0), None)
+
+
+def test_parse_preisrahmen_rejects_stray_letters_from_the_word_bis():
+    # Regression: [-–bis] war eine Zeichenklasse, kein literales "bis" —
+    # damit haette z.B. "500 sbi 3500" faelschlich gematcht.
+    value, error = dialogs.parse_preisrahmen("500 sbi 3500")
+    assert value is None
+    assert error is not None
+
+
 def test_parse_prozent_valid_and_bounds():
     assert dialogs.parse_prozent("15") == (15.0, None)
     assert dialogs.parse_prozent("15%") == (15.0, None)

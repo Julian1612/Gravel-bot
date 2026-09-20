@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+
 from gravelbot.models import Listing, Profil
 from gravelbot.storage.store import Store
 
@@ -97,3 +99,45 @@ def test_prune_removes_stale_listings(tmp_path):
     removed = store.prune()
     assert removed == 1
     assert store.get(listing.key) is None
+
+
+def test_is_first_run_stays_false_after_all_listings_pruned(tmp_path):
+    store = _store(tmp_path)
+    listing = Listing("bikemarkt", "1", "Canyon Grizl", 1000, "https://example.test/1")
+    store.record(listing)
+    assert store.is_first_run is False
+
+    store.data["listings"][listing.key]["last_seen"] = "2000-01-01T00:00:00+00:00"
+    store.prune()
+    assert store.data["listings"] == {}
+    # Regression: frueher wurde is_first_run aus "not listings" abgeleitet,
+    # ein leerer Bestand nach dem Pruning haette faelschlich wieder einen
+    # stillen Erstlauf ausgeloest.
+    assert store.is_first_run is False
+
+
+def test_mark_alerted_on_unknown_key_does_not_raise(tmp_path):
+    store = _store(tmp_path)
+    store.mark_alerted("bikemarkt:999", "under_market", 1000)  # kein record() davor
+
+
+def test_save_is_atomic_and_leaves_no_tmp_file(tmp_path):
+    store = _store(tmp_path)
+    listing = Listing("bikemarkt", "1", "Canyon Grizl", 1000, "https://example.test/1")
+    store.record(listing)
+    store.save()
+
+    assert store.path.exists()
+    assert not store.path.with_suffix(".json.tmp").exists()
+    reloaded = json.loads(store.path.read_text(encoding="utf-8"))
+    assert "bikemarkt:1" in reloaded["listings"]
+
+
+def test_digest_add_caps_buffer_size(tmp_path):
+    store = _store(tmp_path)
+    for i in range(store.MAX_DIGEST_ENTRIES + 10):
+        store.digest_add({"text": f"deal {i}"})
+    puffer = store.digest_pop_all()
+    assert len(puffer) == store.MAX_DIGEST_ENTRIES
+    # die neuesten bleiben erhalten, nicht die aeltesten
+    assert puffer[-1]["text"] == f"deal {store.MAX_DIGEST_ENTRIES + 9}"

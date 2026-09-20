@@ -84,7 +84,11 @@ def parse_radius(text: str) -> tuple[int | None, str | None]:
 
 
 def parse_preisrahmen(text: str) -> tuple[tuple[float, float] | None, str | None]:
-    m = re.match(r"^\s*(\d+)\s*[-–bis]+\s*(\d+)\s*€?\s*$", (text or "").strip(), re.I)
+    # Bewusst eine Alternation aus literalen Trennern, kein Zeichensatz:
+    # [-–bis] wuerde als Zeichenklasse jedes einzelne Zeichen '-','–','b',
+    # 'i','s' matchen (z.B. auch "500 sbi 3500") statt nur "-", "–" oder das
+    # Wort "bis" als Ganzes.
+    m = re.match(r"^\s*(\d+)\s*(?:-|–|bis)\s*(\d+)\s*€?\s*$", (text or "").strip(), re.I)
     if not m:
         return None, "Bitte als 'MIN-MAX' schicken, z.B. 500-3500."
     lo, hi = float(m.group(1)), float(m.group(2))

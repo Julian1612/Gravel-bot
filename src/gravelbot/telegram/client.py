@@ -30,7 +30,9 @@ class Telegram:
         if not self.enabled:
             log.warning("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID fehlen — nur Log-Ausgabe")
 
-    def _call(self, method: str, payload: dict) -> dict | None:
+    MAX_429_RETRIES = 3
+
+    def _call(self, method: str, payload: dict, _retry: int = 0) -> dict | None:
         if not self.token:
             return None
         try:
@@ -40,9 +42,13 @@ class Telegram:
         except requests.RequestException as exc:
             log.error("Telegram %s fehlgeschlagen: %s", method, exc)
             return None
-        if resp.status_code == 429:
-            time.sleep(resp.json().get("parameters", {}).get("retry_after", 5) + 1)
-            return self._call(method, payload)
+        if resp.status_code == 429 and _retry < self.MAX_429_RETRIES:
+            try:
+                retry_after = resp.json().get("parameters", {}).get("retry_after", 5)
+            except ValueError:
+                retry_after = 5
+            time.sleep(retry_after + 1)
+            return self._call(method, payload, _retry=_retry + 1)
         if resp.status_code != 200:
             log.error("Telegram %s -> %s: %s", method, resp.status_code, resp.text[:300])
             return None
@@ -55,7 +61,10 @@ class Telegram:
         preview: bool = True,
         keyboard: list[list[dict[str, str]]] | None = None,
     ) -> int | None:
-        """Schickt eine Nachricht, gibt die message_id zurueck (fuer spaeteres Editieren)."""
+        """Schickt eine Nachricht. Rueckgabe None heisst: nicht angekommen
+        (z.B. Telegram-Fehler) — der Aufrufer kann daran entscheiden, ob er
+        z.B. mark_alerted() trotzdem setzt oder es beim naechsten Lauf
+        nochmal versucht."""
         target = chat_id or self.chat_id
         if not self.enabled:
             print(text)
@@ -72,24 +81,6 @@ class Telegram:
         if not result or not result.get("ok"):
             return None
         return result["result"]["message_id"]
-
-    def edit_message(
-        self,
-        chat_id: str,
-        message_id: int,
-        text: str,
-        keyboard: list[list[dict[str, str]]] | None = None,
-    ) -> bool:
-        payload: dict[str, Any] = {
-            "chat_id": chat_id,
-            "message_id": message_id,
-            "text": text,
-            "parse_mode": "HTML",
-        }
-        if keyboard is not None:
-            payload["reply_markup"] = {"inline_keyboard": keyboard}
-        result = self._call("editMessageText", payload)
-        return bool(result and result.get("ok"))
 
     def answer_callback_query(self, callback_query_id: str, text: str = "") -> None:
         self._call("answerCallbackQuery", {"callback_query_id": callback_query_id, "text": text})

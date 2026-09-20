@@ -29,6 +29,7 @@ def now_iso() -> str:
 class Store:
     MAX_PRICE_POINTS = 20
     MAX_MARKET_SAMPLES = 60
+    MAX_DIGEST_ENTRIES = 200
     STALE_DAYS = 45
 
     def __init__(self, path: str):
@@ -59,12 +60,21 @@ class Store:
 
     @property
     def is_first_run(self) -> bool:
-        return not self.data["listings"]
+        """Ob dies der allererste Lauf ist (steuert SEED_RUN_SILENT).
+
+        Bewusst ein eigenes, persistentes Flag statt ``not listings`` —
+        Listings werden nach STALE_DAYS geprunt, ein Profil, das laenger
+        pausiert war, haette sonst irgendwann wieder 0 Listings und der Bot
+        wuerde faelschlich wieder in den stillen Erstlauf-Modus fallen und
+        echte Deals eine Runde lang verschlucken.
+        """
+        return not self.data.get("erstlauf_abgeschlossen", False)
 
     def get(self, key: str) -> dict | None:
         return self.data["listings"].get(key)
 
     def record(self, listing: Listing) -> dict:
+        self.data["erstlauf_abgeschlossen"] = True
         entry = self.data["listings"].get(listing.key)
         if entry is None:
             entry = {
@@ -119,7 +129,11 @@ class Store:
         return price >= float(hit[1]) * 0.97
 
     def mark_alerted(self, key: str, reason: str, price: float) -> None:
-        self.data["listings"][key].setdefault("alerted", {})[reason] = [now_iso(), price]
+        entry = self.data["listings"].get(key)
+        if entry is None:
+            log.warning("mark_alerted fuer unbekannten Key %s ignoriert (record() vergessen?)", key)
+            return
+        entry.setdefault("alerted", {})[reason] = [now_iso(), price]
 
     def prune(self) -> int:
         cutoff = datetime.now(UTC).timestamp() - self.STALE_DAYS * 86400
@@ -201,7 +215,16 @@ class Store:
     # ── Digest-Puffer ───────────────────────────────────────────────────
 
     def digest_add(self, eintrag: dict) -> None:
-        self.data["digest_puffer"].append(eintrag)
+        puffer = self.data["digest_puffer"]
+        puffer.append(eintrag)
+        if len(puffer) > self.MAX_DIGEST_ENTRIES:
+            # Sollte der Digest aus irgendeinem Grund nie geleert werden
+            # (z.B. digest_times leer/kaputt), waechst state.json sonst
+            # unbegrenzt und der irgendwann verschickte Digest waere riesig.
+            log.warning(
+                "Digest-Puffer ueber %s Eintraege — aelteste werden verworfen", self.MAX_DIGEST_ENTRIES
+            )
+            self.data["digest_puffer"] = puffer[-self.MAX_DIGEST_ENTRIES :]
 
     def digest_pop_all(self) -> list[dict]:
         puffer = self.data["digest_puffer"]
@@ -230,8 +253,15 @@ class Store:
     # ── Speichern ───────────────────────────────────────────────────────
 
     def save(self) -> None:
+        """Schreibt atomar: erst in eine Temp-Datei, dann per os.replace an Ort
+        und Stelle. Ein Absturz oder Kill mitten im write_text() wuerde sonst
+        ein halb geschriebenes, kaputtes state.json hinterlassen — und jeder
+        folgende Lauf wuerde schon beim Laden mit einem JSON-Fehler abbrechen.
+        """
         self.data["last_run"] = now_iso()
-        self.path.write_text(
+        tmp_path = self.path.with_suffix(self.path.suffix + ".tmp")
+        tmp_path.write_text(
             json.dumps(self.data, ensure_ascii=False, indent=1, sort_keys=True),
             encoding="utf-8",
         )
+        tmp_path.replace(self.path)

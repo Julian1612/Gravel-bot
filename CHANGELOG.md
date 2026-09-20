@@ -4,6 +4,75 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/),
 Versionsnummern folgen keinem strengen Semver-Schema (Ein-Personen-Projekt,
 läuft direkt von `main`).
 
+## [0.2.2] — Code-Review-Haerten: Robustheit, Korrektheit, Testabdeckung
+
+Ein systematischer Review-Durchgang durch den kompletten `gravelbot`-Code
+nach dem Webhook-Debugging, mit dem Ziel: keine stillen Datenverluste,
+keine unnoetigen Abstuerze, keine unreachable Dead Ends. Kein neues
+Feature, ausser wo eine bestehende, halb verdrahtete Infrastruktur
+(Verkaeufer-Blockliste) vervollstaendigt statt entfernt wurde.
+
+### Behoben
+
+- **state.json war nicht crash-sicher**: `Store.save()` schrieb direkt in
+  die Zieldatei — ein Absturz mitten im Schreiben haette eine kaputte,
+  nicht mehr ladbare Datei hinterlassen. Jetzt: Temp-Datei + atomarer
+  `os.replace()`.
+- **`is_first_run` konnte nach langer Pause faelschlich wieder anspringen**:
+  wurde aus "keine Listings vorhanden" abgeleitet — nach dem Pruning
+  (45 Tage) waere das bei einem lange pausierten Profil wieder wahr
+  geworden und haette einen Lauf lang echte Deals stumm geschluckt. Jetzt
+  ein eigenes, persistentes Flag.
+- **Freitextsuche (`/suche`) war bei Leerzeichen/Sonderzeichen kaputt**:
+  weder `bikemarkt.volltext()` noch `buycycle.volltext()` noch
+  `ebay._search_raw()` haben die Query URL-kodiert — ein Wort wie "Canyon
+  Grizl" haette die Anfrage-URL zerstoert. Behoben mit `urllib.parse.quote`.
+- **Bikemarkt-Volltextsuche paginierte nie wirklich**: `?page=2` auf der
+  urspruenglichen Such-URL liefert (gegen die echte Seite verifiziert)
+  wieder Seite 1 — Pagination funktioniert nur auf der Redirect-Ziel-URL.
+- **Callback-Data konnte Telegrams 64-Byte-Limit sprengen**: ein langer
+  eBay-Verkaeufername oder Listing-Key im Button haette nicht nur den
+  Button, sondern das Senden der GESAMTEN Nachricht scheitern lassen.
+  Neuer `_safe_cb()`-Helfer kappt sicher.
+- **Router stuerzte bei leerer Nachricht ab** (`"".split()` entpackt zu
+  `[]`, `cmd, *rest = []` wirft `ValueError`).
+- **`/suche <text>` escapte die Nutzereingabe nicht** — ein `&` oder `<` im
+  Suchbegriff haette die HTML-Nachricht fuer Telegram ungueltig gemacht.
+- **Verkaeufer-Blockliste war unvollstaendig verdrahtet**: `block_seller()`
+  hatte keinen einzigen Aufrufer, und selbst ein geblockter Verkaeufer
+  wurde beim Scan nie tatsaechlich rausgefiltert. Jetzt: `Listing.
+  seller_name` (aus eBay befuellt), ein "Verkaeufer blocken"-Button an
+  jedem eBay-Deal, und ein echter Filter im Scan-Lauf.
+- **Geocoder cachte Netzwerkfehler wie einen echten Negativbefund**: ein
+  einmaliger Timeout haette eine PLZ dauerhaft von der Standort-Aufloesung
+  ausgeschlossen. Jetzt wird nur eine echte "kein Ort gefunden"-Antwort
+  gecacht, kein `None` von `Http.get()`.
+- **`Http.get()` stuerzte bei einem `Retry-After`-Header im Datumsformat
+  ab** (RFC 7231 erlaubt neben Sekunden auch ein HTTP-Datum; blankes
+  `int()` darauf wirft `ValueError`).
+- **Digest-Nachrichten konnten Telegrams 4096-Zeichen-Limit sprengen**:
+  fester Deckel von 20 Eintraegen pro Nachricht statt tatsaechlicher
+  Zeichenlaenge. Jetzt laengenbasiert gechunkt.
+- **`parse_preisrahmen`-Regex war ein Zeichensatz-Bug**: `[-–bis]+` matcht
+  jedes einzelne Zeichen '-','–','b','i','s' statt des Worts "bis" — z.B.
+  haette "500 sbi 3500" faelschlich funktioniert.
+- `HOME_LAT`/`HOME_LON`-Environment-Variablen waren toter Code — nirgends
+  gelesen, seit der Standort ins Profil gewandert ist. Entfernt.
+- Digest-Puffer wuchs unbegrenzt, wenn er nie geleert wird (z.B. kaputte
+  `digest_times`) — jetzt auf 200 Eintraege gedeckelt.
+- Migration verliess sich auf `setdefault("blockliste", ...)`, das bei
+  einer nur teilweise vorhandenen Blockliste (z.B. von Hand editiert)
+  nicht mehr greift — Unterschluessel jetzt einzeln abgesichert.
+- Laufzusammenfassung zeigte bei stillen Laeufen "gemeldete Deals", obwohl
+  nichts verschickt wurde — jetzt getrennt: "gefunden" vs. "tatsaechlich
+  gemeldet".
+- Toter Code entfernt: `Telegram.edit_message()` (nie aufgerufen).
+
+### Hinzugefügt
+
+- ~50 neue Tests fuer die obigen Fixes plus bisher komplett ungetestete
+  Module (`telegram/views.py`, `enrich/geocode.py`, `http.py`).
+
 ## [0.2.1] — Autorisierung, eBay-Secrets, optionaler Webhook
 
 ### Behoben
