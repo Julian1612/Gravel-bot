@@ -29,6 +29,15 @@ export default {
 
     const secretHeader = request.headers.get("X-Telegram-Bot-Api-Secret-Token");
     if (!env.TELEGRAM_WEBHOOK_SECRET || secretHeader !== env.TELEGRAM_WEBHOOK_SECRET) {
+      // Diagnose-Logging (kein Klartext-Secret) — solange wir ein 401-Raetsel
+      // haben. Spaeter wieder auf ein einfaches "return 401" reduzieren.
+      console.log("Auth fehlgeschlagen", {
+        headerPresent: secretHeader !== null,
+        headerLen: secretHeader ? secretHeader.length : 0,
+        envSecretPresent: Boolean(env.TELEGRAM_WEBHOOK_SECRET),
+        envSecretLen: env.TELEGRAM_WEBHOOK_SECRET ? env.TELEGRAM_WEBHOOK_SECRET.length : 0,
+        userAgent: request.headers.get("User-Agent"),
+      });
       return new Response("Unauthorized", { status: 401 });
     }
 
