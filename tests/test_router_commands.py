@@ -228,6 +228,56 @@ def test_typing_weiter_at_radtyp_step_advances_like_the_button(tmp_path):
     assert dialog["schritt"] == "standort"  # naechster Schritt, nicht mehr radtyp
 
 
+def test_setup_flow_includes_rahmengroesse_step_and_stores_it(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    router.verarbeite_ein_update(
+        {
+            "update_id": 2,
+            "callback_query": {
+                "id": "cq1",
+                "data": "radtyp:gravel",
+                "message": {"chat": {"id": 12345}, "message_id": 1},
+            },
+        }
+    )
+    router.verarbeite_ein_update({"update_id": 3, "message": {"chat": {"id": 12345}, "text": "weiter"}})
+    router.verarbeite_ein_update({"update_id": 4, "message": {"chat": {"id": 12345}, "text": "70173"}})
+    router.verarbeite_ein_update({"update_id": 5, "message": {"chat": {"id": 12345}, "text": "100"}})
+    router.verarbeite_ein_update({"update_id": 6, "message": {"chat": {"id": 12345}, "text": "500-3500"}})
+
+    dialog = store.get_dialog("12345")
+    assert dialog is not None
+    assert dialog["schritt"] == "rahmengroesse"
+
+    router.verarbeite_ein_update({"update_id": 7, "message": {"chat": {"id": 12345}, "text": "178"}})
+
+    dialog = store.get_dialog("12345")
+    assert dialog["schritt"] == "schwelle"  # rahmengroesse abgeschlossen, naechster Schritt
+
+
+def test_groesse_command_edits_frame_sizes_directly(tmp_path):
+    router, telegram, store = _router(tmp_path)
+
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/groesse"}})
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "56,58"}})
+
+    assert store.profil.frame_sizes == ["56", "58"]
+    assert "Gespeichert" in telegram.sent[-2][1]
+
+
+def test_groesse_egal_clears_an_existing_filter(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    profil = store.profil
+    profil.frame_sizes = ["M", "L"]
+    store.set_profil(profil)
+
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/groesse"}})
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "egal"}})
+
+    assert store.profil.frame_sizes == []
+
+
 def test_typing_weiter_at_radtyp_step_without_selection_still_errors(tmp_path):
     router, telegram, store = _router(tmp_path)
     router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})

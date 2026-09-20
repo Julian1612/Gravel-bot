@@ -21,10 +21,11 @@ RADTYP = "radtyp"
 STANDORT = "standort"
 RADIUS = "radius"
 PREISRAHMEN = "preisrahmen"
+RAHMENGROESSE = "rahmengroesse"
 SCHWELLE = "schwelle"
 ZEITEN = "zeiten"
 
-SETUP_SCHRITTE = [RADTYP, STANDORT, RADIUS, PREISRAHMEN, SCHWELLE, ZEITEN]
+SETUP_SCHRITTE = [RADTYP, STANDORT, RADIUS, PREISRAHMEN, RAHMENGROESSE, SCHWELLE, ZEITEN]
 
 _PLZ_RE = re.compile(r"^\d{4,5}$")
 _ZEIT_HHMM_RE = re.compile(r"^(\d{1,2})[:.](\d{2})$")
@@ -160,3 +161,70 @@ def parse_radtypen(text: str) -> tuple[list[str] | None, str | None]:
     if not treffer:
         return None, None
     return treffer, None
+
+
+# Koerpergroesse (cm, obere Grenze je Band) -> passende Rahmengroessen, sowohl
+# als Buchstabe als auch in cm, damit es unabhaengig davon greift, wie eine
+# Quelle die Groesse im Titel angibt. Baender ueberlappen bewusst leicht
+# (z.B. reicht "M" von 168-182cm) statt eine einzelne "richtige" Groesse zu
+# erraten — Rahmenfit haengt neben der Koerpergroesse auch von Schrittlaenge/
+# Oberkoerper ab, eine grobe Spanne ist hier ehrlicher als falsche Praezision.
+_KOERPERGROESSE_ZU_RAHMEN: list[tuple[int, list[str]]] = [
+    (160, ["XS", "47", "48", "49", "50"]),
+    (168, ["S", "50", "51", "52", "53"]),
+    (175, ["M", "53", "54", "55", "56"]),
+    (182, ["M", "L", "56", "57", "58"]),
+    (188, ["L", "58", "59", "60"]),
+    (195, ["XL", "60", "61", "62", "63"]),
+    (999, ["XXL", "63", "64", "65", "66"]),
+]
+
+# Ab dieser Zahl wird eine reine Zahlangabe als Koerpergroesse in cm
+# interpretiert statt als Rahmengroesse — Rahmen werden nie in dieser
+# Groessenordnung angegeben (das groesste ueblicherweise vorkommende Mass
+# liegt bei ca. 66cm), echte Koerpergroessen aber schon ab ca. 140cm.
+_KOERPERGROESSE_SCHWELLE = 120
+
+_KEINE_GROESSENFILTERUNG = {"egal", "alle", "keine", "-", "kein filter", "ohne"}
+
+
+def _koerpergroesse_zu_rahmengroessen(cm: int) -> list[str]:
+    for obergrenze, groessen in _KOERPERGROESSE_ZU_RAHMEN:
+        if cm <= obergrenze:
+            return groessen
+    return _KOERPERGROESSE_ZU_RAHMEN[-1][1]
+
+
+def parse_rahmengroesse(text: str) -> tuple[list[str] | None, str | None]:
+    """Akzeptiert entweder eine Koerpergroesse in cm (wird automatisch in
+    eine passende Rahmengroessen-Spanne umgerechnet) oder direkt
+    Rahmengroessen, z.B. '56,58' oder 'M,L'. 'egal' schaltet den Filter aus
+    (leere Liste = keine Einschraenkung)."""
+    text = (text or "").strip()
+    if not text or text.lower() in _KEINE_GROESSENFILTERUNG:
+        return [], None
+
+    teile = [t.strip() for t in re.split(r"[,;/\s]+", text) if t.strip()]
+    if not teile:
+        return (
+            None,
+            "Bitte eine Koerpergroesse in cm (z.B. 178) oder Rahmengroessen (z.B. 56,58 oder M,L) schicken.",
+        )
+
+    ergebnis: list[str] = []
+    for teil in teile:
+        if teil.isdigit():
+            zahl = int(teil)
+            if zahl >= _KOERPERGROESSE_SCHWELLE:
+                ergebnis.extend(_koerpergroesse_zu_rahmengroessen(zahl))
+            else:
+                ergebnis.append(teil)
+        elif teil.isalpha():
+            ergebnis.append(teil.upper())
+        else:
+            return (
+                None,
+                f"'{teil}' verstehe ich nicht — bitte Koerpergroesse in cm (z.B. 178) "
+                "oder Rahmengroessen (z.B. 56,58 oder M,L) schicken.",
+            )
+    return list(dict.fromkeys(ergebnis)), None

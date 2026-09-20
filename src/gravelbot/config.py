@@ -76,6 +76,7 @@ BOT_COMMANDS: list[tuple[str, str]] = [
     ("setup", "Suchprofil neu einrichten"),
     ("profil", "Profil ansehen und bearbeiten"),
     ("zeiten", "Digest-Uhrzeiten setzen"),
+    ("groesse", "Rahmengröße oder Körpergröße setzen"),
     ("schwelle", "Deal-Schwelle setzen"),
     ("markt", "Marktpreise & Neupreise je Modell"),
     ("merkliste", "Gemerkte Inserate ansehen"),

@@ -76,7 +76,7 @@ def test_render_profil_has_edit_buttons_for_every_setup_field():
     profil = Profil()
     _, keyboard = views.render_profil(profil, 5, 1, [("bikemarkt", True, None)])
     callback_data = {btn["callback_data"] for row in keyboard for btn in row}
-    for feld in ("radtyp", "standort", "radius", "preisrahmen", "schwelle", "zeiten"):
+    for feld in ("radtyp", "standort", "radius", "preisrahmen", "rahmengroesse", "schwelle", "zeiten"):
         assert f"edit:{feld}" in callback_data
 
 

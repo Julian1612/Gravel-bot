@@ -67,6 +67,24 @@ def test_passes_filters_unknown_location_respects_profile_flag():
     assert not passes_filters(listing, _profil(include_unknown_location=False))
 
 
+def test_passes_filters_frame_size_matches_extracted_attribute_exactly():
+    listing = _listing(title="Canyon Grizl CF SL 8", frame_size="L")
+    assert passes_filters(listing, _profil(frame_sizes=["L"]))
+    assert not passes_filters(listing, _profil(frame_sizes=["S"]))
+
+
+def test_passes_filters_frame_size_falls_back_to_title_word_match():
+    # Extraktion schlug fehl (frame_size=None, kein "Gr"/"RH"/"cm"-Praefix),
+    # aber die Groesse steht als eigenes Wort im Titel — soll trotzdem matchen.
+    listing = _listing(title="Canyon Grizl 58 top Zustand", frame_size=None)
+    assert passes_filters(listing, _profil(frame_sizes=["58"]))
+
+
+def test_passes_filters_frame_size_rejects_when_neither_matches():
+    listing = _listing(title="Canyon Grizl CF SL 8", frame_size="S")
+    assert not passes_filters(listing, _profil(frame_sizes=["L"]))
+
+
 def test_evaluate_price_drop_detected():
     listing = _listing(price_eur=900)
     deal = evaluate(listing, _profil(min_price_drop_pct=7), previous_price=1000, market_samples=[])

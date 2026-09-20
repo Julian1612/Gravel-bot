@@ -95,9 +95,10 @@ ausschließlich zur Laufzeit in den Speicher, nie in `state.json`.
 | --- | --- |
 | `/start` | Willkommensnachricht, Einstieg für neue Chats |
 | `/help` | Zeigt diese Befehlsliste an (auch `hilfe` oder einfach `help` ohne Schrägstrich funktioniert) |
-| `/setup` | Suchprofil neu einrichten (Radtyp, Standort, Radius, Preis, Schwelle, Digest-Zeiten) |
+| `/setup` | Suchprofil neu einrichten (Radtyp, Standort, Radius, Preis, Rahmengröße, Schwelle, Digest-Zeiten) |
 | `/profil` | Profil ansehen, mit Bearbeiten-Buttons je Zeile, Trefferzahl im Bestand, Quellenstatus |
 | `/zeiten` | Digest-Uhrzeiten setzen |
+| `/groesse` | Rahmengröße setzen — Körpergröße in cm (z.B. `178`) oder direkt Größen (z.B. `56,58` oder `M,L`); `egal` schaltet den Filter aus |
 | `/schwelle` | Deal-Schwelle (% unter Marktwert) setzen |
 | `/markt` | Marktpreise & Neupreis-Referenz je Modell |
 | `/merkliste` | gemerkte Inserate ansehen/entfernen |
