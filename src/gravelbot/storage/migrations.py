@@ -25,11 +25,19 @@ def _migrate_v1_to_v2(data: dict) -> dict:
     data.setdefault("geo", {})
     data.setdefault("neupreise", {})
     data.setdefault("merkliste", {})
-    data.setdefault("blockliste", {"verkaeufer": [], "inserate": {}})
+    # setdefault greift nicht, wenn "blockliste" schon existiert, aber ohne
+    # eine der beiden Unterstrukturen (z.B. durch eine von Hand editierte
+    # state.json) — deshalb die Unterschluessel einzeln absichern.
+    blockliste = data.setdefault("blockliste", {})
+    blockliste.setdefault("verkaeufer", [])
+    blockliste.setdefault("inserate", {})
     data.setdefault("digest_puffer", [])
     data.setdefault("telegram_offset", 0)
     data.setdefault("dialoge", {})
     data.setdefault("profil", asdict(Profil()))
+    # Wer schon Listings hat, ist offensichtlich nicht im Erstlauf — auch
+    # wenn diese spaeter alle geprunt werden, siehe Store.is_first_run.
+    data.setdefault("erstlauf_abgeschlossen", bool(data["listings"]))
     return data
 
 

@@ -27,6 +27,20 @@ def test_migrate_v1_adds_missing_keys_without_losing_data(fixture_path):
     assert migrated["digest_puffer"] == []
     assert migrated["telegram_offset"] == 0
     assert migrated["dialoge"] == {}
+    # Hatte schon Listings -> ist offensichtlich kein Erstlauf mehr
+    assert migrated["erstlauf_abgeschlossen"] is True
+
+
+def test_migrate_v1_marks_empty_state_as_first_run():
+    migrated = migrate({})
+    assert migrated["erstlauf_abgeschlossen"] is False
+
+
+def test_migrate_defends_partial_blockliste_from_hand_edited_state():
+    raw = {"schema_version": 1, "blockliste": {"verkaeufer": ["boese@example.test"]}}
+    migrated = migrate(raw)
+    assert migrated["blockliste"]["verkaeufer"] == ["boese@example.test"]
+    assert migrated["blockliste"]["inserate"] == {}
 
 
 def test_migrate_is_idempotent(fixture_path):
