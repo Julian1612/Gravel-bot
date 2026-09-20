@@ -133,3 +133,103 @@ def test_bare_command_without_leading_slash_still_works(tmp_path):
     router, telegram, store = _router(tmp_path)
     router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "pause"}})
     assert store.profil.paused is True
+
+
+def test_help_escapes_a_stuck_dialog(tmp_path):
+    # Regression fuer den Kernbug: mitten in /setup blieb JEDE Nachricht,
+    # inklusive /help, im Dialog haengen — "bitte Buttons benutzen" war die
+    # einzige jemals moegliche Antwort, es gab keinen Ausweg.
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    assert store.get_dialog("12345") is not None  # Dialog laeuft (Radtyp-Schritt)
+
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "/help"}})
+
+    assert "Gravel Deal Bot" in telegram.sent[-1][1]
+    assert store.get_dialog("12345") is None  # Dialog wurde verworfen, nicht fortgesetzt
+
+
+def test_profil_escapes_a_stuck_dialog_and_shows_profile(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "/profil"}})
+
+    assert "Suchprofil" in telegram.sent[-1][1]
+    assert store.get_dialog("12345") is None
+
+
+def test_new_setup_mid_dialog_restarts_cleanly(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    # einen Radtyp per Button auswaehlen
+    router.verarbeite_ein_update(
+        {
+            "update_id": 2,
+            "callback_query": {
+                "id": "cq1",
+                "data": "radtyp:gravel",
+                "message": {"chat": {"id": 12345}, "message_id": 1},
+            },
+        }
+    )
+    assert store.get_dialog("12345")["daten"]["radtypen"] == ["gravel"]
+
+    router.verarbeite_ein_update({"update_id": 3, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+
+    dialog = store.get_dialog("12345")
+    assert dialog is not None
+    assert dialog["schritt"] == "radtyp"
+    assert dialog["daten"]["radtypen"] == []  # frisch gestartet, nicht die alte Auswahl
+
+
+def test_abbrechen_clears_a_running_dialog(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    assert store.get_dialog("12345") is not None
+
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "/abbrechen"}})
+
+    assert store.get_dialog("12345") is None
+    assert "Abgebrochen" in telegram.sent[-1][1]
+
+
+def test_abbrechen_without_active_dialog_is_harmless(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/abbrechen"}})
+    assert "Abgebrochen" in telegram.sent[-1][1]
+
+
+def test_typing_weiter_at_radtyp_step_advances_like_the_button(tmp_path):
+    # Genau das Szenario aus dem Bug-Report: der Nutzer tippt "Weiter" als
+    # Text statt den Button anzutippen.
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    router.verarbeite_ein_update(
+        {
+            "update_id": 2,
+            "callback_query": {
+                "id": "cq1",
+                "data": "radtyp:gravel",
+                "message": {"chat": {"id": 12345}, "message_id": 1},
+            },
+        }
+    )
+
+    router.verarbeite_ein_update({"update_id": 3, "message": {"chat": {"id": 12345}, "text": "Weiter"}})
+
+    dialog = store.get_dialog("12345")
+    assert dialog is not None
+    assert dialog["schritt"] == "standort"  # naechster Schritt, nicht mehr radtyp
+
+
+def test_typing_weiter_at_radtyp_step_without_selection_still_errors(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+
+    router.verarbeite_ein_update({"update_id": 2, "message": {"chat": {"id": 12345}, "text": "weiter"}})
+
+    assert "mindestens einen Radtyp" in telegram.sent[-1][1]
+    dialog = store.get_dialog("12345")
+    assert dialog is not None
+    assert dialog["schritt"] == "radtyp"  # noch nicht weitergekommen
