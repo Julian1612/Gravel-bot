@@ -27,6 +27,9 @@ def alle_quellen(http: Http, settings: Settings) -> list[Quelle]:
     from gravelbot.sources.shops.bike_components import BikeComponentsQuelle
     from gravelbot.sources.shops.bike_discount import BikeDiscountQuelle
     from gravelbot.sources.shops.canyon_outlet import CanyonOutletQuelle
+    from gravelbot.sources.shops.fahrrad_de import FahrradDeQuelle
+    from gravelbot.sources.shops.focus_outlet import FocusOutletQuelle
+    from gravelbot.sources.shops.radon_outlet import RadonOutletQuelle
     from gravelbot.sources.shops.rose_sale import RoseSaleQuelle
 
     return [
@@ -38,6 +41,9 @@ def alle_quellen(http: Http, settings: Settings) -> list[Quelle]:
         BikeComponentsQuelle(http, settings),
         BikeDiscountQuelle(http, settings),
         Bike24Quelle(http, settings),
+        FahrradDeQuelle(http, settings),
+        RadonOutletQuelle(http, settings),
+        FocusOutletQuelle(http, settings),
     ]
 
 

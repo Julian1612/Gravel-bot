@@ -139,6 +139,9 @@ weniger Sekunden reagiert (siehe auch
 | Bike-Components (Komplettbike-Kategorien) | neu, Rabatt | aktiv |
 | Bike-Discount Sale/B-Ware | neu, Rabatt | **deaktiviert** — Shop antwortet mit HTTP 403 für jeden getesteten User-Agent |
 | Bike24 Sale | neu, Rabatt | **deaktiviert** — gleicher Befund wie Bike-Discount |
+| fahrrad.de (Gravel/Rennrad/Endurance/Cyclocross-Kollektionen) | neu, Rabatt | aktiv — nutzt das öffentliche Shopify-`products.json`, eine Listing je verfügbarer Rahmengröße |
+| Radon-Bikes Outlet | neu, Rabatt | **deaktiviert** — Seite ist eine JS-SPA ohne Produktdaten im Server-HTML |
+| Focus-Bikes Outlet | neu, Rabatt | **deaktiviert** — gleicher Befund wie Radon-Bikes Outlet |
 
 Kleinanzeigen wird bewusst nicht unterstützt (Bot-Schutz, AGB-Verbot).
 

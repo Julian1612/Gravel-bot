@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": 1001,
+      "title": "Kona Rove AL blue (2026)",
+      "handle": "kona-rove-al-blue-2026",
+      "vendor": "Kona",
+      "product_type": "Gravel Bike",
+      "tags": ["Cat_Lvl_1: Fahrräder"],
+      "variants": [
+        {
+          "id": 5001,
+          "title": "48",
+          "price": "629.00",
+          "compare_at_price": "899.00",
+          "available": true
+        },
+        {
+          "id": 5002,
+          "title": "50",
+          "price": "629.00",
+          "compare_at_price": "899.00",
+          "available": true
+        },
+        {
+          "id": 5003,
+          "title": "56",
+          "price": "629.00",
+          "compare_at_price": "899.00",
+          "available": false
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "title": "Cube Nuroad C:62 EX surfblue'n'black (2027)",
+      "handle": "cube-nuroad-c62-ex-surfblue-black-2027",
+      "vendor": "Cube",
+      "product_type": "Gravel Bike",
+      "tags": [],
+      "variants": [
+        {
+          "id": 5004,
+          "title": "XS",
+          "price": "2999.00",
+          "compare_at_price": "2999.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "title": "ACADEMY S-grade Gravel 5 24\" Granat (2027)",
+      "handle": "academy-s-grade-gravel-5-24-granat-2027",
+      "vendor": "Academy",
+      "product_type": "Jugend-/Kinder-Gravelbike",
+      "tags": [],
+      "variants": [
+        {
+          "id": 5005,
+          "title": "One Size",
+          "price": "499.00",
+          "compare_at_price": "699.00",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "title": "KTM Gravel E-Bike Explore (2026)",
+      "handle": "ktm-gravel-e-bike-explore-2026",
+      "vendor": "KTM",
+      "product_type": "Gravel Bike",
+      "tags": [],
+      "variants": [
+        {
+          "id": 5006,
+          "title": "H 46cm",
+          "price": "2459.00",
+          "compare_at_price": "4299.00",
+          "available": true
+        }
+      ]
+    }
+  ]
+}

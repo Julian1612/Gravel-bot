@@ -257,3 +257,21 @@ BIKE_COMPONENTS_CATEGORY_PATH = {
     "endurance_rennrad": "/de/fahrraeder/rennraeder/rennrad/",
     "cyclocross": "/de/fahrraeder/rennraeder/rennrad/",
 }
+
+# fahrrad.de ist ein Shopify-Shop — Kollektions-Slugs verifiziert gegen die
+# echte Collections-Sitemap (fahrrad.de/sitemap_collections_1.xml) und deren
+# oeffentliches products.json (2026-09). Die Kollektionen ueberschneiden sich
+# teilweise (z.B. taucht ein Gravelbike auch unter "endurance-rennraeder"
+# auf) — harmlos, Dubletten werden ueber Listing.key dedupliziert.
+FAHRRAD_DE_COLLECTION = {
+    "gravel": "gravel-bikes",
+    "rennrad": "rennraeder",
+    "endurance_rennrad": "endurance-rennraeder",
+    "cyclocross": "cyclocross-bikes",
+}
+
+# Die obigen Kollektionen enthalten trotz Namen auch Nicht-Komplettbikes
+# (z.B. "Jugend-/Kinder-Gravelbike" in "gravel-bikes") — ueber das
+# strukturierte product_type-Feld zuverlaessiger auszuschliessen als per
+# Titel-Keyword.
+FAHRRAD_DE_PRODUCT_TYPES = {"Gravel Bike", "Rennrad", "Cyclocross Bike"}
