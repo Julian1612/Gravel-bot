@@ -100,3 +100,36 @@ def test_scan_command_sets_scan_erzwingen_flag(tmp_path):
     router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/scan"}})
 
     assert router.scan_erzwingen is True
+
+
+def test_bare_help_without_slash_shows_help(tmp_path):
+    router, telegram, _ = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "help"}})
+    assert "Gravel Deal Bot" in telegram.sent[0][1]
+
+
+def test_bare_hilfe_shows_help(tmp_path):
+    router, telegram, _ = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "Hilfe"}})
+    assert "Gravel Deal Bot" in telegram.sent[0][1]
+
+
+def test_start_command_shows_welcome(tmp_path):
+    router, telegram, _ = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/start"}})
+    assert "Willkommen" in telegram.sent[0][1]
+
+
+def test_command_with_bot_username_suffix_is_recognized(tmp_path):
+    # Manche Telegram-Clients haengen den Bot-Usernamen an, z.B. in Gruppen.
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update(
+        {"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/pause@gravel_deal_bot"}}
+    )
+    assert store.profil.paused is True
+
+
+def test_bare_command_without_leading_slash_still_works(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "pause"}})
+    assert store.profil.paused is True

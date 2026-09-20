@@ -13,6 +13,7 @@ on:
           - normal
           - probelauf
           - telegram-test
+          - befehle-registrieren
 
 permissions:
   contents: write
@@ -42,9 +43,10 @@ jobs:
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: |
           case "${{ inputs.modus || 'normal' }}" in
-            probelauf)      python bot.py --dry-run ;;
-            telegram-test)  python bot.py --test-telegram ;;
-            *)              python bot.py ;;
+            probelauf)             python bot.py --dry-run ;;
+            telegram-test)         python bot.py --test-telegram ;;
+            befehle-registrieren)  python bot.py --register-commands ;;
+            *)                     python bot.py ;;
           esac
 
       - name: Preisdaten sichern

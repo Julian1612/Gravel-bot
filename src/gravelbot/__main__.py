@@ -1,6 +1,7 @@
 """CLI-Einstiegspunkt.
 
-python -m gravelbot [--dry-run] [--test-telegram] [--scan-only] [--telegram-update]
+python -m gravelbot [--dry-run] [--test-telegram] [--scan-only]
+                    [--telegram-update] [--register-commands]
 """
 
 from __future__ import annotations
@@ -35,16 +36,32 @@ def main() -> int:
             "(fuer den Webhook-Trigger, siehe telegram-update.yml)"
         ),
     )
+    parser.add_argument(
+        "--register-commands",
+        action="store_true",
+        help="Befehlsliste bei Telegram registrieren (natives '/'-Menue), einmalig noetig",
+    )
     args = parser.parse_args()
 
     from gravelbot.app import handle_single_update, run
-    from gravelbot.config import Settings
+    from gravelbot.config import BOT_COMMANDS, Settings
     from gravelbot.telegram.client import Telegram
 
     if args.test_telegram:
         tg = Telegram(Settings())
         ok = tg.send("✅ Gravel Deal Bot ist verbunden.", preview=False) is not None or not tg.enabled
         print("Testnachricht verschickt" if ok else "Fehlgeschlagen — Token/Chat-ID pruefen")
+        return 0 if ok else 1
+
+    if args.register_commands:
+        tg = Telegram(Settings())
+        if not tg.enabled:
+            print("Fehlgeschlagen — TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID pruefen")
+            return 1
+        ok = tg.set_my_commands(BOT_COMMANDS)
+        print(
+            "Befehle registriert — das '/'-Menue in Telegram zeigt sie jetzt an" if ok else "Fehlgeschlagen"
+        )
         return 0 if ok else 1
 
     if args.telegram_update:

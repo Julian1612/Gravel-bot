@@ -85,6 +85,18 @@ class Telegram:
     def answer_callback_query(self, callback_query_id: str, text: str = "") -> None:
         self._call("answerCallbackQuery", {"callback_query_id": callback_query_id, "text": text})
 
+    def set_my_commands(self, commands: list[tuple[str, str]]) -> bool:
+        """Registriert die Befehlsliste bei Telegram, damit sie als natives
+        Menue erscheint (das '/'-Symbol im Nachrichtenfeld). Einmalig
+        aufzurufen, z.B. per ``python bot.py --register-commands`` — nicht
+        bei jedem Lauf, das waere ein unnoetiger API-Call fuer Daten, die
+        sich praktisch nie aendern."""
+        payload = {
+            "commands": [{"command": cmd, "description": beschreibung} for cmd, beschreibung in commands]
+        }
+        result = self._call("setMyCommands", payload)
+        return bool(result and result.get("ok"))
+
     def get_updates(self, offset: int) -> list[dict]:
         if not self.token:
             return []

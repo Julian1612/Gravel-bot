@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from gravelbot.config import BOT_COMMANDS
 from gravelbot.models import Deal, Listing, Profil
 from gravelbot.telegram import views
 
@@ -99,6 +100,30 @@ def test_render_blockliste_shows_both_sections_empty():
     text, kb = views.render_blockliste({})
     assert "(keine)" in text
     assert kb == []
+
+
+def test_render_help_lists_every_command_except_start():
+    text = views.render_help()
+    for befehl, _beschreibung in BOT_COMMANDS:
+        if befehl == "start":
+            assert f"/{befehl}" not in text
+        else:
+            assert f"/{befehl}" in text
+
+
+def test_render_help_and_bot_commands_never_drift_apart():
+    # Regression-Absicherung fuer die Designentscheidung: render_help() baut
+    # sich aus BOT_COMMANDS, es gibt keine zweite, von Hand gepflegte Liste
+    # mehr, die veralten koennte.
+    befehle_in_hilfe = {wort.lstrip("/") for wort in views.render_help().split() if wort.startswith("/")}
+    befehle_in_config = {befehl for befehl, _ in BOT_COMMANDS if befehl != "start"}
+    assert befehle_in_hilfe == befehle_in_config
+
+
+def test_render_start_mentions_setup():
+    text = views.render_start()
+    assert "/setup" in text
+    assert "Willkommen" in text
 
 
 def test_render_reset_bestaetigung_has_confirm_and_cancel():

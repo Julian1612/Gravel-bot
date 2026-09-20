@@ -67,6 +67,26 @@ class Settings:
     )
 
 
+# Einzige Quelle der Wahrheit fuer die Befehlsliste — sowohl /help
+# (telegram/views.render_help) als auch das native Telegram-Kommandomenue
+# (per `python bot.py --register-commands`, ruft setMyCommands auf) lesen
+# von hier. So koennen Hilfetext und Menue nie auseinanderlaufen.
+BOT_COMMANDS: list[tuple[str, str]] = [
+    ("start", "Bot kennenlernen"),
+    ("setup", "Suchprofil neu einrichten"),
+    ("profil", "Profil ansehen und bearbeiten"),
+    ("zeiten", "Digest-Uhrzeiten setzen"),
+    ("schwelle", "Deal-Schwelle setzen"),
+    ("markt", "Marktpreise & Neupreise je Modell"),
+    ("merkliste", "Gemerkte Inserate ansehen"),
+    ("suche", "Freitextsuche ueber alle Quellen"),
+    ("scan", "Lauf sofort anstossen"),
+    ("pause", "Suche pausieren/fortsetzen"),
+    ("reset", "Profil auf Standardwerte zuruecksetzen"),
+    ("help", "Diese Uebersicht anzeigen"),
+]
+
+
 BRANDS = [
     "Rose Bikes",
     "NS Bikes",
