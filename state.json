@@ -23,11 +23,12 @@
      "gravel",
      "rennrad"
     ],
+    "schwelle": 20.0,
     "standort": "70176"
    },
    "flow": "setup",
    "rueckkehr": null,
-   "schritt": "schwelle"
+   "schritt": "zeiten"
   }
  },
  "digest_puffer": [],
@@ -62,7 +63,7 @@
    11.4
   ]
  },
- "last_run": "2026-09-20T14:16:38+00:00",
+ "last_run": "2026-09-20T14:17:05+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
@@ -3457,5 +3458,5 @@
   "seed_run_silent": true
  },
  "schema_version": 2,
- "telegram_offset": 593941381
+ "telegram_offset": 593941383
 }
