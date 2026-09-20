@@ -44,7 +44,7 @@
    11.4
   ]
  },
- "last_run": "2026-09-20T11:00:54+00:00",
+ "last_run": "2026-09-20T11:01:22+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
@@ -3241,5 +3241,5 @@
   "seed_run_silent": true
  },
  "schema_version": 2,
- "telegram_offset": 593941338
+ "telegram_offset": 593941339
 }
