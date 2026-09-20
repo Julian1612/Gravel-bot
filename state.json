@@ -21,6 +21,7 @@
   }
  },
  "digest_puffer": [],
+ "erstlauf_abgeschlossen": true,
  "geo": {
   "de:51702": [
    51.0333,
@@ -51,13 +52,13 @@
    11.4
   ]
  },
- "last_run": "2026-09-20T13:43:50+00:00",
+ "last_run": "2026-09-20T14:01:28+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1336.13,
    "location": null,
    "prices": [
@@ -73,10 +74,15 @@
    "zip": null
   },
   "bike_components:v-55567": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-20T14:01:28+00:00",
+     1000.0
+    ]
+   },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1252.1,
    "location": null,
    "prices": [
@@ -95,7 +101,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2092.44,
    "location": null,
    "prices": [
@@ -114,7 +120,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1924.37,
    "location": null,
    "prices": [
@@ -133,7 +139,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1487.4,
    "location": null,
    "prices": [
@@ -152,7 +158,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 3016.81,
    "location": null,
    "prices": [
@@ -171,7 +177,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -189,7 +195,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -207,7 +213,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -225,7 +231,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -239,6 +245,25 @@
    "url": "https://bikemarkt.mtb-news.de/article/1745747-giant-tcx-advanced-pro-0-groesse-ml-axs-powermeter-dt-swiss-2300km",
    "zip": null
   },
+  "bikemarkt:1778115": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:01:28+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:01:28+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:01:28+00:00",
+     1550.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Alutech Punk 1.0 Carbon Gravel",
+   "url": "https://bikemarkt.mtb-news.de/article/1778115-alutech-punk-1-0-carbon-gravel",
+   "zip": null
+  },
   "bikemarkt:1778375": {
    "alerted": {
     "under_market": [
@@ -248,7 +273,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -266,7 +291,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -284,7 +309,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -302,7 +327,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -320,7 +345,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -338,7 +363,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -356,7 +381,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -374,7 +399,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -392,7 +417,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -410,7 +435,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "67251 Freinsheim",
    "prices": [
@@ -433,7 +458,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -451,7 +476,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -469,7 +494,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -487,7 +512,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -505,7 +530,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -523,7 +548,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -541,7 +566,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -559,7 +584,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -582,7 +607,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -600,7 +625,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -618,7 +643,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -636,7 +661,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -654,7 +679,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -672,7 +697,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -690,7 +715,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -708,7 +733,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -726,7 +751,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -744,7 +769,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -762,7 +787,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -780,7 +805,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -798,7 +823,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -816,7 +841,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -834,7 +859,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -852,7 +877,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -870,7 +895,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -888,7 +913,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -906,7 +931,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -924,7 +949,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -942,7 +967,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -960,7 +985,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -983,7 +1008,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1006,7 +1031,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1029,7 +1054,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1047,7 +1072,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1065,7 +1090,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1083,7 +1108,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1101,7 +1126,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1119,7 +1144,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1142,7 +1167,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1160,7 +1185,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1178,7 +1203,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1201,7 +1226,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1224,7 +1249,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1242,7 +1267,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1260,7 +1285,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1278,7 +1303,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1296,7 +1321,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1319,7 +1344,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "64673 Zwingenberg",
    "prices": [
@@ -1337,7 +1362,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1355,7 +1380,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1373,7 +1398,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1391,7 +1416,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "64673 Zwingenberg",
    "prices": [
@@ -1409,7 +1434,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "64673 Zwingenberg",
    "prices": [
@@ -1427,7 +1452,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "64673 Zwingenberg",
    "prices": [
@@ -1445,7 +1470,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1468,7 +1493,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1486,7 +1511,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1504,7 +1529,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1527,7 +1552,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1545,7 +1570,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1563,7 +1588,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1581,7 +1606,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": "51702 Bergneustadt Versand",
    "prices": [
@@ -1617,7 +1642,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1635,7 +1660,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1658,7 +1683,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1676,7 +1701,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1699,7 +1724,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1717,7 +1742,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1735,7 +1760,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1753,7 +1778,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1771,7 +1796,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1789,7 +1814,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1812,7 +1837,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1835,7 +1860,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1853,7 +1878,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1871,7 +1896,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1894,7 +1919,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1912,7 +1937,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1930,7 +1955,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1948,7 +1973,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1966,7 +1991,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1984,7 +2009,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2002,7 +2027,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2025,7 +2050,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2043,7 +2068,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2058,10 +2083,15 @@
    "zip": null
   },
   "canyon_outlet:3576": {
-   "alerted": {},
+   "alerted": {
+    "under_market": [
+     "2026-09-20T14:01:28+00:00",
+     2268.07
+    ]
+   },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-19T23:23:49+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2699.0,
    "location": null,
    "prices": [
@@ -2085,7 +2115,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -2104,7 +2134,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -2123,7 +2153,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 3999.0,
    "location": null,
    "prices": [
@@ -2142,7 +2172,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 3299.0,
    "location": null,
    "prices": [
@@ -2166,7 +2196,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -2181,11 +2211,30 @@
    "url": "https://www.canyon.com/de-de/gravel-bikes/adventure/grizl/cf/grizl-cf-7/4167.html",
    "zip": null
   },
+  "rose_sale:160226": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:01:28+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-20T14:01:28+00:00",
+   "list_price": 3500.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:01:28+00:00",
+     3450.0
+    ]
+   ],
+   "shipping": true,
+   "source": "rose_sale",
+   "title": "Backroad AL Plus Cues",
+   "url": "https://www.rosebikes.de/p/rose-backroad-al-plus-cues-160226",
+   "zip": null
+  },
   "rose_sale:2710904": {
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2999.0,
    "location": null,
    "prices": [
@@ -2204,7 +2253,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1400.0,
    "location": null,
    "prices": [
@@ -2223,7 +2272,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2799.0,
    "location": null,
    "prices": [
@@ -2242,7 +2291,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 3500.0,
    "location": null,
    "prices": [
@@ -2261,7 +2310,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -2280,7 +2329,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2900.0,
    "location": null,
    "prices": [
@@ -2299,7 +2348,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 3500.0,
    "location": null,
    "prices": [
@@ -2342,7 +2391,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T09:39:28+00:00",
+   "last_seen": "2026-09-20T14:01:28+00:00",
    "list_price": 2500.0,
    "location": null,
    "prices": [
@@ -2383,7 +2432,11 @@
   }
  },
  "market": {
+  "alutech punk": [
+   1550.0
+  ],
   "basic bikes basic": [
+   3450.0,
    3450.0,
    3450.0,
    3450.0,
@@ -2403,12 +2456,16 @@
    3000.0,
    2399.0,
    3000.0,
+   2399.0,
+   3000.0,
    2399.0
   ],
   "canyon grail": [
    2772.27,
    2268.07,
-   2772.27
+   2772.27,
+   2772.27,
+   2268.07
   ],
   "canyon grizl": [
    2499.0,
@@ -2430,9 +2487,16 @@
    2100.0,
    3360.5,
    1259.66,
+   1763.87,
+   2499.0,
+   1599.0,
+   2100.0,
+   3360.5,
+   1259.66,
    1763.87
   ],
   "canyon inflite": [
+   1350.0,
    1350.0,
    1350.0,
    1350.0,
@@ -2446,9 +2510,11 @@
    900.0,
    900.0,
    900.0,
+   900.0,
    900.0
   ],
   "canyon roadlight": [
+   650.0,
    650.0,
    650.0,
    650.0,
@@ -2462,9 +2528,11 @@
    1399.0,
    1399.0,
    1399.0,
+   1399.0,
    1399.0
   ],
   "ceepo rindo": [
+   2499.0,
    2499.0,
    2499.0,
    2499.0,
@@ -2478,9 +2546,11 @@
    3199.0,
    3199.0,
    3199.0,
+   3199.0,
    3199.0
   ],
   "cinelli hobootleg": [
+   1750.0,
    1750.0,
    1750.0
   ],
@@ -2488,9 +2558,12 @@
    1590.0,
    1000.0,
    1590.0,
+   1000.0,
+   1590.0,
    1000.0
   ],
   "crossworx bikes ride280": [
+   3099.0,
    3099.0,
    3099.0,
    3099.0,
@@ -2504,9 +2577,11 @@
    990.0,
    990.0,
    990.0,
+   990.0,
    990.0
   ],
   "cube nuroad": [
+   2300.0,
    2300.0,
    2300.0,
    2300.0,
@@ -2520,9 +2595,11 @@
    1199.0,
    1199.0,
    1199.0,
+   1199.0,
    1199.0
   ],
   "dinolfo cycles handgeschweißter": [
+   3200.0,
    3200.0,
    3200.0,
    3200.0,
@@ -2536,6 +2613,7 @@
    1999.99,
    1999.99,
    1999.99,
+   1999.99,
    1999.99
   ],
   "genesis croix": [
@@ -2544,9 +2622,11 @@
    1395.0,
    1395.0,
    1395.0,
+   1395.0,
    1395.0
   ],
   "ghost bikes": [
+   2750.0,
    2750.0,
    2750.0,
    2750.0,
@@ -2596,9 +2676,17 @@
    2100.0,
    2299.0,
    980.0,
+   2600.0,
+   2699.0,
+   975.0,
+   1200.0,
+   2100.0,
+   2299.0,
+   980.0,
    2600.0
   ],
   "giant tcx": [
+   2900.0,
    2900.0,
    2900.0,
    2900.0,
@@ -2612,9 +2700,11 @@
    900.0,
    900.0,
    900.0,
+   900.0,
    900.0
   ],
   "kona ouroboros": [
+   1799.0,
    1799.0,
    1799.0,
    1799.0,
@@ -2628,9 +2718,11 @@
    700.0,
    700.0,
    700.0,
+   700.0,
    700.0
   ],
   "kona sutra": [
+   2499.0,
    2499.0,
    2499.0,
    2499.0,
@@ -2644,9 +2736,11 @@
    2350.0,
    2350.0,
    2350.0,
+   2350.0,
    2350.0
   ],
   "marin bikes dsx": [
+   1000.0,
    1000.0,
    1000.0,
    1000.0,
@@ -2656,9 +2750,16 @@
   ],
   "marin bikes gestalt": [
    1260.0,
+   1260.0,
    1260.0
   ],
   "merida silex": [
+   1999.0,
+   2799.0,
+   2199.0,
+   1900.0,
+   1799.0,
+   1499.0,
    1999.0,
    2799.0,
    2199.0,
@@ -2702,6 +2803,7 @@
    2500.0,
    2500.0,
    2500.0,
+   2500.0,
    2500.0
   ],
   "nicolai argon": [
@@ -2710,9 +2812,11 @@
    3490.0,
    3490.0,
    3490.0,
+   3490.0,
    3490.0
   ],
   "norco search": [
+   1399.0,
    1399.0,
    1399.0,
    1399.0,
@@ -2732,9 +2836,18 @@
    729.99,
    849.99,
    729.99,
+   849.99,
+   729.99,
    849.99
   ],
   "nukeproof digger": [
+   2199.0,
+   2199.0,
+   2199.0,
+   2799.0,
+   2799.0,
+   2799.0,
+   1799.0,
    2199.0,
    2199.0,
    2199.0,
@@ -2796,9 +2909,13 @@
    3500.0,
    1300.0,
    2999.0,
+   3500.0,
+   1300.0,
+   2999.0,
    3500.0
   ],
   "otso warakin": [
+   3300.0,
    3300.0,
    3300.0,
    3300.0,
@@ -2812,6 +2929,7 @@
    1190.0,
    1190.0,
    1190.0,
+   1190.0,
    1190.0
   ],
   "pivot cycles": [
@@ -2820,9 +2938,11 @@
    2799.0,
    2799.0,
    2799.0,
+   2799.0,
    2799.0
   ],
   "propain terrel": [
+   3200.0,
    3200.0,
    3200.0,
    3200.0,
@@ -2854,9 +2974,14 @@
    1699.0,
    1550.0,
    1500.0,
+   2799.0,
+   1699.0,
+   1550.0,
+   1500.0,
    2799.0
   ],
   "rondo bogan": [
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -2870,9 +2995,11 @@
    1299.99,
    1299.99,
    1299.99,
+   1299.99,
    1299.99
   ],
   "rondo mutt": [
+   2000.0,
    2000.0,
    2000.0,
    2000.0,
@@ -2892,9 +3019,14 @@
    1699.99,
    2799.99,
    1699.99,
+   2799.99,
+   1699.99,
    2799.99
   ],
   "rondo ruut": [
+   2299.98,
+   1100.0,
+   2100.0,
    2299.98,
    1100.0,
    2100.0,
@@ -2930,9 +3062,21 @@
    1850.0,
    3450.0,
    2299.0,
-   2050.0
+   2050.0,
+   3450.0,
+   2099.0,
+   2850.0,
+   2299.0,
+   2450.0,
+   3450.0,
+   3450.0
   ],
   "rose bikes backroad": [
+   1799.0,
+   1699.0,
+   2799.0,
+   2199.0,
+   3099.0,
    1799.0,
    1699.0,
    2799.0,
@@ -2976,9 +3120,13 @@
    1690.0,
    1700.0,
    1690.0,
+   1700.0,
+   1690.0,
    1700.0
   ],
   "rose blend": [
+   1300.0,
+   1200.0,
    1300.0,
    1200.0,
    1300.0,
@@ -2990,13 +3138,16 @@
    2500.0,
    2500.0,
    2500.0,
+   2500.0,
    2500.0
   ],
   "salsa cutthroat": [
    2690.0,
+   2690.0,
    2690.0
   ],
   "sc juniper": [
+   1999.0,
    1999.0,
    1999.0,
    1999.0,
@@ -3010,9 +3161,11 @@
    2999.0,
    2999.0,
    2999.0,
+   2999.0,
    2999.0
   ],
   "scott scale": [
+   1790.0,
    1790.0,
    1790.0,
    1790.0,
@@ -3032,9 +3185,13 @@
    1333.0,
    950.0,
    1333.0,
+   950.0,
    950.0
   ],
   "specialized crux": [
+   1666.0,
+   2500.0,
+   2899.0,
    1666.0,
    2500.0,
    2899.0,
@@ -3090,6 +3247,12 @@
    1400.0,
    2100.0,
    1200.0,
+   2000.0,
+   1350.0,
+   3300.0,
+   1400.0,
+   2100.0,
+   1200.0,
    2000.0
   ],
   "specialized sequoia": [
@@ -3098,9 +3261,11 @@
    550.0,
    550.0,
    550.0,
+   550.0,
    550.0
   ],
   "spyder dealer": [
+   1400.0,
    1400.0,
    1400.0,
    1400.0,
@@ -3126,9 +3291,13 @@
    2400.0,
    1160.0,
    2450.0,
+   2400.0,
+   1160.0,
+   2450.0,
    2400.0
   ],
   "trek fx": [
+   1699.0,
    1699.0,
    1699.0,
    1699.0,
@@ -3142,6 +3311,7 @@
    3006.0,
    3006.0,
    3006.0,
+   3006.0,
    3006.0
   ],
   "vannicholas amazonas": [
@@ -3150,9 +3320,11 @@
    1999.0,
    1999.0,
    1999.0,
+   1999.0,
    1999.0
   ],
   "wilier jaroon": [
+   1170.0,
    1170.0,
    1170.0
   ]
@@ -3168,9 +3340,15 @@
   "canyon grail": [
    3299.0,
    2699.0,
-   3299.0
+   3299.0,
+   3299.0,
+   2699.0
   ],
   "canyon grizl": [
+   2499.0,
+   3999.0,
+   1499.0,
+   2099.0,
    2499.0,
    3999.0,
    1499.0,
@@ -3182,15 +3360,19 @@
   ],
   "cinelli hobootleg": [
    2092.44,
+   2092.44,
    2092.44
   ],
   "cinelli zydeco": [
    1924.37,
    1252.1,
    1924.37,
+   1252.1,
+   1924.37,
    1252.1
   ],
   "marin bikes gestalt": [
+   1487.4,
    1487.4,
    1487.4
   ],
@@ -3210,9 +3392,18 @@
    1900.0,
    3500.0,
    2999.0,
-   2100.0
+   2100.0,
+   3500.0,
+   2799.0,
+   2900.0,
+   2999.0,
+   2500.0,
+   3500.0,
+   3500.0
   ],
   "rose blend": [
+   1400.0,
+   1300.0,
    1400.0,
    1300.0,
    1400.0,
@@ -3220,9 +3411,11 @@
   ],
   "salsa cutthroat": [
    3016.81,
+   3016.81,
    3016.81
   ],
   "wilier jaroon": [
+   1336.13,
    1336.13,
    1336.13
   ]
