@@ -23,6 +23,7 @@ class Listing:
     brand: str | None = None
     condition: str | None = None
     seller_type: str | None = None
+    seller_name: str | None = None
     location: str | None = None
     shipping: bool = False
     zip_code: str | None = None

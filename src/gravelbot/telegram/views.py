@@ -9,7 +9,7 @@ from __future__ import annotations
 import html
 
 from gravelbot.config import RADTYP_LABELS, RADTYPEN
-from gravelbot.models import Deal, Profil
+from gravelbot.models import Deal, Listing, Profil
 
 Keyboard = list[list[dict[str, str]]]
 
@@ -21,6 +21,22 @@ SCHWELLE_PRESETS = [10, 15, 20, 25]
 
 def _btn(text: str, callback_data: str) -> dict[str, str]:
     return {"text": text, "callback_data": callback_data}
+
+
+def _safe_cb(prefix: str, value: str, max_bytes: int = 64) -> str:
+    """Haengt ``value`` an ``prefix`` an, gekappt auf Telegrams 64-Byte-Limit
+    fuer callback_data. Ohne diese Kappung wuerde ein zu langer Wert (z.B.
+    ein langer eBay-Verkaeufername oder Listing-Key) nicht etwa nur diesen
+    einen Button unbrauchbar machen, sondern das Senden der GESAMTEN
+    Nachricht scheitern lassen (Telegram lehnt sendMessage mit ungueltigem
+    inline_keyboard komplett ab)."""
+    budget = max_bytes - len(prefix.encode("utf-8"))
+    if budget <= 0:
+        return prefix.encode("utf-8")[:max_bytes].decode("utf-8", errors="ignore")
+    encoded = value.encode("utf-8")
+    if len(encoded) <= budget:
+        return prefix + value
+    return prefix + encoded[:budget].decode("utf-8", errors="ignore")
 
 
 def fmt_eur(value: float) -> str:
@@ -75,7 +91,7 @@ def render_deal(deal: Deal) -> str:
     return "\n".join(lines)
 
 
-def render_deal_freitext(listing) -> str:
+def render_deal_freitext(listing: Listing) -> str:
     lines = [f"🔎 <b>{html.escape(listing.title)}</b>", f"💶 <b>{fmt_eur(listing.price_eur)}</b>"]
     if listing.list_price_eur:
         rabatt = listing.discount_vs_list_pct
@@ -93,6 +109,30 @@ def render_deal_freitext(listing) -> str:
     lines.append(f'\n<a href="{html.escape(listing.url, quote=True)}">Zum Inserat →</a>')
     lines.append(f"<i>{listing.source}</i>")
     return "\n".join(lines)
+
+
+def render_deal_keyboard(listing_key: str, seller_name: str | None = None) -> Keyboard:
+    """Die 'merken'/'blocken'-Buttons unter jedem Deal- und Freitext-Treffer
+    — an einer Stelle, damit beide Aufrufer (app.py fuer Scan-Alerts,
+    router.py fuer /suche) dieselbe, laengensichere Callback-Konstruktion
+    benutzen. Der Verkaeufer-blocken-Button erscheint nur, wenn die Quelle
+    ueberhaupt einen Verkaeufernamen liefert (aktuell nur eBay)."""
+    zeilen = [
+        [
+            _btn("🔖 merken", _safe_cb("merkliste:hinzufuegen:", listing_key)),
+            _btn("🚫 Inserat blocken", _safe_cb("blockliste:inserat_sperren:", listing_key)),
+        ]
+    ]
+    if seller_name:
+        zeilen.append(
+            [
+                _btn(
+                    f"🚫 Verkaeufer blocken: {seller_name[:24]}",
+                    _safe_cb("blockliste:verkaeufer_sperren:", seller_name),
+                )
+            ]
+        )
+    return zeilen
 
 
 def render_setup_step(schritt: str, daten: dict) -> tuple[str, Keyboard | None]:
@@ -188,7 +228,7 @@ def render_merkliste(items: dict[str, dict]) -> tuple[str, Keyboard]:
     rows: Keyboard = []
     for key, entry in items.items():
         lines.append(f'• <a href="{html.escape(entry["url"], quote=True)}">{html.escape(entry["title"])}</a>')
-        rows.append([_btn(f"❌ entfernen: {entry['title'][:24]}", f"merkliste:entfernen:{key}")])
+        rows.append([_btn(f"❌ entfernen: {entry['title'][:24]}", _safe_cb("merkliste:entfernen:", key))])
     return "\n".join(lines), rows
 
 
@@ -202,15 +242,21 @@ def render_blockliste(blockliste: dict) -> tuple[str, Keyboard]:
         lines.append("(keine)")
     for name in verkaeufer:
         lines.append(f"• {html.escape(name)}")
-        rows.append([_btn(f"↩️ entsperren: {name[:24]}", f"blockliste:verkaeufer_entsperren:{name}")])
+        rows.append([_btn(f"↩️ entsperren: {name[:24]}", _safe_cb("blockliste:verkaeufer_entsperren:", name))])
     lines.append("")
     lines.append("<b>Inserate</b>")
     if not inserate:
         lines.append("(keine)")
     for key, entry in inserate.items():
         lines.append(f"• {html.escape(entry['title'])}")
-        rows.append([_btn(f"↩️ entsperren: {entry['title'][:24]}", f"blockliste:inserat_entsperren:{key}")])
+        rows.append(
+            [_btn(f"↩️ entsperren: {entry['title'][:24]}", _safe_cb("blockliste:inserat_entsperren:", key))]
+        )
     return "\n".join(lines), rows
+
+
+def render_suche_laeuft(query: str) -> str:
+    return f"🔎 Suche nach '{html.escape(query)}' ueber alle Quellen …"
 
 
 def render_reset_bestaetigung() -> tuple[str, Keyboard]:
