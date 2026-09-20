@@ -82,6 +82,30 @@ class Telegram:
             return None
         return result["result"]["message_id"]
 
+    def edit_message(
+        self,
+        chat_id: str,
+        message_id: int,
+        text: str,
+        keyboard: list[list[dict[str, str]]] | None = None,
+    ) -> bool:
+        """Aendert eine bereits gesendete Nachricht in place, statt eine neue
+        zu schicken. Wichtig fuer Dialogschritte mit Inline-Buttons (z.B.
+        die Radtyp-Mehrfachauswahl in /setup): jeder Button-Tap sendet sonst
+        eine komplett neue Nachricht, und bei mehreren schnellen Taps stapeln
+        sich viele fast identische Nachrichten mit je einem anderen,
+        eingefrorenen Auswahl-Stand — verwirrend und kaum nachvollziehbar,
+        welche gerade aktuell ist."""
+        payload: dict[str, Any] = {
+            "chat_id": chat_id,
+            "message_id": message_id,
+            "text": text,
+            "parse_mode": "HTML",
+            "reply_markup": {"inline_keyboard": keyboard if keyboard is not None else []},
+        }
+        result = self._call("editMessageText", payload)
+        return bool(result and result.get("ok"))
+
     def answer_callback_query(self, callback_query_id: str, text: str = "") -> None:
         self._call("answerCallbackQuery", {"callback_query_id": callback_query_id, "text": text})
 

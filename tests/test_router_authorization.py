@@ -19,6 +19,9 @@ class _FakeTelegram:
         self.sent.append((chat_id, text))
         return 1
 
+    def edit_message(self, chat_id, message_id, text, keyboard=None):
+        return True
+
     def answer_callback_query(self, callback_query_id: str, text: str = "") -> None:
         self.answered.append(callback_query_id)
 

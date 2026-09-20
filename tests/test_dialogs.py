@@ -99,6 +99,60 @@ def test_parse_zeiten_rejects_invalid_format():
     assert error is not None
 
 
+def test_parse_zeiten_accepts_bare_hour_without_leading_zero():
+    # Regression: '8:00' wurde vorher abgelehnt, weil die Stunde exakt zwei
+    # Ziffern haben musste — Nutzer tippen selten fuehrende Nullen.
+    value, error = dialogs.parse_zeiten("8:00,19:00")
+    assert value == ["08:00", "19:00"]
+    assert error is None
+
+
+def test_parse_zeiten_accepts_just_the_hour():
+    value, error = dialogs.parse_zeiten("8,19")
+    assert value == ["08:00", "19:00"]
+    assert error is None
+
+
+def test_parse_zeiten_accepts_dot_separator():
+    value, error = dialogs.parse_zeiten("8.30")
+    assert value == ["08:30"]
+    assert error is None
+
+
+def test_parse_zeiten_accepts_compact_military_style():
+    value, error = dialogs.parse_zeiten("800,1930")
+    assert value == ["08:00", "19:30"]
+    assert error is None
+
+
+def test_parse_zeiten_rejects_out_of_range_hour():
+    value, error = dialogs.parse_zeiten("25:00")
+    assert value is None
+    assert error is not None
+
+
+def test_parse_radtypen_accepts_comma_separated_names():
+    treffer, error = dialogs.parse_radtypen("gravel, rennrad")
+    assert treffer == ["gravel", "rennrad"]
+    assert error is None
+
+
+def test_parse_radtypen_accepts_space_separated_and_labels():
+    treffer, error = dialogs.parse_radtypen("Gravel Endurance-Rennrad")
+    assert treffer == ["gravel", "endurance_rennrad"]
+
+
+def test_parse_radtypen_deduplicates_while_keeping_order():
+    treffer, _ = dialogs.parse_radtypen("gravel, gravel, rennrad")
+    assert treffer == ["gravel", "rennrad"]
+
+
+def test_parse_radtypen_returns_none_for_no_match():
+    treffer, error = dialogs.parse_radtypen("keine ahnung was ich will")
+    assert treffer is None
+    assert error is None
+
+
 def test_feld_bearbeiten_setzt_edit_flow_und_rueckkehr():
     zustand = dialogs.feld_bearbeiten(dialogs.RADIUS, {"radius": 100})
     assert zustand.flow == "edit"

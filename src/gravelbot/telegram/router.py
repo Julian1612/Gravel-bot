@@ -205,7 +205,13 @@ class Router:
         self.telegram.answer_callback_query(cq["id"])
 
         if data.startswith(("radtyp:", "radius:", "schwelle:")):
-            self._dialog_eingabe(chat_id, self.store.get_dialog(chat_id), data, ist_callback=True)
+            self._dialog_eingabe(
+                chat_id,
+                self.store.get_dialog(chat_id),
+                data,
+                ist_callback=True,
+                message_id=cq["message"]["message_id"],
+            )
             return
         if data.startswith("edit:"):
             self._starte_einzelfeld(chat_id, data.split(":", 1)[1])
@@ -263,7 +269,31 @@ class Router:
 
     # ── Dialog-Zustandsmaschine ─────────────────────────────────────────
 
-    def _dialog_eingabe(self, chat_id: str, dialog_dict: dict | None, wert: str, ist_callback: bool) -> None:
+    def _antworten(
+        self, chat_id: str, message_id: int | None, text: str, keyboard: views.Keyboard | None = None
+    ) -> None:
+        """Editiert die Nachricht in place, wenn wir eine (aus einem
+        Button-Tap) haben — sonst schickt sie neu. Der Grund: jeder Tap auf
+        einen Radtyp-Button hat vorher eine KOMPLETT NEUE Nachricht
+        geschickt; bei mehreren schnellen Taps stapelten sich viele fast
+        identische Nachrichten, jede mit einem anderen eingefrorenen
+        Auswahl-Stand, ohne erkennbar zu machen, welche gerade aktuell ist.
+        Reine Text-Antworten (kein message_id, z.B. nach Eingabe einer PLZ)
+        bleiben neue Nachrichten — dafuer gibt es kein sinnvolles "Original"
+        zum Editieren.
+        """
+        if message_id is not None and self.telegram.edit_message(chat_id, message_id, text, keyboard):
+            return
+        self.telegram.send(text, chat_id=chat_id, keyboard=keyboard)
+
+    def _dialog_eingabe(
+        self,
+        chat_id: str,
+        dialog_dict: dict | None,
+        wert: str,
+        ist_callback: bool,
+        message_id: int | None = None,
+    ) -> None:
         if dialog_dict is None:
             return
         zustand = dialogs.DialogZustand.from_dict(dialog_dict)
@@ -272,28 +302,39 @@ class Router:
 
         if schritt == dialogs.RADTYP:
             # "weiter"/"fertig" als Text zaehlt genauso wie der Button-Tap
-            # auf "Weiter →" — wer das tippt statt zu tippen (im Sinne von
-            # antippen), soll trotzdem vorankommen.
+            # auf "Weiter →". Und: die komplette Auswahl laesst sich auch in
+            # einer Nachricht als Text eintippen (z.B. "gravel, rennrad") —
+            # das umgeht das eigentliche Problem mit Mehrfach-Taps komplett,
+            # statt es nur zu kaschieren (siehe _antworten()-Docstring und
+            # ADR 0007).
             ist_weiter = (ist_callback and wert == "radtyp:weiter") or (
                 not ist_callback and wert.strip().lower() in ("weiter", "fertig", "ok", "los")
             )
+            radtypen_aus_text, _ = dialogs.parse_radtypen(wert) if not ist_callback else (None, None)
             if ist_weiter:
                 if not zustand.daten.get("radtypen"):
-                    fehler = "Bitte zuerst mindestens einen Radtyp antippen (Buttons oben), dann 'weiter'."
+                    fehler = "Bitte zuerst mindestens einen Radtyp auswaehlen, dann 'weiter'."
                 else:
-                    self._schritt_weiter(chat_id, zustand)
+                    self._schritt_weiter(chat_id, zustand, message_id)
                     return
             elif ist_callback:
                 radtyp = wert.split(":", 1)[1]
                 zustand.daten["radtypen"] = dialogs.toggle_radtyp(zustand.daten.get("radtypen", []), radtyp)
                 self.store.set_dialog(chat_id, zustand.to_dict())
                 prompt, kb = views.render_setup_step(schritt, zustand.daten)
-                self.telegram.send(prompt, chat_id=chat_id, keyboard=kb)
+                self._antworten(chat_id, message_id, prompt, kb)
+                return
+            elif radtypen_aus_text:
+                # Text-Eingabe ersetzt die Auswahl komplett und geht direkt
+                # weiter — Tippen der Namen heisst "das sind meine, weiter".
+                zustand.daten["radtypen"] = radtypen_aus_text
+                self._schritt_weiter(chat_id, zustand, message_id)
                 return
             else:
                 fehler = (
-                    "Bitte die Buttons oben antippen, um Radtypen auszuwaehlen — "
-                    "dann 'weiter' tippen oder schreiben."
+                    "Bitte die Buttons oben antippen, um Radtypen auszuwaehlen "
+                    "(dann 'weiter' tippen oder schreiben) — oder direkt als Text "
+                    "schicken, z.B. 'gravel, rennrad'."
                 )
 
         elif schritt == dialogs.STANDORT:
@@ -324,25 +365,29 @@ class Router:
                 zustand.daten["zeiten"] = zeiten
 
         if fehler:
-            self.telegram.send(fehler, chat_id=chat_id)
+            self._antworten(chat_id, message_id, fehler)
             return
 
-        self._schritt_weiter(chat_id, zustand)
+        self._schritt_weiter(chat_id, zustand, message_id)
 
-    def _schritt_weiter(self, chat_id: str, zustand: dialogs.DialogZustand) -> None:
+    def _schritt_weiter(
+        self, chat_id: str, zustand: dialogs.DialogZustand, message_id: int | None = None
+    ) -> None:
         if zustand.flow == "edit":
-            self._dialog_abschliessen(chat_id, zustand)
+            self._dialog_abschliessen(chat_id, zustand, message_id)
             return
         naechster = dialogs.naechster_schritt(zustand.schritt)
         if naechster is None:
-            self._dialog_abschliessen(chat_id, zustand)
+            self._dialog_abschliessen(chat_id, zustand, message_id)
             return
         zustand.schritt = naechster
         self.store.set_dialog(chat_id, zustand.to_dict())
         prompt, kb = views.render_setup_step(naechster, zustand.daten)
-        self.telegram.send(prompt, chat_id=chat_id, keyboard=kb)
+        self._antworten(chat_id, message_id, prompt, kb)
 
-    def _dialog_abschliessen(self, chat_id: str, zustand: dialogs.DialogZustand) -> None:
+    def _dialog_abschliessen(
+        self, chat_id: str, zustand: dialogs.DialogZustand, message_id: int | None = None
+    ) -> None:
         profil = self.store.profil
         daten = zustand.daten
 
@@ -368,11 +413,11 @@ class Router:
         self.store.clear_dialog(chat_id)
 
         if zustand.flow == "edit":
-            self.telegram.send("Gespeichert.", chat_id=chat_id)
+            self._antworten(chat_id, message_id, "Gespeichert.")
             self._zeige_profil(chat_id)
         else:
             text_ = "✅ Setup abgeschlossen! Mit /profil kannst du es dir jederzeit ansehen."
-            self.telegram.send(text_, chat_id=chat_id)
+            self._antworten(chat_id, message_id, text_)
 
     # ── Anzeigen, die den Store lesen ────────────────────────────────────
 

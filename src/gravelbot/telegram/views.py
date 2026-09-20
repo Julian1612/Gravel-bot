@@ -156,7 +156,11 @@ def render_setup_step(schritt: str, daten: dict) -> tuple[str, Keyboard | None]:
             mark = "✅ " if r in ausgewaehlt else ""
             rows.append([_btn(f"{mark}{RADTYP_LABELS[r]}", f"radtyp:{r}")])
         rows.append([_btn("Weiter →", "radtyp:weiter")])
-        return ("Welche Radtypen sollen gesucht werden? (Mehrfachauswahl möglich)", rows)
+        text_ = (
+            "Welche Radtypen sollen gesucht werden? Buttons antippen (Mehrfachauswahl) "
+            "und 'Weiter' — oder alle auf einmal als Text schicken, z.B. 'gravel, rennrad'."
+        )
+        return (text_, rows)
 
     if schritt == dialogs.STANDORT:
         return ("An welcher Postleitzahl orientieren wir uns? (4-5 Ziffern, als Text schicken)", None)
@@ -173,7 +177,7 @@ def render_setup_step(schritt: str, daten: dict) -> tuple[str, Keyboard | None]:
         return ("Ab wie viel Prozent unter Marktwert soll es ein Deal sein?", rows)
 
     if schritt == dialogs.ZEITEN:
-        return ("Zu welchen Uhrzeiten soll der Sammel-Digest kommen? z.B. 08:00,19:00", None)
+        return ("Zu welchen Uhrzeiten soll der Sammel-Digest kommen? z.B. 8,19 oder 08:00,19:00", None)
 
     return ("Unbekannter Schritt.", None)
 
