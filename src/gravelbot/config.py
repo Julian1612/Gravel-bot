@@ -83,6 +83,7 @@ BOT_COMMANDS: list[tuple[str, str]] = [
     ("scan", "Lauf sofort anstossen"),
     ("pause", "Suche pausieren/fortsetzen"),
     ("reset", "Profil auf Standardwerte zuruecksetzen"),
+    ("abbrechen", "Laufenden Dialog abbrechen"),
     ("help", "Diese Uebersicht anzeigen"),
 ]
 

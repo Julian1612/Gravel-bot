@@ -12,6 +12,7 @@ from __future__ import annotations
 import html
 import logging
 
+from gravelbot.config import BOT_COMMANDS
 from gravelbot.enrich.geocode import Geocoder
 from gravelbot.http import Http
 from gravelbot.models import Profil
@@ -22,6 +23,13 @@ from gravelbot.telegram import dialogs, views
 from gravelbot.telegram.client import Telegram
 
 log = logging.getLogger("gravel.telegram.router")
+
+# Jeder dieser Befehle funktioniert IMMER, auch mitten in einem laufenden
+# /setup- oder Einzelfeld-Dialog — siehe _nachricht(). Ohne das waere jede
+# Nachricht, die nicht exakt das ist, was der aktuelle Dialogschritt
+# erwartet, eine Sackgasse: der Nutzer haette keine Moeglichkeit mehr,
+# rauszukommen, auch nicht mit /help oder /abbrechen.
+_GLOBALE_BEFEHLE = frozenset(f"/{befehl}" for befehl, _ in BOT_COMMANDS) | {"/hilfe", "/?"}
 
 
 class Router:
@@ -93,13 +101,35 @@ class Router:
 
     # ── Nachrichten (Text) ──────────────────────────────────────────────
 
+    @staticmethod
+    def _normalisiere_befehl(wort: str) -> str:
+        """ "@botname" abschneiden (Telegram haengt das in manchen Clients an,
+        z.B. "/setup@gravel_bot") und den Slash optional machen — "setup"
+        soll genauso funktionieren wie "/setup", damit man den Bot nicht
+        erst "richtig" ansprechen muss."""
+        cmd = wort.lower().split("@", 1)[0]
+        if not cmd.startswith("/"):
+            cmd = "/" + cmd
+        return cmd
+
     def _nachricht(self, message: dict) -> None:
         chat_id = str(message["chat"]["id"])
         text = (message.get("text") or "").strip()
+        erstes_wort = text.split(maxsplit=1)[0] if text else ""
+        cmd = self._normalisiere_befehl(erstes_wort) if erstes_wort else ""
         dialog = self.store.get_dialog(chat_id)
-        if dialog:
+
+        if dialog and cmd not in _GLOBALE_BEFEHLE:
             self._dialog_eingabe(chat_id, dialog, text, ist_callback=False)
             return
+        if dialog and cmd in _GLOBALE_BEFEHLE:
+            # Der Nutzer will offensichtlich etwas anderes als den laufenden
+            # Dialog fortsetzen (z.B. /help, /profil oder ein neues /setup)
+            # — den Dialog verwerfen, statt ihn als Sackgasse stehen zu
+            # lassen. Das war der Kernbug: /help mitten in /setup fiel
+            # bisher auf denselben "bitte Buttons benutzen"-Fehler zurueck
+            # wie jede andere Nachricht, und es gab keinen Ausweg.
+            self.store.clear_dialog(chat_id)
         self._befehl(chat_id, text)
 
     def _befehl(self, chat_id: str, text: str) -> None:
@@ -112,16 +142,14 @@ class Router:
             return
         cmd, *rest = teile
         arg = rest[0] if rest else ""
-        # Modernes, tolerantes Parsing: "@botname" abschneiden (Telegram
-        # haengt das in manchen Clients an, z.B. "/setup@gravel_bot"),
-        # und den Slash optional machen — "setup" soll genauso funktionieren
-        # wie "/setup", damit man den Bot nicht erst "richtig" ansprechen muss.
-        cmd = cmd.lower().split("@", 1)[0]
-        if not cmd.startswith("/"):
-            cmd = "/" + cmd
+        cmd = self._normalisiere_befehl(cmd)
 
         if cmd in ("/help", "/hilfe", "/?"):
             self.telegram.send(views.render_help(), chat_id=chat_id)
+        elif cmd == "/abbrechen":
+            # _nachricht() hat einen evtl. laufenden Dialog schon verworfen
+            # (siehe _GLOBALE_BEFEHLE) — hier nur noch die Bestaetigung.
+            self.telegram.send("✅ Abgebrochen.", chat_id=chat_id)
         elif cmd == "/start":
             self.telegram.send(views.render_start(), chat_id=chat_id)
         elif cmd == "/setup":
@@ -243,9 +271,15 @@ class Router:
         fehler: str | None = None
 
         if schritt == dialogs.RADTYP:
-            if ist_callback and wert == "radtyp:weiter":
+            # "weiter"/"fertig" als Text zaehlt genauso wie der Button-Tap
+            # auf "Weiter →" — wer das tippt statt zu tippen (im Sinne von
+            # antippen), soll trotzdem vorankommen.
+            ist_weiter = (ist_callback and wert == "radtyp:weiter") or (
+                not ist_callback and wert.strip().lower() in ("weiter", "fertig", "ok", "los")
+            )
+            if ist_weiter:
                 if not zustand.daten.get("radtypen"):
-                    fehler = "Bitte mindestens einen Radtyp auswaehlen."
+                    fehler = "Bitte zuerst mindestens einen Radtyp antippen (Buttons oben), dann 'weiter'."
                 else:
                     self._schritt_weiter(chat_id, zustand)
                     return
@@ -257,7 +291,10 @@ class Router:
                 self.telegram.send(prompt, chat_id=chat_id, keyboard=kb)
                 return
             else:
-                fehler = "Bitte die Buttons zum Auswaehlen benutzen und dann 'Weiter'."
+                fehler = (
+                    "Bitte die Buttons oben antippen, um Radtypen auszuwaehlen — "
+                    "dann 'weiter' tippen oder schreiben."
+                )
 
         elif schritt == dialogs.STANDORT:
             plz, fehler = dialogs.parse_plz(wert)
