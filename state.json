@@ -42,18 +42,38 @@
    48.7667,
    9.1833
   ],
+  "de:73614": [
+   48.808,
+   9.5233
+  ],
+  "de:77815": [
+   48.7,
+   8.15
+  ],
   "de:83671": [
    47.7,
    11.4
+  ],
+  "de:85521": [
+   48.0624,
+   11.6686
+  ],
+  "de:87439": [
+   47.7177,
+   10.2989
+  ],
+  "de:94032": [
+   48.5732,
+   13.4506
   ]
  },
- "last_run": "2026-09-20T14:18:21+00:00",
+ "last_run": "2026-09-20T14:23:53+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1336.13,
    "location": null,
    "prices": [
@@ -77,7 +97,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1252.1,
    "location": null,
    "prices": [
@@ -96,7 +116,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 2092.44,
    "location": null,
    "prices": [
@@ -115,7 +135,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1924.37,
    "location": null,
    "prices": [
@@ -134,7 +154,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1487.4,
    "location": null,
    "prices": [
@@ -166,6 +186,44 @@
    "source": "bike_components",
    "title": "Salsa Cutthroat Carbon GRX610 29\" Gravelbike",
    "url": "https://www.bike-components.de/de/Salsa/Cutthroat-Carbon-GRX610-29-Gravelbike-p233910/?v=60646-smoke-black",
+   "zip": null
+  },
+  "bikemarkt:1336786": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1900.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Pinarello Dogma F8 / RH 56 / Campagnolo Super Record / Light",
+   "url": "https://bikemarkt.mtb-news.de/article/1336786-pinarello-dogma-f8-rh-56-campagnolo-super-record-light",
+   "zip": null
+  },
+  "bikemarkt:1606949": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1300.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Cannondale System Six Liquigas - erstklassiger Zustand!",
+   "url": "https://bikemarkt.mtb-news.de/article/1606949-cannondale-system-six-liquigas-erstklassiger-zustand",
    "zip": null
   },
   "bikemarkt:1666803": {
@@ -208,7 +266,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -240,11 +298,49 @@
    "url": "https://bikemarkt.mtb-news.de/article/1745747-giant-tcx-advanced-pro-0-groesse-ml-axs-powermeter-dt-swiss-2300km",
    "zip": null
   },
+  "bikemarkt:1767746": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1299.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Focus Mares CX",
+   "url": "https://bikemarkt.mtb-news.de/article/1767746-focus-mares-cx",
+   "zip": null
+  },
+  "bikemarkt:1776370": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1600.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Br Triathlonrad Aerorad Brothers Bikes N1 Nice One 7,8kg leicht, 150km!!",
+   "url": "https://bikemarkt.mtb-news.de/article/1776370-br-triathlonrad-aerorad-brothers-bikes-n1-nice-one-7-8kg-leicht-150km",
+   "zip": null
+  },
   "bikemarkt:1778115": {
    "alerted": {},
    "first_seen": "2026-09-20T14:01:28+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -268,7 +364,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -304,7 +400,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -340,7 +436,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -358,7 +454,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -394,7 +490,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -453,7 +549,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -543,7 +639,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -561,7 +657,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -602,7 +698,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -620,7 +716,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -638,7 +734,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -692,7 +788,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -710,7 +806,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -746,7 +842,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -764,7 +860,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -782,7 +878,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -800,7 +896,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -818,7 +914,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -890,7 +986,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -944,7 +1040,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1003,7 +1099,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1026,7 +1122,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1049,7 +1145,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1085,7 +1181,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1121,7 +1217,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1139,7 +1235,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1151,6 +1247,25 @@
    "shipping": false,
    "title": "Specialized Diverge",
    "url": "https://bikemarkt.mtb-news.de/article/1792718-specialized-diverge",
+   "zip": null
+  },
+  "bikemarkt:1792790": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     960.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Scott Foil 20",
+   "url": "https://bikemarkt.mtb-news.de/article/1792790-scott-foil-20",
    "zip": null
   },
   "bikemarkt:1793122": {
@@ -1176,11 +1291,49 @@
    "url": "https://bikemarkt.mtb-news.de/article/1793122-cannondale-topstone-carbon-lefty-gr-l-carbon-lrs-sram-axs",
    "zip": null
   },
+  "bikemarkt:1793195": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1799.99
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "BMC Roadmachine Gr. 56",
+   "url": "https://bikemarkt.mtb-news.de/article/1793195-bmc-roadmachine-gr-56",
+   "zip": null
+  },
+  "bikemarkt:1793197": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1799.99
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "BMC Teammachine SLR Two, Rot, Gr. 56",
+   "url": "https://bikemarkt.mtb-news.de/article/1793197-bmc-teammachine-slr-two-rot-gr-56",
+   "zip": null
+  },
   "bikemarkt:1793374": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1212,6 +1365,44 @@
    "url": "https://bikemarkt.mtb-news.de/article/1793680-giant-revolt-advanced-1-rival-axs",
    "zip": null
   },
+  "bikemarkt:1793814": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": true,
+   "source": "bikemarkt",
+   "title": "Trek TCT 5000",
+   "url": "https://bikemarkt.mtb-news.de/article/1793814-trek-tct-5000",
+   "zip": null
+  },
+  "bikemarkt:1793914": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1949.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Giant TCR Advanced 0 Ultegra mechanisch",
+   "url": "https://bikemarkt.mtb-news.de/article/1793914-giant-tcr-advanced-0-ultegra-mechanisch",
+   "zip": null
+  },
   "bikemarkt:1794067": {
    "alerted": {
     "under_market": [
@@ -1221,7 +1412,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1244,7 +1435,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1262,7 +1453,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1292,6 +1483,25 @@
    "shipping": false,
    "title": "Ghost Bikes Asket",
    "url": "https://bikemarkt.mtb-news.de/article/1794582-ghost-bikes-asket",
+   "zip": null
+  },
+  "bikemarkt:1794617": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1650.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Focus Paralane2 Gr. 57, (Carbon, DuraAce)",
+   "url": "https://bikemarkt.mtb-news.de/article/1794617-focus-paralane2-gr-57-carbon-duraace",
    "zip": null
   },
   "bikemarkt:1794654": {
@@ -1328,6 +1538,158 @@
    "shipping": false,
    "title": "Cannondale Topstone Carbon lefty 1 axs",
    "url": "https://bikemarkt.mtb-news.de/article/1794711-cannondale-topstone-carbon-lefty-1-axs",
+   "zip": null
+  },
+  "bikemarkt:1794826": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1750.0
+    ]
+   ],
+   "shipping": true,
+   "source": "bikemarkt",
+   "title": "Cannondale Supersix Hi-Mod Größe 52 Power2Max, Zipp, Carbon-LRS",
+   "url": "https://bikemarkt.mtb-news.de/article/1794826-cannondale-supersix-hi-mod-groesse-52-power2max-zipp-carbon-lrs",
+   "zip": null
+  },
+  "bikemarkt:1795023": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Pinarello FP2 Road",
+   "url": "https://bikemarkt.mtb-news.de/article/1795023-pinarello-fp2-road",
+   "zip": null
+  },
+  "bikemarkt:1795024": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Pinarello FP2 Road",
+   "url": "https://bikemarkt.mtb-news.de/article/1795024-pinarello-fp2-road",
+   "zip": null
+  },
+  "bikemarkt:1795234": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1250.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Giant TCR Advanced Pro 1 Disc",
+   "url": "https://bikemarkt.mtb-news.de/article/1795234-giant-tcr-advanced-pro-1-disc",
+   "zip": null
+  },
+  "bikemarkt:1795279": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1800.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Wilier Rennrad Carbon Wilier Garda - Shimano Ultegra (2x11) - Gr. S",
+   "url": "https://bikemarkt.mtb-news.de/article/1795279-wilier-rennrad-carbon-wilier-garda-shimano-ultegra-2x11-gr-s",
+   "zip": null
+  },
+  "bikemarkt:1795296": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1000.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Canyon Endurace WMN AL Disc 7.0 105 + Stages Powermeter - Gr. S - 2020",
+   "url": "https://bikemarkt.mtb-news.de/article/1795296-canyon-endurace-wmn-al-disc-7-0-105-stages-powermeter-gr-s-2020",
+   "zip": null
+  },
+  "bikemarkt:1795345": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1800.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Bianchi Arcadex Ekar 13 Carbon",
+   "url": "https://bikemarkt.mtb-news.de/article/1795345-bianchi-arcadex-ekar-13-carbon",
+   "zip": null
+  },
+  "bikemarkt:1795505": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1299.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Norco Valence Ultegra Carbon Größe 55 Carbon Rennrad",
+   "url": "https://bikemarkt.mtb-news.de/article/1795505-norco-valence-ultegra-carbon-groesse-55-carbon-rennrad",
    "zip": null
   },
   "bikemarkt:1795506": {
@@ -1479,6 +1841,25 @@
    "url": "https://bikemarkt.mtb-news.de/article/1795779-ktm-x-strada-prime",
    "zip": null
   },
+  "bikemarkt:1796055": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1450.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Cube Reaction C:62 Pro - 29\" Carbon MTB",
+   "url": "https://bikemarkt.mtb-news.de/article/1796055-cube-reaction-c-62-pro-29-carbon-mtb",
+   "zip": null
+  },
   "bikemarkt:1796200": {
    "alerted": {
     "under_market": [
@@ -1488,7 +1869,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1524,7 +1905,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1538,6 +1919,144 @@
    "url": "https://bikemarkt.mtb-news.de/article/1796483-pasculli-lisore-cross-allroad-carbon-ultegra-sehr-leicht-9-5-kg",
    "zip": null
   },
+  "bikemarkt:1796629": {
+   "alerted": {
+    "under_market": [
+     "2026-09-20T14:23:53+00:00",
+     2000.0
+    ]
+   },
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     2000.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Cervélo Aspero Apex",
+   "url": "https://bikemarkt.mtb-news.de/article/1796629-cervelo-aspero-apex",
+   "zip": null
+  },
+  "bikemarkt:1797060": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1450.0
+    ]
+   ],
+   "shipping": true,
+   "source": "bikemarkt",
+   "title": "Cube Aerium HPC Triathlon Rad - Rennrad - Shimano Ultegra - Mavic",
+   "url": "https://bikemarkt.mtb-news.de/article/1797060-cube-aerium-hpc-triathlon-rad-rennrad-shimano-ultegra-mavic",
+   "zip": null
+  },
+  "bikemarkt:1797065": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1099.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Cannondale Slice / Rennrad / Triathlon",
+   "url": "https://bikemarkt.mtb-news.de/article/1797065-cannondale-slice-rennrad-triathlon",
+   "zip": null
+  },
+  "bikemarkt:1797078": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     2000.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Specialized Aethos 10r Comp Rennrad 56 L schwarz-silber",
+   "url": "https://bikemarkt.mtb-news.de/article/1797078-specialized-aethos-10r-comp-rennrad-56-l-schwarz-silber",
+   "zip": null
+  },
+  "bikemarkt:1797184": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1650.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Wilier Cento10 Pro",
+   "url": "https://bikemarkt.mtb-news.de/article/1797184-wilier-cento10-pro",
+   "zip": null
+  },
+  "bikemarkt:1797291": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     999.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Rose Bikes X Lite 4, RH 62 / XL",
+   "url": "https://bikemarkt.mtb-news.de/article/1797291-rose-bikes-x-lite-4-rh-62-xl",
+   "zip": null
+  },
+  "bikemarkt:1797294": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1150.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "No Name Titan Rennrad / Klassiker | Campagnolo Record 8-fach | Berthoud Aravis",
+   "url": "https://bikemarkt.mtb-news.de/article/1797294-no-name-titan-rennrad-klassiker-campagnolo-record-8-fach-berthoud-aravis",
+   "zip": null
+  },
   "bikemarkt:1797298": {
    "alerted": {
     "under_market": [
@@ -1547,7 +2066,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1559,6 +2078,44 @@
    "shipping": false,
    "title": "Specialized Diverge E5 Comp 2021  RH56 + diverse upgrades",
    "url": "https://bikemarkt.mtb-news.de/article/1797298-specialized-diverge-e5-comp-2021-rh56-diverse-upgrades",
+   "zip": null
+  },
+  "bikemarkt:1797460": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1650.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Stevens Pista",
+   "url": "https://bikemarkt.mtb-news.de/article/1797460-stevens-pista",
+   "zip": null
+  },
+  "bikemarkt:1797548": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1999.0
+    ]
+   ],
+   "shipping": true,
+   "source": "bikemarkt",
+   "title": "Genesis Croix de Fer Gr. L Reiserad SON Ultegra Randonneur",
+   "url": "https://bikemarkt.mtb-news.de/article/1797548-genesis-croix-de-fer-gr-l-reiserad-son-ultegra-randonneur",
    "zip": null
   },
   "bikemarkt:1797591": {
@@ -1577,6 +2134,25 @@
    "shipping": false,
    "title": "Orbea Terra M30 TEAM Carbon Nickel - Metallic Cinamon (Matt) Gr.: L",
    "url": "https://bikemarkt.mtb-news.de/article/1797591-orbea-terra-m30-team-carbon-nickel-metallic-cinamon-matt-gr-l",
+   "zip": null
+  },
+  "bikemarkt:1797612": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1899.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Bulls Grinder 5 Gravelbike 2022 | RH 55 | nur 100 km | GRX",
+   "url": "https://bikemarkt.mtb-news.de/article/1797612-bulls-grinder-5-gravelbike-2022-rh-55-nur-100-km-grx",
    "zip": null
   },
   "bikemarkt:1797634": {
@@ -1601,7 +2177,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": "51702 Bergneustadt Versand",
    "prices": [
@@ -1614,6 +2190,25 @@
    "title": "Scott Scale Gravel NEU",
    "url": "https://bikemarkt.mtb-news.de/article/1797648-scott-scale-gravel-neu",
    "zip": "51702"
+  },
+  "bikemarkt:1797775": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     999.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Rennrad colnago",
+   "url": "https://bikemarkt.mtb-news.de/article/1797775-rennrad-colnago",
+   "zip": null
   },
   "bikemarkt:1797801": {
    "alerted": {},
@@ -1678,7 +2273,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1710,6 +2305,25 @@
    "url": "https://bikemarkt.mtb-news.de/article/1798121-mondraker-gravel-arid-m-l-custom-build",
    "zip": null
   },
+  "bikemarkt:1798176": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1800.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Santa Cruz Bicycles Stigmata CC, 58cm, Force CX1, Enve, White Ind...",
+   "url": "https://bikemarkt.mtb-news.de/article/1798176-santa-cruz-bicycles-stigmata-cc-58cm-force-cx1-enve-white-ind",
+   "zip": null
+  },
   "bikemarkt:1798185": {
    "alerted": {
     "under_market": [
@@ -1719,7 +2333,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1737,7 +2351,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1755,7 +2369,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1785,6 +2399,25 @@
    "shipping": false,
    "title": "Cube Nuroad C:62 Pro FE vulcan´n´prism XS",
    "url": "https://bikemarkt.mtb-news.de/article/1798425-cube-nuroad-c-62-pro-fe-vulcan-n-prism-xs",
+   "zip": null
+  },
+  "bikemarkt:1798447": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1400.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Trek Madone 5.2",
+   "url": "https://bikemarkt.mtb-news.de/article/1798447-trek-madone-5-2",
    "zip": null
   },
   "bikemarkt:1798677": {
@@ -1823,6 +2456,44 @@
    "url": "https://bikemarkt.mtb-news.de/article/1798678-ns-bikes-rag-3-road-gravel-plus-700c-abverkauf-gr-m-oder-l",
    "zip": null
   },
+  "bikemarkt:1798689": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1600.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Rose Bikes Reveal AL 105 Gr. 55 cm wie neu",
+   "url": "https://bikemarkt.mtb-news.de/article/1798689-rose-bikes-reveal-al-105-gr-55-cm-wie-neu",
+   "zip": null
+  },
+  "bikemarkt:1798737": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1500.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Liv Langma Advanced Pro 1 Größe M Top Zustand",
+   "url": "https://bikemarkt.mtb-news.de/article/1798737-liv-langma-advanced-pro-1-groesse-m-top-zustand",
+   "zip": null
+  },
   "bikemarkt:1798742": {
    "alerted": {
     "under_market": [
@@ -1832,7 +2503,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1855,7 +2526,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1873,7 +2544,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1887,11 +2558,87 @@
    "url": "https://bikemarkt.mtb-news.de/article/1798955-ridley-kanzo-adventure",
    "zip": null
   },
+  "bikemarkt:1799076": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1499.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Orbea Orca M30 Gr. 49 / Modell 2025",
+   "url": "https://bikemarkt.mtb-news.de/article/1799076-orbea-orca-m30-gr-49-modell-2025",
+   "zip": null
+  },
+  "bikemarkt:1799359": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     2100.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Cube Litening C:68 SLR",
+   "url": "https://bikemarkt.mtb-news.de/article/1799359-cube-litening-c-68-slr",
+   "zip": null
+  },
+  "bikemarkt:1799380": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1750.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Trek Emonda SL6 Carbon Ultegra RH 56",
+   "url": "https://bikemarkt.mtb-news.de/article/1799380-trek-emonda-sl6-carbon-ultegra-rh-56",
+   "zip": null
+  },
+  "bikemarkt:1799455": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1900.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Ritchey Road Logic Rim 53",
+   "url": "https://bikemarkt.mtb-news.de/article/1799455-ritchey-road-logic-rim-53",
+   "zip": null
+  },
   "bikemarkt:1799470": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1914,7 +2661,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1932,7 +2679,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1944,6 +2691,68 @@
    "shipping": false,
    "title": "Rose Bikes ROSE Backroad Carbon 62 | GRX 600 | DTSwiss GR1600 27,5 | Redshift",
    "url": "https://bikemarkt.mtb-news.de/article/1799583-rose-bikes-rose-backroad-carbon-62-grx-600-dtswiss-gr1600-27-5-redshift",
+   "zip": null
+  },
+  "bikemarkt:1799641": {
+   "alerted": {
+    "under_market": [
+     "2026-09-20T14:23:53+00:00",
+     2059.0
+    ]
+   },
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     2059.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Scott Addict 10 Disc",
+   "url": "https://bikemarkt.mtb-news.de/article/1799641-scott-addict-10-disc",
+   "zip": null
+  },
+  "bikemarkt:1799672": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1500.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "BMC Urs AL one",
+   "url": "https://bikemarkt.mtb-news.de/article/1799672-bmc-urs-al-one",
+   "zip": null
+  },
+  "bikemarkt:1799732": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1200.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Liv avail advanced 2",
+   "url": "https://bikemarkt.mtb-news.de/article/1799732-liv-avail-advanced-2",
    "zip": null
   },
   "bikemarkt:1799775": {
@@ -1968,7 +2777,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2004,7 +2813,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2045,7 +2854,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2057,6 +2866,25 @@
    "shipping": false,
    "title": "Rondo MYLC CF2 Gravel Plus, verschiedene Größen",
    "url": "https://bikemarkt.mtb-news.de/article/1799977-rondo-mylc-cf2-gravel-plus-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1800047": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     2100.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Canyon Ultimate CF SL 7 Gr. S",
+   "url": "https://bikemarkt.mtb-news.de/article/1800047-canyon-ultimate-cf-sl-7-gr-s",
    "zip": null
   },
   "bikemarkt:1800090": {
@@ -2075,6 +2903,25 @@
    "shipping": false,
    "title": "Rondo Ruut CF 1 Gravel Plus Bike, verschiedene Größen",
    "url": "https://bikemarkt.mtb-news.de/article/1800090-rondo-ruut-cf-1-gravel-plus-bike-verschiedene-groessen",
+   "zip": null
+  },
+  "bikemarkt:1800281": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": false,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": null,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1700.0
+    ]
+   ],
+   "shipping": false,
+   "source": "bikemarkt",
+   "title": "Benotti Fuoco Carbon",
+   "url": "https://bikemarkt.mtb-news.de/article/1800281-benotti-fuoco-carbon",
    "zip": null
   },
   "canyon_outlet:3576": {
@@ -2110,7 +2957,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -2129,7 +2976,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -2191,7 +3038,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -2204,6 +3051,63 @@
    "source": "canyon_outlet",
    "title": "Grizl CF 7",
    "url": "https://www.canyon.com/de-de/gravel-bikes/adventure/grizl/cf/grizl-cf-7/4167.html",
+   "zip": null
+  },
+  "canyon_outlet:4273": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": 1499.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1259.66
+    ]
+   ],
+   "shipping": true,
+   "source": "canyon_outlet",
+   "title": "Endurace CF 6",
+   "url": "https://www.canyon.com/de-de/rennrad/endurance-rennrad/endurace/cf/endurace-cf-6/4273.html",
+   "zip": null
+  },
+  "canyon_outlet:4585": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": 1499.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1259.66
+    ]
+   ],
+   "shipping": true,
+   "source": "canyon_outlet",
+   "title": "Aeroad CF SLX Disc Frame and Brake Kit",
+   "url": "https://www.canyon.com/de-de/fahrrad-outlet/rennrad/aeroad-cf-slx-disc-frame-and-brake-kit/4585.html",
+   "zip": null
+  },
+  "canyon_outlet:4587": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": 1999.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1679.83
+    ]
+   ],
+   "shipping": true,
+   "source": "canyon_outlet",
+   "title": "Aeroad CFR Disc Frame and Brake Kit",
+   "url": "https://www.canyon.com/de-de/fahrrad-outlet/rennrad/aeroad-cfr-disc-frame-and-brake-kit/4587.html",
    "zip": null
   },
   "rose_sale:160226": {
@@ -2223,6 +3127,25 @@
    "source": "rose_sale",
    "title": "Backroad AL Plus Cues",
    "url": "https://www.rosebikes.de/p/rose-backroad-al-plus-cues-160226",
+   "zip": null
+  },
+  "rose_sale:2710170": {
+   "alerted": {},
+   "first_seen": "2026-09-20T14:23:52+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-20T14:23:52+00:00",
+   "list_price": 2000.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-20T14:23:52+00:00",
+     1300.0
+    ]
+   ],
+   "shipping": true,
+   "source": "rose_sale",
+   "title": "Reveal AL 105",
+   "url": "https://www.rosebikes.de/p/rose-reveal-al-105-2710170?size=8270&product_shape=20783",
    "zip": null
   },
   "rose_sale:2710904": {
@@ -2248,7 +3171,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1400.0,
    "location": null,
    "prices": [
@@ -2267,7 +3190,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 2799.0,
    "location": null,
    "prices": [
@@ -2305,7 +3228,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
+   "last_seen": "2026-09-20T14:23:52+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -2428,6 +3351,7 @@
  },
  "market": {
   "alutech punk": [
+   1550.0,
    1550.0
   ],
   "basic bikes basic": [
@@ -2438,6 +3362,36 @@
    3450.0,
    3450.0,
    3450.0
+  ],
+  "benotti fuoco": [
+   1700.0
+  ],
+  "bianchi arcadex": [
+   1800.0
+  ],
+  "bmc roadmachine": [
+   1799.99
+  ],
+  "bmc teammachine": [
+   1799.99
+  ],
+  "bmc urs": [
+   1500.0
+  ],
+  "br triathlonrad": [
+   1600.0
+  ],
+  "bulls grinder": [
+   1899.0
+  ],
+  "cannondale slice": [
+   1099.0
+  ],
+  "cannondale supersix": [
+   1750.0
+  ],
+  "cannondale system": [
+   1300.0
   ],
   "cannondale topstone": [
    3000.0,
@@ -2454,6 +3408,14 @@
    2399.0,
    3000.0,
    2399.0
+  ],
+  "canyon aeroad": [
+   1259.66,
+   1679.83
+  ],
+  "canyon endurace": [
+   1000.0,
+   1259.66
   ],
   "canyon grail": [
    2772.27,
@@ -2488,6 +3450,10 @@
    2100.0,
    3360.5,
    1259.66,
+   1763.87,
+   1599.0,
+   2100.0,
+   1259.66,
    1763.87
   ],
   "canyon inflite": [
@@ -2497,9 +3463,11 @@
    1350.0,
    1350.0,
    1350.0,
+   1350.0,
    1350.0
   ],
   "canyon pathlite": [
+   900.0,
    900.0,
    900.0,
    900.0,
@@ -2517,7 +3485,11 @@
    650.0,
    650.0
   ],
+  "canyon ultimate": [
+   2100.0
+  ],
   "carbon cfr": [
+   1399.0,
    1399.0,
    1399.0,
    1399.0,
@@ -2542,14 +3514,18 @@
    3199.0,
    3199.0,
    3199.0,
-   3199.0
+   3199.0,
+   2000.0
   ],
   "cinelli hobootleg": [
+   1750.0,
    1750.0,
    1750.0,
    1750.0
   ],
   "cinelli zydeco": [
+   1590.0,
+   1000.0,
    1590.0,
    1000.0,
    1590.0,
@@ -2566,7 +3542,14 @@
    3099.0,
    3099.0
   ],
+  "cube aerium": [
+   1450.0
+  ],
+  "cube litening": [
+   2100.0
+  ],
   "cube nulane": [
+   990.0,
    990.0,
    990.0,
    990.0,
@@ -2584,7 +3567,11 @@
    2300.0,
    2300.0
   ],
+  "cube reaction": [
+   1450.0
+  ],
   "custom breezer": [
+   1199.0,
    1199.0,
    1199.0,
    1199.0,
@@ -2609,7 +3596,14 @@
    1999.99,
    1999.99,
    1999.99,
+   1999.99,
    1999.99
+  ],
+  "focus mares": [
+   1299.0
+  ],
+  "focus paralane2": [
+   1650.0
   ],
   "genesis croix": [
    1395.0,
@@ -2618,6 +3612,8 @@
    1395.0,
    1395.0,
    1395.0,
+   1395.0,
+   1999.0,
    1395.0
   ],
   "ghost bikes": [
@@ -2678,7 +3674,15 @@
    2100.0,
    2299.0,
    980.0,
-   2600.0
+   2600.0,
+   975.0,
+   1200.0,
+   2100.0,
+   980.0
+  ],
+  "giant tcr": [
+   1250.0,
+   1949.0
   ],
   "giant tcx": [
    2900.0,
@@ -2696,9 +3700,11 @@
    900.0,
    900.0,
    900.0,
+   900.0,
    900.0
   ],
   "kona ouroboros": [
+   1799.0,
    1799.0,
    1799.0,
    1799.0,
@@ -2734,7 +3740,14 @@
    2350.0,
    2350.0
   ],
+  "liv avail": [
+   1200.0
+  ],
+  "liv langma": [
+   1500.0
+  ],
   "marin bikes dsx": [
+   1000.0,
    1000.0,
    1000.0,
    1000.0,
@@ -2744,6 +3757,7 @@
    1000.0
   ],
   "marin bikes gestalt": [
+   1260.0,
    1260.0,
    1260.0,
    1260.0
@@ -2790,6 +3804,10 @@
    2199.0,
    1900.0,
    1799.0,
+   1499.0,
+   1999.0,
+   1900.0,
+   1799.0,
    1499.0
   ],
   "mondraker arid": [
@@ -2810,6 +3828,9 @@
    3490.0,
    3490.0
   ],
+  "no name": [
+   1150.0
+  ],
   "norco search": [
    1399.0,
    1399.0,
@@ -2817,7 +3838,11 @@
    1399.0,
    1399.0,
    1399.0,
+   1399.0,
    1399.0
+  ],
+  "norco valence": [
+   1299.0
   ],
   "ns bikes rag": [
    729.99,
@@ -2886,6 +3911,9 @@
    2799.0,
    1799.0
   ],
+  "orbea orca": [
+   1499.0
+  ],
   "orbea terra": [
    1300.0,
    2999.0,
@@ -2907,7 +3935,8 @@
    3500.0,
    1300.0,
    2999.0,
-   3500.0
+   3500.0,
+   1300.0
   ],
   "otso warakin": [
    3300.0,
@@ -2925,7 +3954,15 @@
    1190.0,
    1190.0,
    1190.0,
+   1190.0,
    1190.0
+  ],
+  "pinarello dogma": [
+   1900.0
+  ],
+  "pinarello fp2": [
+   1200.0,
+   1200.0
   ],
   "pivot cycles": [
    2799.0,
@@ -2944,6 +3981,9 @@
    3200.0,
    3200.0,
    3200.0
+  ],
+  "rennrad colnago": [
+   999.0
   ],
   "ridley kanzo": [
    1699.0,
@@ -2973,9 +4013,16 @@
    1699.0,
    1550.0,
    1500.0,
-   2799.0
+   2799.0,
+   1699.0,
+   1550.0,
+   1500.0
+  ],
+  "ritchey road": [
+   1900.0
   ],
   "rondo bogan": [
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -2991,9 +4038,11 @@
    1299.99,
    1299.99,
    1299.99,
+   1299.99,
    1299.99
   ],
   "rondo mutt": [
+   2000.0,
    2000.0,
    2000.0,
    2000.0,
@@ -3016,7 +4065,8 @@
    1699.99,
    2799.99,
    1699.99,
-   2799.99
+   2799.99,
+   1699.99
   ],
   "rondo ruut": [
    2299.98,
@@ -3038,6 +4088,8 @@
    1100.0,
    2100.0,
    2299.98,
+   1100.0,
+   2100.0,
    1100.0,
    2100.0
   ],
@@ -3064,7 +4116,8 @@
    2299.0,
    2450.0,
    3450.0,
-   3450.0
+   3450.0,
+   2099.0
   ],
   "rose bikes backroad": [
    1799.0,
@@ -3101,7 +4154,12 @@
    1699.0,
    2799.0,
    2199.0,
-   3099.0
+   3099.0,
+   1799.0,
+   1699.0
+  ],
+  "rose bikes reveal": [
+   1600.0
   ],
   "rose bikes rose": [
    1690.0,
@@ -3117,7 +4175,12 @@
    1690.0,
    1700.0,
    1690.0,
+   1700.0,
+   1690.0,
    1700.0
+  ],
+  "rose bikes x": [
+   999.0
   ],
   "rose blend": [
    1300.0,
@@ -3125,7 +4188,12 @@
    1300.0,
    1200.0,
    1300.0,
+   1200.0,
+   1300.0,
    1200.0
+  ],
+  "rose reveal": [
+   1300.0
   ],
   "salca warbird": [
    2500.0,
@@ -3141,7 +4209,11 @@
    2690.0,
    2690.0
   ],
+  "santa cruz bicycles": [
+   1800.0
+  ],
   "sc juniper": [
+   1999.0,
    1999.0,
    1999.0,
    1999.0,
@@ -3157,9 +4229,14 @@
    2999.0,
    2999.0,
    2999.0,
-   2999.0
+   2999.0,
+   2059.0
+  ],
+  "scott foil": [
+   960.0
   ],
   "scott scale": [
+   1790.0,
    1790.0,
    1790.0,
    1790.0,
@@ -3181,7 +4258,11 @@
    950.0,
    1333.0,
    950.0,
+   950.0,
    950.0
+  ],
+  "specialized aethos": [
+   2000.0
   ],
   "specialized crux": [
    1666.0,
@@ -3204,7 +4285,8 @@
    2899.0,
    1666.0,
    2500.0,
-   2899.0
+   2899.0,
+   1666.0
   ],
   "specialized diverge": [
    1350.0,
@@ -3248,6 +4330,11 @@
    1400.0,
    2100.0,
    1200.0,
+   2000.0,
+   1350.0,
+   1400.0,
+   2100.0,
+   1200.0,
    2000.0
   ],
   "specialized sequoia": [
@@ -3266,7 +4353,11 @@
    1400.0,
    1400.0,
    1400.0,
+   1400.0,
    1400.0
+  ],
+  "stevens pista": [
+   1650.0
   ],
   "trek checkpoint": [
    1160.0,
@@ -3289,7 +4380,11 @@
    2400.0,
    1160.0,
    2450.0,
-   2400.0
+   2400.0,
+   1160.0
+  ],
+  "trek emonda": [
+   1750.0
   ],
   "trek fx": [
    1699.0,
@@ -3298,7 +4393,14 @@
    1699.0,
    1699.0,
    1699.0,
+   1699.0,
    1699.0
+  ],
+  "trek madone": [
+   1400.0
+  ],
+  "trek tct": [
+   1200.0
   ],
   "van rysel": [
    3006.0,
@@ -3316,12 +4418,20 @@
    1999.0,
    1999.0,
    1999.0,
+   1999.0,
    1999.0
+  ],
+  "wilier cento10": [
+   1650.0
   ],
   "wilier jaroon": [
    1170.0,
    1170.0,
+   1170.0,
    1170.0
+  ],
+  "wilier rennrad": [
+   1800.0
   ]
  },
  "merkliste": {
@@ -3332,6 +4442,13 @@
   }
  },
  "neupreise": {
+  "canyon aeroad": [
+   1499.0,
+   1999.0
+  ],
+  "canyon endurace": [
+   1499.0
+  ],
   "canyon grail": [
    3299.0,
    2699.0,
@@ -3351,9 +4468,13 @@
    2499.0,
    3999.0,
    1499.0,
+   2099.0,
+   2499.0,
+   1499.0,
    2099.0
   ],
   "cinelli hobootleg": [
+   2092.44,
    2092.44,
    2092.44,
    2092.44
@@ -3364,9 +4485,12 @@
    1924.37,
    1252.1,
    1924.37,
+   1252.1,
+   1924.37,
    1252.1
   ],
   "marin bikes gestalt": [
+   1487.4,
    1487.4,
    1487.4,
    1487.4
@@ -3394,7 +4518,8 @@
    2999.0,
    2500.0,
    3500.0,
-   3500.0
+   3500.0,
+   2799.0
   ],
   "rose blend": [
    1400.0,
@@ -3402,7 +4527,12 @@
    1400.0,
    1300.0,
    1400.0,
+   1300.0,
+   1400.0,
    1300.0
+  ],
+  "rose reveal": [
+   2000.0
   ],
   "salsa cutthroat": [
    3016.81,
@@ -3410,6 +4540,7 @@
    3016.81
   ],
   "wilier jaroon": [
+   1336.13,
    1336.13,
    1336.13,
    1336.13
@@ -3445,5 +4576,5 @@
   "seed_run_silent": true
  },
  "schema_version": 2,
- "telegram_offset": 593941386
+ "telegram_offset": 593941387
 }
