@@ -33,7 +33,15 @@ class Router:
         self.scan_erzwingen = False
 
     def verarbeite_updates(self) -> None:
-        if not self.telegram.enabled:
+        """Polling-Pfad: alle Updates seit dem letzten offset abholen.
+
+        Nur relevant, solange kein Telegram-Webhook eingerichtet ist —
+        Telegram erlaubt getUpdates und Webhook nicht gleichzeitig (sonst
+        liefert getUpdates einen Konflikt-Fehler). Mit aktivem Webhook
+        (Settings.telegram_webhook_mode) uebernimmt verarbeite_ein_update()
+        die Zustellung, siehe docs/adr/0006-telegram-webhook.md.
+        """
+        if not self.telegram.enabled or self.settings.telegram_webhook_mode:
             return
         updates = self.telegram.get_updates(self.store.telegram_offset)
         for update in updates:
@@ -42,6 +50,18 @@ class Router:
                 self._verarbeite_update(update)
             except Exception:
                 log.exception("Update %s fehlgeschlagen", update.get("update_id"))
+
+    def verarbeite_ein_update(self, update: dict) -> None:
+        """Webhook-Pfad: ein einzelnes, bereits vorliegendes Update sofort
+        verarbeiten (kein getUpdates, kein Offset-Abgleich noetig — Telegram
+        liefert per Webhook jedes Update genau einmal)."""
+        update_id = update.get("update_id")
+        if update_id is not None:
+            self.store.telegram_offset = update_id + 1
+        try:
+            self._verarbeite_update(update)
+        except Exception:
+            log.exception("Update %s fehlgeschlagen", update_id)
 
     def _ist_autorisiert(self, chat_id: str) -> bool:
         """Nur der in TELEGRAM_CHAT_ID konfigurierte Chat darf den Bot steuern.

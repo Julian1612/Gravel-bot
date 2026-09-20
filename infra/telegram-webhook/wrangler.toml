@@ -1,0 +1,12 @@
+# Optional — nur noetig, wenn du per `wrangler deploy` statt ueber das
+# Cloudflare-Dashboard deployen willst. Siehe docs/telegram-webhook-setup.md.
+
+name = "gravel-bot-telegram-webhook"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Secrets NICHT hier eintragen (landen sonst in Git) — stattdessen:
+#   wrangler secret put TELEGRAM_WEBHOOK_SECRET
+#   wrangler secret put GITHUB_TOKEN
+#   wrangler secret put GITHUB_OWNER
+#   wrangler secret put GITHUB_REPO

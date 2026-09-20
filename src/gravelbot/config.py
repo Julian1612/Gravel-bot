@@ -58,6 +58,12 @@ class Settings:
 
     telegram_bot_token: str = field(default_factory=lambda: os.environ.get("TELEGRAM_BOT_TOKEN", "").strip())
     telegram_chat_id: str = field(default_factory=lambda: os.environ.get("TELEGRAM_CHAT_ID", "").strip())
+    # True, sobald ein Telegram-Webhook eingerichtet ist (siehe
+    # docs/adr/0006-telegram-webhook.md) — dann darf der reguläre Cron-Lauf
+    # nicht mehr per getUpdates pollen, das kollidiert mit dem Webhook.
+    telegram_webhook_mode: bool = field(
+        default_factory=lambda: os.environ.get("TELEGRAM_WEBHOOK_MODE", "").strip() == "1"
+    )
 
 
 BRANDS = [

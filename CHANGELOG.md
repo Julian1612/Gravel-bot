@@ -4,6 +4,28 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/),
 Versionsnummern folgen keinem strengen Semver-Schema (Ein-Personen-Projekt,
 läuft direkt von `main`).
 
+## [0.2.1] — Autorisierung, eBay-Secrets, optionaler Webhook
+
+### Behoben
+
+- **Sicherheitslücke:** der Telegram-Router prüfte nicht, von wem eine
+  Nachricht kam — jeder Telegram-Nutzer, der den Bot-Usernamen kannte,
+  konnte `/setup`, `/reset`, `/pause` etc. auslösen. Jetzt wird jede
+  Nachricht/jeder Button-Klick gegen `TELEGRAM_CHAT_ID` geprüft.
+- `scan.yml` reichte `EBAY_CLIENT_ID`/`EBAY_CLIENT_SECRET` nicht an den
+  Prozess durch — die eBay-Quelle wäre live immer übersprungen worden,
+  egal ob die Secrets gesetzt sind.
+
+### Hinzugefügt
+
+- Optionaler Telegram-Webhook (Cloudflare Worker +
+  `repository_dispatch`) für Antworten in Sekunden statt bis zu
+  30 Minuten — siehe `docs/telegram-webhook-setup.md` und
+  `docs/adr/0006-telegram-webhook.md`. Standardverhalten (Polling)
+  bleibt unverändert, wenn nicht eingerichtet.
+- Neuer CLI-Modus `--telegram-update` verarbeitet ein einzelnes,
+  bereits vorliegendes Update sofort (für den Webhook-Pfad).
+
 ## [0.2.0] — Phase 1: mehr Quellen
 
 ### Hinzugefügt

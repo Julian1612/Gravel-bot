@@ -83,3 +83,24 @@ def test_callback_from_foreign_chat_is_acknowledged_but_not_processed(tmp_path):
     assert telegram.answered == ["cq1"]
     assert telegram.sent == []
     assert store.profil.max_distance_km == 999  # kein Reset ausgeloest
+
+
+def test_verarbeite_updates_is_noop_in_webhook_mode(tmp_path):
+    router, telegram, store = _router(tmp_path, owner_chat_id="12345")
+    object.__setattr__(router.settings, "telegram_webhook_mode", True)
+    telegram._updates = [_text_update(1, "12345", "/profil")]
+
+    router.verarbeite_updates()
+
+    assert telegram.sent == []
+    assert store.telegram_offset == 0  # get_updates wurde gar nicht erst aufgerufen
+
+
+def test_verarbeite_ein_update_works_regardless_of_webhook_mode(tmp_path):
+    router, telegram, store = _router(tmp_path, owner_chat_id="12345")
+    object.__setattr__(router.settings, "telegram_webhook_mode", True)
+
+    router.verarbeite_ein_update(_text_update(7, "12345", "/profil"))
+
+    assert len(telegram.sent) == 1
+    assert store.telegram_offset == 8
