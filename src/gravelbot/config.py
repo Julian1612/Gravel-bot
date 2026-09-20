@@ -29,10 +29,11 @@ def _env_int(name: str, default: int) -> int:
 
 @dataclass(frozen=True)
 class Settings:
-    # Standort-Default (Stuttgart), falls im Profil noch keiner gesetzt ist
-    default_home_lat: float = field(default_factory=lambda: _env_float("HOME_LAT", 48.7758))
-    default_home_lon: float = field(default_factory=lambda: _env_float("HOME_LON", 9.1829))
-
+    # Kein HOME_LAT/HOME_LON hier: der Standort ist seit dem Profil-Umbau
+    # reine Laufzeit-Konfiguration (Profil.home_lat/home_lon in state.json,
+    # per /setup oder direktem Bearbeiten von state.json aenderbar) — ein
+    # Deploy-Zeit-Env-Var haette hier ohnehin nur den Erstlauf-Default
+    # beeinflusst und wurde nirgends mehr gelesen.
     state_file: str = field(default_factory=lambda: os.environ.get("STATE_FILE", "state.json"))
 
     user_agent: str = "gravel-deal-bot/1.0 (persoenlicher Preisalarm)"
