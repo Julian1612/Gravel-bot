@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from gravelbot.config import RADTYPEN
+from gravelbot.config import RADTYP_LABELS, RADTYPEN
 
 RADTYP = "radtyp"
 STANDORT = "standort"
@@ -27,7 +27,9 @@ ZEITEN = "zeiten"
 SETUP_SCHRITTE = [RADTYP, STANDORT, RADIUS, PREISRAHMEN, SCHWELLE, ZEITEN]
 
 _PLZ_RE = re.compile(r"^\d{4,5}$")
-_ZEIT_RE = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
+_ZEIT_HHMM_RE = re.compile(r"^(\d{1,2})[:.](\d{2})$")
+_ZEIT_KOMPAKT_RE = re.compile(r"^(\d{3,4})$")
+_ZEIT_STUNDE_RE = re.compile(r"^(\d{1,2})$")
 
 
 @dataclass
@@ -108,11 +110,53 @@ def parse_prozent(text: str) -> tuple[float | None, str | None]:
     return value, None
 
 
+def _parse_eine_uhrzeit(text: str) -> str | None:
+    """Sehr tolerant: '8', '8:00', '08:00', '8.30', '800', '1930' — alles
+    wird zu 'HH:MM' normalisiert. Menschen tippen selten konsequent
+    fuehrende Nullen oder ueberhaupt einen Doppelpunkt; ein strenges
+    Format nur deswegen abzulehnen bremst nur aus, ohne echten Nutzen."""
+    text = text.strip()
+    stunde: int | None = None
+    minute = 0
+
+    m = _ZEIT_HHMM_RE.match(text)
+    if m:
+        stunde, minute = int(m.group(1)), int(m.group(2))
+    elif _ZEIT_KOMPAKT_RE.match(text):
+        stunde, minute = int(text[:-2]), int(text[-2:])
+    elif _ZEIT_STUNDE_RE.match(text):
+        stunde = int(text)
+
+    if stunde is None or not (0 <= stunde <= 23) or not (0 <= minute <= 59):
+        return None
+    return f"{stunde:02d}:{minute:02d}"
+
+
 def parse_zeiten(text: str) -> tuple[list[str] | None, str | None]:
     teile = [t.strip() for t in re.split(r"[,;]", text or "") if t.strip()]
     if not teile:
-        return None, "Bitte mindestens eine Uhrzeit schicken, z.B. 08:00,19:00."
+        return None, "Bitte mindestens eine Uhrzeit schicken, z.B. 8,19 oder 08:00,19:00."
+    normalisiert = []
     for t in teile:
-        if not _ZEIT_RE.match(t):
-            return None, f"'{t}' ist keine gueltige Uhrzeit (Format HH:MM)."
-    return teile, None
+        uhrzeit = _parse_eine_uhrzeit(t)
+        if uhrzeit is None:
+            return None, f"'{t}' ist keine gueltige Uhrzeit — z.B. 8, 8:00 oder 08:00."
+        normalisiert.append(uhrzeit)
+    return normalisiert, None
+
+
+def parse_radtypen(text: str) -> tuple[list[str] | None, str | None]:
+    """Erlaubt, die komplette Radtyp-Auswahl in einer Nachricht als Text zu
+    schicken (z.B. 'gravel, rennrad') statt jeden Button einzeln
+    anzutippen — das umgeht das Mehrfach-Tap-Problem bei Inline-Buttons
+    komplett, siehe ADR 0007."""
+    kandidaten = [t.strip().lower() for t in re.split(r"[,;/\s]+", text or "") if t.strip()]
+    label_zu_key = {label.lower(): key for key, label in RADTYP_LABELS.items()}
+    treffer: list[str] = []
+    for kandidat in kandidaten:
+        key = kandidat if kandidat in RADTYPEN else label_zu_key.get(kandidat)
+        if key and key not in treffer:
+            treffer.append(key)
+    if not treffer:
+        return None, None
+    return treffer, None

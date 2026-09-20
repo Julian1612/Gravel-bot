@@ -13,8 +13,17 @@ on:
 permissions:
   contents: write
 
+# Bewusst PRO Update eine eigene Gruppe, nicht die gemeinsame "gravel-scan"
+# von scan.yml: GitHub verwirft bei geteilten Gruppen jeden bereits
+# wartenden (noch nicht gestarteten) Lauf, sobald ein neuerer dazukommt —
+# nur der gerade laufende plus der zuletzt eingereihte ueberleben. Bei
+# schnellem Hintereinander-Tippen (z.B. mehrere Radtyp-Buttons in /setup)
+# wurden dadurch mittlere Taps stillschweigend nie verarbeitet. Mit einer
+# eindeutigen Gruppe je Update laeuft garantiert jeder Tap; das dafuer
+# noetige gemeinsame Schreiben von state.json sichert stattdessen der
+# Retry-Loop im Schritt "Preisdaten sichern" ab.
 concurrency:
-  group: gravel-scan
+  group: gravel-telegram-${{ github.event.client_payload.update_id }}
 
 jobs:
   handle:
@@ -46,8 +55,19 @@ jobs:
           git add state.json
           if git diff --staged --quiet; then
             echo "keine Aenderung"
-          else
-            git commit -m "Telegram-Update $(date -u +%Y-%m-%dT%H:%M)"
-            git pull --rebase --autostash origin ${{ github.ref_name }}
-            git push
+            exit 0
           fi
+          git commit -m "Telegram-Update $(date -u +%Y-%m-%dT%H:%M)"
+          # Ohne die gemeinsame "gravel-scan"-Gruppe (siehe concurrency oben)
+          # koennen mehrere Updates gleichzeitig hier ankommen und um denselben
+          # Push konkurrieren — retry statt einmaligem Versuch.
+          for versuch in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin "${{ github.ref_name }}" && git push; then
+              echo "state.json gespeichert (Versuch $versuch)"
+              exit 0
+            fi
+            echo "Push fehlgeschlagen (Versuch $versuch von 5), erneuter Versuch..."
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "::error::state.json konnte nach 5 Versuchen nicht gespeichert werden"
+          exit 1

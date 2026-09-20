@@ -57,8 +57,19 @@ jobs:
           git add state.json
           if git diff --staged --quiet; then
             echo "keine Aenderung"
-          else
-            git commit -m "Preisdaten $(date -u +%Y-%m-%dT%H:%M)"
-            git pull --rebase --autostash origin ${{ github.ref_name }}
-            git push
+            exit 0
           fi
+          git commit -m "Preisdaten $(date -u +%Y-%m-%dT%H:%M)"
+          # telegram-update.yml laeuft in einer eigenen Concurrency-Gruppe je
+          # Update (siehe dort) und kann daher gleichzeitig mit diesem Lauf
+          # state.json aendern wollen — retry statt einmaligem Versuch.
+          for versuch in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin "${{ github.ref_name }}" && git push; then
+              echo "state.json gespeichert (Versuch $versuch)"
+              exit 0
+            fi
+            echo "Push fehlgeschlagen (Versuch $versuch von 5), erneuter Versuch..."
+            sleep $((RANDOM % 5 + 1))
+          done
+          echo "::error::state.json konnte nach 5 Versuchen nicht gespeichert werden"
+          exit 1

@@ -10,11 +10,16 @@ class _FakeTelegram:
     def __init__(self):
         self.enabled = True
         self.sent: list[tuple[str, str]] = []
+        self.edited: list[tuple[str, int, str, object]] = []
         self.answered: list[str] = []
 
     def send(self, text, chat_id=None, preview=True, keyboard=None):
         self.sent.append((chat_id, text))
         return 1
+
+    def edit_message(self, chat_id, message_id, text, keyboard=None):
+        self.edited.append((chat_id, message_id, text, keyboard))
+        return True
 
     def answer_callback_query(self, callback_query_id: str, text: str = "") -> None:
         self.answered.append(callback_query_id)
@@ -233,3 +238,67 @@ def test_typing_weiter_at_radtyp_step_without_selection_still_errors(tmp_path):
     dialog = store.get_dialog("12345")
     assert dialog is not None
     assert dialog["schritt"] == "radtyp"  # noch nicht weitergekommen
+
+
+def test_radtyp_button_tap_edits_the_message_instead_of_sending_a_new_one(tmp_path):
+    # Regression fuer den Nachrichten-Spam-Bug: jeder Tap hat vorher eine
+    # komplett neue Nachricht geschickt, mehrere Taps stapelten viele fast
+    # identische Nachrichten mit je einem eingefrorenen, unterschiedlichen
+    # Auswahl-Stand.
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+    gesendet_vorher = len(telegram.sent)
+
+    router.verarbeite_ein_update(
+        {
+            "update_id": 2,
+            "callback_query": {
+                "id": "cq1",
+                "data": "radtyp:gravel",
+                "message": {"chat": {"id": 12345}, "message_id": 42},
+            },
+        }
+    )
+
+    assert len(telegram.sent) == gesendet_vorher  # keine NEUE Nachricht
+    assert len(telegram.edited) == 1
+    chat_id, message_id, text, keyboard = telegram.edited[0]
+    assert message_id == 42
+    button_texts = " ".join(btn["text"] for row in keyboard for btn in row)
+    assert "Gravel" in button_texts
+
+
+def test_multiple_radtyp_taps_all_edit_the_same_message(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+
+    for i, radtyp in enumerate(["gravel", "rennrad", "cyclocross"], start=2):
+        router.verarbeite_ein_update(
+            {
+                "update_id": i,
+                "callback_query": {
+                    "id": f"cq{i}",
+                    "data": f"radtyp:{radtyp}",
+                    "message": {"chat": {"id": 12345}, "message_id": 42},
+                },
+            }
+        )
+
+    assert len(telegram.edited) == 3
+    assert all(message_id == 42 for _, message_id, _, _ in telegram.edited)
+    # die letzte Bearbeitung zeigt den kumulierten Stand, nicht nur den letzten Tap
+    assert store.get_dialog("12345")["daten"]["radtypen"] == ["gravel", "rennrad", "cyclocross"]
+
+
+def test_radtypen_as_single_text_message_selects_and_advances(tmp_path):
+    router, telegram, store = _router(tmp_path)
+    router.verarbeite_ein_update({"update_id": 1, "message": {"chat": {"id": 12345}, "text": "/setup"}})
+
+    router.verarbeite_ein_update(
+        {"update_id": 2, "message": {"chat": {"id": 12345}, "text": "gravel, rennrad"}}
+    )
+
+    dialog = store.get_dialog("12345")
+    assert dialog is not None
+    assert dialog["schritt"] == "standort"  # direkt weiter, kein extra "weiter" noetig
+    assert dialog["daten"]["radtypen"] == ["gravel", "rennrad"]
