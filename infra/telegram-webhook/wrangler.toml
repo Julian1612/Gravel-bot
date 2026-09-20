@@ -1,12 +1,22 @@
-# Optional — nur noetig, wenn du per `wrangler deploy` statt ueber das
-# Cloudflare-Dashboard deployen willst. Siehe docs/telegram-webhook-setup.md.
+# Wird von Cloudflare Workers Builds (Git-Integration) bei jedem Deploy
+# gelesen. Siehe docs/telegram-webhook-setup.md.
 
 name = "gravel-bot-telegram-webhook"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
-# Secrets NICHT hier eintragen (landen sonst in Git) — stattdessen:
+# GITHUB_OWNER/GITHUB_REPO sind nicht geheim — sie MUESSEN hier stehen, nicht
+# nur im Dashboard: Cloudflare gleicht unverschluesselte "Variables" bei
+# jedem Git-Deploy mit dieser Datei ab und wirft alles wieder raus, was hier
+# nicht deklariert ist. Das hat uns beim Einrichten eine Weile gekostet.
+[vars]
+GITHUB_OWNER = "Julian1612"
+GITHUB_REPO = "Gravel-bot"
+
+# Echte Secrets NICHT hier eintragen (landen sonst im Klartext in Git) —
+# die bleiben ausschliesslich im Cloudflare-Dashboard unter "Variables and
+# Secrets" (Typ "Secret") oder per `wrangler secret put`:
 #   wrangler secret put TELEGRAM_WEBHOOK_SECRET
 #   wrangler secret put GITHUB_TOKEN
-#   wrangler secret put GITHUB_OWNER
-#   wrangler secret put GITHUB_REPO
+# Secrets werden von Git-Deploys nicht zurueckgesetzt — nur unverschluesselte
+# "Variables" wie oben.
