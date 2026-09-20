@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import re
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 
@@ -103,13 +104,34 @@ class BikemarktQuelle(QuelleBasis):
         return list(found.values())
 
     def volltext(self, query: str, max_seiten: int = 2) -> list[Listing]:
+        """Nutzt die site-eigene Volltextsuche. Die Seite leitet
+        ``/search?q_ft=X`` auf eine kanonische URL um (z.B. ``/search/Canyon``)
+        — Pagination (``?page=N``) funktioniert nur auf dieser kanonischen
+        URL, nicht auf der ursprünglichen ``q_ft``-URL (gegen die echte
+        Seite verifiziert: ``?page=2`` auf der q_ft-URL liefert wieder Seite
+        1). Deshalb erst die Umleitung abwarten und von der resultierenden
+        URL aus weiterblättern.
+        """
         found: dict[str, Listing] = {}
-        resp = self.http.get(f"{BASE}/search?q_ft={query}")
+        resp = self.http.get(f"{BASE}/search?q_ft={quote(query)}")
         if resp is None:
             return []
         items = parse_bikemarkt_page(resp.text)
         for item in items:
             found.setdefault(item.key, item)
+        if not items:
+            return list(found.values())
+
+        kanonische_url = resp.url
+        for page in range(2, max_seiten + 1):
+            resp = self.http.get(f"{kanonische_url}?page={page}")
+            if resp is None:
+                break
+            items = parse_bikemarkt_page(resp.text)
+            if not items:
+                break
+            for item in items:
+                found.setdefault(item.key, item)
         return list(found.values())
 
     def details(self, listing: Listing) -> None:

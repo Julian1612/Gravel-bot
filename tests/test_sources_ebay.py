@@ -54,9 +54,11 @@ def test_ebay_map_item_from_real_response_shape(fixture_path):
     assert shop_item.zip_code == "70173"
     assert shop_item.shipping is True
     assert shop_item.seller_type == "shop"
+    assert shop_item.seller_name == "radhaus_stuttgart"
     assert shop_item.radtyp == "gravel"
 
     assert private_item.seller_type == "private"
+    assert private_item.seller_name == "privat_verkauf_99"
     assert private_item.shipping is False
     assert private_item.price_eur == 999.0
 
@@ -65,3 +67,27 @@ def test_ebay_map_item_returns_none_for_incomplete_item():
     settings = Settings()
     quelle = EbayQuelle(Http(settings), settings)
     assert quelle._map_item({"itemId": "1"}, radtyp=None) is None
+
+
+def test_ebay_search_raw_url_encodes_multi_word_query(monkeypatch):
+    settings = Settings()
+    quelle = EbayQuelle(Http(settings), settings)
+    monkeypatch.setattr(quelle, "_token", lambda: "fake-token")
+
+    aufgerufene_urls = []
+
+    def fake_get(url, headers=None):
+        aufgerufene_urls.append(url)
+        return None
+
+    monkeypatch.setattr(quelle.http, "get", fake_get)
+
+    # Regression: ein unencodetes Leerzeichen/Sonderzeichen in der Freitext-
+    # Query (z.B. aus /suche) wuerde die Query-String-Struktur der URL
+    # kaputt machen (Leerzeichen sind in URLs nicht erlaubt, "&" wuerde
+    # zusaetzliche, falsche Parameter injizieren).
+    quelle._search_raw("Canyon Grizl & Grail", "priceCurrency:EUR", limit=10)
+
+    assert len(aufgerufene_urls) == 1
+    assert " " not in aufgerufene_urls[0]
+    assert "q=Canyon%20Grizl%20%26%20Grail" in aufgerufene_urls[0]

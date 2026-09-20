@@ -21,6 +21,7 @@ import base64
 import logging
 import time
 from dataclasses import dataclass
+from urllib.parse import quote
 
 from gravelbot.config import EBAY_QUERY, Settings
 from gravelbot.http import Http
@@ -93,7 +94,10 @@ class EbayQuelle(QuelleBasis):
         token = self._token()
         if not token:
             return []
-        params = f"q={query}&category_ids={self.settings.ebay_category_id}&filter={filter_str}&limit={limit}"
+        params = (
+            f"q={quote(query)}&category_ids={self.settings.ebay_category_id}"
+            f"&filter={quote(filter_str, safe=':,[]')}&limit={limit}"
+        )
         resp = self.http.get(f"{SEARCH_URL}?{params}", headers=self._headers(token))
         if resp is None or resp.status_code != 200:
             log.warning("eBay-Suche fehlgeschlagen (%s) fuer %r", getattr(resp, "status_code", "?"), query)
@@ -113,7 +117,8 @@ class EbayQuelle(QuelleBasis):
         location = " ".join(str(b) for b in location_bits if b) or None
         from gravelbot.sources.bikemarkt import guess_brand
 
-        account_type = (item.get("seller") or {}).get("sellerAccountType", "").upper()
+        seller = item.get("seller") or {}
+        account_type = seller.get("sellerAccountType", "").upper()
         seller_type = "private" if account_type == "INDIVIDUAL" else "shop"
 
         return Listing(
@@ -125,6 +130,7 @@ class EbayQuelle(QuelleBasis):
             brand=guess_brand(title),
             condition=item.get("condition"),
             seller_type=seller_type,
+            seller_name=seller.get("username"),
             location=location,
             zip_code=loc.get("postalCode"),
             shipping=bool(item.get("shippingOptions")),
