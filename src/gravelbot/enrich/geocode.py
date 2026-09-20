@@ -35,7 +35,11 @@ class Geocoder:
                 continue
             resp = self.http.get(f"https://api.zippopotam.us/{country}/{zip_code}")
             if resp is None:
-                self.cache[ck] = None
+                # Kein Cache-Eintrag: das kann ein 404 (PLZ existiert in
+                # diesem Land nicht — Http.get() liefert dafuer auch None)
+                # oder ein transienter Netzwerkfehler sein. Im Zweifel lieber
+                # naechstes Mal erneut versuchen, statt eine PLZ wegen eines
+                # einmaligen Ausfalls dauerhaft ungeocodet zu lassen.
                 continue
             try:
                 places = resp.json().get("places") or []
