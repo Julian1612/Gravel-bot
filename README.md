@@ -104,7 +104,11 @@ ausschließlich zur Laufzeit in den Speicher, nie in `state.json`.
 | `/reset` | Profil auf Standardwerte zurücksetzen (mit Rückfrage) |
 
 Der Bot läuft nicht als Dauerprozess — ein `/setup`-Dialog zieht sich über
-mehrere Cron-Läufe (alle 30 Minuten), nicht über Sekunden.
+mehrere Cron-Läufe (alle 30 Minuten), nicht über Sekunden. Wer das nicht
+abwarten will: [`docs/telegram-webhook-setup.md`](docs/telegram-webhook-setup.md)
+richtet einen optionalen Webhook ein, der auf jede Nachricht innerhalb
+weniger Sekunden reagiert (siehe auch
+[ADR 0006](docs/adr/0006-telegram-webhook.md)).
 
 ## Quellen
 

@@ -1,18 +1,14 @@
-name: Gravel Scan
+name: Telegram Update
+
+# Wird vom Cloudflare Worker (infra/telegram-webhook/worker.js) per
+# repository_dispatch ausgeloest, sobald Telegram eine Nachricht oder einen
+# Button-Klick per Webhook zustellt. Verarbeitet genau dieses eine Update
+# sofort, statt auf den naechsten Scan-Cron zu warten. Siehe
+# docs/adr/0006-telegram-webhook.md und docs/telegram-webhook-setup.md.
 
 on:
-  schedule:
-    - cron: "*/30 5-21 * * *"
-  workflow_dispatch:
-    inputs:
-      modus:
-        description: "Was soll passieren?"
-        type: choice
-        default: normal
-        options:
-          - normal
-          - probelauf
-          - telegram-test
+  repository_dispatch:
+    types: [telegram_update]
 
 permissions:
   contents: write
@@ -21,9 +17,9 @@ concurrency:
   group: gravel-scan
 
 jobs:
-  scan:
+  handle:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -33,22 +29,17 @@ jobs:
 
       - run: pip install requests beautifulsoup4 lxml
 
-      - name: Lauf
+      - name: Update verarbeiten
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TELEGRAM_WEBHOOK_MODE: ${{ vars.TELEGRAM_WEBHOOK_MODE }}
+          TELEGRAM_WEBHOOK_MODE: "1"
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
-        run: |
-          case "${{ inputs.modus || 'normal' }}" in
-            probelauf)      python bot.py --dry-run ;;
-            telegram-test)  python bot.py --test-telegram ;;
-            *)              python bot.py ;;
-          esac
+          TELEGRAM_UPDATE_JSON: ${{ toJson(github.event.client_payload) }}
+        run: python bot.py --telegram-update
 
       - name: Preisdaten sichern
-        if: ${{ (inputs.modus || 'normal') == 'normal' }}
         run: |
           git config user.name  "gravel-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -56,7 +47,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "keine Aenderung"
           else
-            git commit -m "Preisdaten $(date -u +%Y-%m-%dT%H:%M)"
+            git commit -m "Telegram-Update $(date -u +%Y-%m-%dT%H:%M)"
             git pull --rebase --autostash origin ${{ github.ref_name }}
             git push
           fi

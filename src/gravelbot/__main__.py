@@ -1,11 +1,12 @@
 """CLI-Einstiegspunkt.
 
-python -m gravelbot [--dry-run] [--test-telegram] [--scan-only]
+python -m gravelbot [--dry-run] [--test-telegram] [--scan-only] [--telegram-update]
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -26,9 +27,17 @@ def main() -> int:
         action="store_true",
         help="Telegram-Befehle nicht verarbeiten, nur scannen und melden",
     )
+    parser.add_argument(
+        "--telegram-update",
+        action="store_true",
+        help=(
+            "genau ein Telegram-Update aus TELEGRAM_UPDATE_JSON verarbeiten "
+            "(fuer den Webhook-Trigger, siehe telegram-update.yml)"
+        ),
+    )
     args = parser.parse_args()
 
-    from gravelbot.app import run
+    from gravelbot.app import handle_single_update, run
     from gravelbot.config import Settings
     from gravelbot.telegram.client import Telegram
 
@@ -37,6 +46,23 @@ def main() -> int:
         ok = tg.send("✅ Gravel Deal Bot ist verbunden.", preview=False) is not None or not tg.enabled
         print("Testnachricht verschickt" if ok else "Fehlgeschlagen — Token/Chat-ID pruefen")
         return 0 if ok else 1
+
+    if args.telegram_update:
+        rohdaten = os.environ.get("TELEGRAM_UPDATE_JSON", "")
+        if not rohdaten:
+            logging.getLogger("gravel").error("TELEGRAM_UPDATE_JSON fehlt oder ist leer")
+            return 1
+        try:
+            update = json.loads(rohdaten)
+        except json.JSONDecodeError:
+            logging.getLogger("gravel").exception("TELEGRAM_UPDATE_JSON ist kein gueltiges JSON")
+            return 1
+        try:
+            handle_single_update(update, dry_run=args.dry_run)
+        except Exception:
+            logging.getLogger("gravel").exception("Verarbeitung des Updates abgebrochen")
+            return 1
+        return 0
 
     try:
         run(dry_run=args.dry_run, scan_only=args.scan_only)

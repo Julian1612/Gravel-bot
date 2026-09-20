@@ -1,6 +1,19 @@
 """Orchestrierung eines Laufs — sonst nichts. Keine Geschaeftslogik hier,
 nur das Zusammenstecken von Quellen, Store, Scoring und Telegram in der
 richtigen Reihenfolge.
+
+Zwei Einstiegspunkte:
+
+- ``run()`` — der reguläre Cron-Lauf (scan.yml): Telegram-Updates per
+  getUpdates abholen (nur im Polling-Modus, siehe
+  Settings.telegram_webhook_mode), dann scannen und melden.
+- ``handle_single_update()`` — fuer den optionalen Telegram-Webhook
+  (telegram-update.yml, per repository_dispatch ausgeloest): verarbeitet
+  genau ein bereits vorliegendes Update sofort, ohne auf den naechsten
+  Cron-Lauf zu warten. Ein vollstaendiger Scan laeuft dabei nur, wenn das
+  Update selbst /scan ausgeloest hat — sonst wuerde jede /profil-Anfrage
+  einen kompletten Multi-Quellen-Scan lostreten. Siehe
+  docs/adr/0006-telegram-webhook.md.
 """
 
 from __future__ import annotations
@@ -18,6 +31,7 @@ from gravelbot.http import Http
 from gravelbot.models import Listing
 from gravelbot.scoring.evaluate import evaluate
 from gravelbot.scoring.filters import passes_filters
+from gravelbot.sources.base import Quelle
 from gravelbot.sources.registry import QuellenLauf, alle_quellen, durchsuche_alle
 from gravelbot.storage.store import Store
 from gravelbot.telegram.client import Telegram
@@ -88,26 +102,22 @@ def _schreibe_zusammenfassung(
             fh.write(text + "\n")
 
 
-def run(dry_run: bool = False, scan_only: bool = False) -> int:
+def _scan_und_melden(
+    store: Store,
+    settings: Settings,
+    http: Http,
+    telegram: Telegram,
+    quellen: list[Quelle],
+    quellen_by_name: dict[str, Quelle],
+    dry_run: bool,
+) -> int:
+    """Ein kompletter Scan-Durchlauf: alle Quellen abfragen, filtern,
+    bewerten, melden. Getrennt von run()/handle_single_update(), damit
+    beide Einstiegspunkte ihn aufrufen koennen (Cron-Lauf immer, Webhook-Lauf
+    nur bei explizitem /scan).
+    """
     start = time.monotonic()
-    settings = Settings()
-    http = Http(settings)
-    store = Store(settings.state_file)
-    telegram = Telegram(settings)
-    quellen = alle_quellen(http, settings)
-    quellen_by_name = {q.name: q for q in quellen}
-    router = Router(telegram, store, http, settings, quellen)
-
-    if not scan_only:
-        router.verarbeite_updates()
-
     profil = store.profil
-    if profil.paused and not router.scan_erzwingen and not dry_run:
-        log.info("Profil pausiert — kein Scan in diesem Lauf")
-        if not dry_run:
-            store.save()
-        return 0
-
     geocoder = Geocoder(http, store.data["geo"], profil.home_lat, profil.home_lon)
     silent = dry_run or (store.is_first_run and profil.seed_run_silent)
     if silent:
@@ -180,8 +190,56 @@ def run(dry_run: bool = False, scan_only: bool = False) -> int:
 
     laufzeit = time.monotonic() - start
     _schreibe_zusammenfassung(berichte, kept, len(selected), laufzeit)
+    return len(selected)
+
+
+def run(dry_run: bool = False, scan_only: bool = False) -> int:
+    settings = Settings()
+    http = Http(settings)
+    store = Store(settings.state_file)
+    telegram = Telegram(settings)
+    quellen = alle_quellen(http, settings)
+    quellen_by_name = {q.name: q for q in quellen}
+    router = Router(telegram, store, http, settings, quellen)
+
+    if not scan_only:
+        router.verarbeite_updates()
+
+    profil = store.profil
+    if profil.paused and not router.scan_erzwingen and not dry_run:
+        log.info("Profil pausiert — kein Scan in diesem Lauf")
+        if not dry_run:
+            store.save()
+        return 0
+
+    ergebnis = _scan_und_melden(store, settings, http, telegram, quellen, quellen_by_name, dry_run)
 
     if not dry_run:
         store.save()
         log.info("State gespeichert: %s", settings.state_file)
-    return len(selected)
+    return ergebnis
+
+
+def handle_single_update(update: dict, dry_run: bool = False) -> int:
+    """Verarbeitet genau ein Telegram-Update sofort (vom Webhook), ohne auf
+    den naechsten Cron-Lauf zu warten. Scannt nur, wenn das Update selbst
+    /scan ausgeloest hat.
+    """
+    settings = Settings()
+    http = Http(settings)
+    store = Store(settings.state_file)
+    telegram = Telegram(settings)
+    quellen = alle_quellen(http, settings)
+    quellen_by_name = {q.name: q for q in quellen}
+    router = Router(telegram, store, http, settings, quellen)
+
+    router.verarbeite_ein_update(update)
+
+    ergebnis = 0
+    if router.scan_erzwingen:
+        ergebnis = _scan_und_melden(store, settings, http, telegram, quellen, quellen_by_name, dry_run)
+
+    if not dry_run:
+        store.save()
+        log.info("State gespeichert: %s", settings.state_file)
+    return ergebnis

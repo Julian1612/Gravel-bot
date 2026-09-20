@@ -33,7 +33,15 @@ class Router:
         self.scan_erzwingen = False
 
     def verarbeite_updates(self) -> None:
-        if not self.telegram.enabled:
+        """Polling-Pfad: alle Updates seit dem letzten offset abholen.
+
+        Nur relevant, solange kein Telegram-Webhook eingerichtet ist —
+        Telegram erlaubt getUpdates und Webhook nicht gleichzeitig (sonst
+        liefert getUpdates einen Konflikt-Fehler). Mit aktivem Webhook
+        (Settings.telegram_webhook_mode) uebernimmt verarbeite_ein_update()
+        die Zustellung, siehe docs/adr/0006-telegram-webhook.md.
+        """
+        if not self.telegram.enabled or self.settings.telegram_webhook_mode:
             return
         updates = self.telegram.get_updates(self.store.telegram_offset)
         for update in updates:
@@ -43,11 +51,44 @@ class Router:
             except Exception:
                 log.exception("Update %s fehlgeschlagen", update.get("update_id"))
 
+    def verarbeite_ein_update(self, update: dict) -> None:
+        """Webhook-Pfad: ein einzelnes, bereits vorliegendes Update sofort
+        verarbeiten (kein getUpdates, kein Offset-Abgleich noetig — Telegram
+        liefert per Webhook jedes Update genau einmal)."""
+        update_id = update.get("update_id")
+        if update_id is not None:
+            self.store.telegram_offset = update_id + 1
+        try:
+            self._verarbeite_update(update)
+        except Exception:
+            log.exception("Update %s fehlgeschlagen", update_id)
+
+    def _ist_autorisiert(self, chat_id: str) -> bool:
+        """Nur der in TELEGRAM_CHAT_ID konfigurierte Chat darf den Bot steuern.
+
+        Ohne diese Pruefung wuerde der Bot auf jede Nachricht von jedem
+        Telegram-Nutzer reagieren, der seinen Benutzernamen kennt — /setup,
+        /reset, /pause eingeschlossen. TELEGRAM_CHAT_ID ist kein Geheimnis,
+        aber es ist die einzige Stelle, an der feststeht, wer der Besitzer ist.
+        """
+        return chat_id == self.settings.telegram_chat_id
+
     def _verarbeite_update(self, update: dict) -> None:
         if "callback_query" in update:
-            self._callback(update["callback_query"])
+            cq = update["callback_query"]
+            chat_id = str(cq["message"]["chat"]["id"])
+            if not self._ist_autorisiert(chat_id):
+                log.warning("Callback von nicht autorisiertem Chat %s ignoriert", chat_id)
+                self.telegram.answer_callback_query(cq["id"])
+                return
+            self._callback(cq)
         elif "message" in update and "text" in update["message"]:
-            self._nachricht(update["message"])
+            message = update["message"]
+            chat_id = str(message["chat"]["id"])
+            if not self._ist_autorisiert(chat_id):
+                log.warning("Nachricht von nicht autorisiertem Chat %s ignoriert", chat_id)
+                return
+            self._nachricht(message)
 
     # ── Nachrichten (Text) ──────────────────────────────────────────────
 
