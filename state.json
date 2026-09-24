@@ -71,13 +71,13 @@
    13.4506
   ]
  },
- "last_run": "2026-09-24T09:48:42+00:00",
+ "last_run": "2026-09-24T14:45:41+00:00",
  "listings": {
   "bike_components:v-40302": {
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1336.13,
    "location": null,
    "prices": [
@@ -101,7 +101,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1252.1,
    "location": null,
    "prices": [
@@ -120,7 +120,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2092.44,
    "location": null,
    "prices": [
@@ -139,7 +139,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1924.37,
    "location": null,
    "prices": [
@@ -158,7 +158,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1487.4,
    "location": null,
    "prices": [
@@ -196,7 +196,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -215,7 +215,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -270,7 +270,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -325,7 +325,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -404,7 +404,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -440,7 +440,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -458,7 +458,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -494,7 +494,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -553,7 +553,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -643,7 +643,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -661,7 +661,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -702,7 +702,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -720,7 +720,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -738,7 +738,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -792,7 +792,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -810,7 +810,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -846,7 +846,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -864,7 +864,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -882,7 +882,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -900,7 +900,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -918,7 +918,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -990,7 +990,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1044,7 +1044,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1103,7 +1103,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1126,7 +1126,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1149,7 +1149,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1185,7 +1185,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1221,7 +1221,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1239,7 +1239,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1299,7 +1299,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1318,7 +1318,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1337,7 +1337,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1373,7 +1373,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1392,7 +1392,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1416,7 +1416,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1439,7 +1439,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1457,7 +1457,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1493,7 +1493,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1548,7 +1548,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1567,7 +1567,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1586,7 +1586,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1610,7 +1610,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1629,7 +1629,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1648,7 +1648,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1667,7 +1667,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1686,7 +1686,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1854,7 +1854,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1878,7 +1878,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1914,7 +1914,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1937,7 +1937,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1956,7 +1956,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1975,7 +1975,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1994,7 +1994,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2013,7 +2013,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2032,7 +2032,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2051,7 +2051,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2075,7 +2075,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2093,7 +2093,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2112,7 +2112,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2149,7 +2149,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2191,7 +2191,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": "51702 Bergneustadt Versand",
    "prices": [
@@ -2213,7 +2213,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2291,7 +2291,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2332,7 +2332,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2360,7 +2360,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2378,7 +2378,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2396,7 +2396,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2432,7 +2432,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2487,7 +2487,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2506,7 +2506,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2530,7 +2530,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2571,7 +2571,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2594,7 +2594,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2613,7 +2613,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2637,7 +2637,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2660,7 +2660,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2679,7 +2679,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2720,7 +2720,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2743,7 +2743,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2762,7 +2762,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2781,7 +2781,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2895,7 +2895,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2913,7 +2913,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2950,7 +2950,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2978,7 +2978,7 @@
    },
    "first_seen": "2026-09-21T16:37:24+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2997,7 +2997,7 @@
    "alerted": {},
    "first_seen": "2026-09-21T16:37:24+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3021,7 +3021,7 @@
    },
    "first_seen": "2026-09-22T21:38:16+00:00",
    "is_new": false,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": null,
    "location": "71093 Karte Google",
    "prices": [
@@ -3093,7 +3093,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -3112,7 +3112,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -3198,7 +3198,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -3217,7 +3217,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -3236,7 +3236,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -3274,7 +3274,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -3293,7 +3293,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -3312,7 +3312,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3355,7 +3355,7 @@
    },
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -3379,7 +3379,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -3403,7 +3403,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -3427,7 +3427,7 @@
    },
    "first_seen": "2026-09-22T09:44:27+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -3446,7 +3446,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -3465,7 +3465,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -3478,6 +3478,25 @@
    "source": "fahrrad_de",
    "title": "Orbea ORCA M30 Cobalt Blue - Carbon Raw (Matt) (2026)",
    "url": "https://www.fahrrad.de/products/orbea-orca-m30-diamant-cobalt-blue-carbon-raw-matt?variant=55590638977397",
+   "zip": null
+  },
+  "fahrrad_de:15138767831413-55590639567221": {
+   "alerted": {},
+   "first_seen": "2026-09-24T14:45:41+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-24T14:45:41+00:00",
+   "list_price": 2599.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-24T14:45:41+00:00",
+     2099.0
+    ]
+   ],
+   "shipping": true,
+   "source": "fahrrad_de",
+   "title": "Orbea ORCA M30 Diamond Carbon View (Matt) - Titan Grey (Gloss) (2026)",
+   "url": "https://www.fahrrad.de/products/orbea-orca-m30-diamant-diamond-carbon-view-matt-titan-grey-gloss?variant=55590639567221",
    "zip": null
   },
   "fahrrad_de:15138767864181-55590639829365": {
@@ -3503,7 +3522,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -3522,7 +3541,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -3541,7 +3560,7 @@
    "alerted": {},
    "first_seen": "2026-09-24T09:48:42+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -3560,7 +3579,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -3584,7 +3603,7 @@
    },
    "first_seen": "2026-09-23T09:51:42+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1199.0,
    "location": null,
    "prices": [
@@ -3603,7 +3622,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -3622,7 +3641,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T09:51:42+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -3646,7 +3665,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -3694,7 +3713,7 @@
    },
    "first_seen": "2026-09-21T10:31:54+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 999.0,
    "location": null,
    "prices": [
@@ -3718,7 +3737,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 999.0,
    "location": null,
    "prices": [
@@ -3737,7 +3756,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3756,7 +3775,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3775,7 +3794,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3794,7 +3813,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3813,7 +3832,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -3832,7 +3851,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -3851,7 +3870,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -3870,7 +3889,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -3889,7 +3908,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -3908,7 +3927,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -3932,7 +3951,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -3980,7 +3999,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -4004,7 +4023,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -4028,7 +4047,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -4090,7 +4109,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4109,7 +4128,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4128,7 +4147,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4147,7 +4166,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4166,7 +4185,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4185,7 +4204,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4204,7 +4223,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4227,7 +4246,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4250,7 +4269,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4273,7 +4292,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -4292,7 +4311,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -4311,7 +4330,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4330,7 +4349,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4349,7 +4368,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4364,11 +4383,49 @@
    "url": "https://www.fahrrad.de/products/scott-speedster-gravel-30-black?variant=56093254746485",
    "zip": null
   },
+  "fahrrad_de:15557815239029-56093254222197": {
+   "alerted": {},
+   "first_seen": "2026-09-24T14:45:41+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-24T14:45:41+00:00",
+   "list_price": 2699.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-24T14:45:41+00:00",
+     2069.0
+    ]
+   ],
+   "shipping": true,
+   "source": "fahrrad_de",
+   "title": "Scott Addict Gravel 30 carbon grey (2026)",
+   "url": "https://www.fahrrad.de/products/scott-addict-gravel-30-carbon-grey?variant=56093254222197",
+   "zip": null
+  },
+  "fahrrad_de:15557815239029-56093254975861": {
+   "alerted": {},
+   "first_seen": "2026-09-24T14:45:41+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-24T14:45:41+00:00",
+   "list_price": 2699.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-24T14:45:41+00:00",
+     2069.0
+    ]
+   ],
+   "shipping": true,
+   "source": "fahrrad_de",
+   "title": "Scott Addict Gravel 30 carbon grey (2026)",
+   "url": "https://www.fahrrad.de/products/scott-addict-gravel-30-carbon-grey?variant=56093254975861",
+   "zip": null
+  },
   "fahrrad_de:15557815239029-56093255041397": {
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2699.0,
    "location": null,
    "prices": [
@@ -4387,7 +4444,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2699.0,
    "location": null,
    "prices": [
@@ -4406,7 +4463,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4425,7 +4482,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -4444,7 +4501,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4463,7 +4520,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4482,7 +4539,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4501,7 +4558,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4520,7 +4577,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -4539,7 +4596,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -4558,7 +4615,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -4596,7 +4653,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4615,7 +4672,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4634,7 +4691,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4653,7 +4710,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4672,7 +4729,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T09:44:27+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4691,7 +4748,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4710,7 +4767,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4729,7 +4786,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4748,7 +4805,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4772,7 +4829,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -4795,7 +4852,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4814,7 +4871,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4852,7 +4909,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -4871,7 +4928,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1899.0,
    "location": null,
    "prices": [
@@ -4890,7 +4947,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1899.0,
    "location": null,
    "prices": [
@@ -4909,7 +4966,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1199.0,
    "location": null,
    "prices": [
@@ -4928,7 +4985,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1199.0,
    "location": null,
    "prices": [
@@ -4947,7 +5004,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1199.0,
    "location": null,
    "prices": [
@@ -4971,7 +5028,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2199.0,
    "location": null,
    "prices": [
@@ -4999,7 +5056,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2199.0,
    "location": null,
    "prices": [
@@ -5027,7 +5084,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1919.0,
    "location": null,
    "prices": [
@@ -5046,7 +5103,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2629.0,
    "location": null,
    "prices": [
@@ -5065,7 +5122,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 3499.0,
    "location": null,
    "prices": [
@@ -5084,7 +5141,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -5103,7 +5160,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5146,7 +5203,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5174,7 +5231,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5202,7 +5259,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5230,7 +5287,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5253,7 +5310,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -5272,7 +5329,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -5291,7 +5348,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -5310,7 +5367,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5329,7 +5386,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5348,7 +5405,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5367,7 +5424,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5386,7 +5443,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5405,7 +5462,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -5424,7 +5481,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -5443,7 +5500,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -5462,7 +5519,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5481,7 +5538,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5500,7 +5557,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5515,11 +5572,30 @@
    "url": "https://www.fahrrad.de/products/bergamont-grandurance-20-matt-black?variant=57211538735477",
    "zip": null
   },
+  "fahrrad_de:15881047146869-57211538768245": {
+   "alerted": {},
+   "first_seen": "2026-09-24T14:45:41+00:00",
+   "is_new": true,
+   "last_seen": "2026-09-24T14:45:41+00:00",
+   "list_price": 1799.0,
+   "location": null,
+   "prices": [
+    [
+     "2026-09-24T14:45:41+00:00",
+     1409.0
+    ]
+   ],
+   "shipping": true,
+   "source": "fahrrad_de",
+   "title": "Bergamont Grandurance 20 matt black (2026)",
+   "url": "https://www.fahrrad.de/products/bergamont-grandurance-20-matt-black?variant=57211538768245",
+   "zip": null
+  },
   "fahrrad_de:15881047212405-57211540341109": {
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5538,7 +5614,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5557,7 +5633,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5576,7 +5652,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5595,7 +5671,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5614,7 +5690,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5633,7 +5709,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5652,7 +5728,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5671,7 +5747,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5690,7 +5766,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5709,7 +5785,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5728,7 +5804,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5747,7 +5823,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5766,7 +5842,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5804,7 +5880,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5823,7 +5899,7 @@
    "alerted": {},
    "first_seen": "2026-09-21T16:37:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5842,7 +5918,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5861,7 +5937,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5880,7 +5956,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5899,7 +5975,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5918,7 +5994,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5942,7 +6018,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -5966,7 +6042,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -5990,7 +6066,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -6014,7 +6090,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -6038,7 +6114,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -6062,7 +6138,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6086,7 +6162,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6110,7 +6186,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6134,7 +6210,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6153,7 +6229,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6172,7 +6248,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6191,7 +6267,7 @@
    "alerted": {},
    "first_seen": "2026-09-21T16:37:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6215,7 +6291,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6239,7 +6315,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6263,7 +6339,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6287,7 +6363,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6311,7 +6387,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6335,7 +6411,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6354,7 +6430,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6373,7 +6449,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6392,7 +6468,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6411,7 +6487,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6430,7 +6506,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6449,7 +6525,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6468,7 +6544,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6487,7 +6563,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6506,7 +6582,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6525,7 +6601,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6544,7 +6620,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6563,7 +6639,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6582,7 +6658,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6601,7 +6677,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6620,7 +6696,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6639,7 +6715,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6658,7 +6734,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6677,7 +6753,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6696,7 +6772,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6715,7 +6791,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6734,7 +6810,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6753,7 +6829,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6772,7 +6848,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6791,7 +6867,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6810,7 +6886,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6829,7 +6905,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6867,7 +6943,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6886,7 +6962,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6905,7 +6981,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T09:51:42+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6924,7 +7000,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6943,7 +7019,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6962,7 +7038,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -6981,7 +7057,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7019,7 +7095,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -7038,7 +7114,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -7057,7 +7133,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-23T09:51:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7124,7 +7200,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -7143,7 +7219,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -7181,7 +7257,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -7205,7 +7281,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -7224,7 +7300,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T09:51:42+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7248,7 +7324,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7272,7 +7348,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7296,7 +7372,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7429,7 +7505,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2000.0,
    "location": null,
    "prices": [
@@ -7491,7 +7567,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1400.0,
    "location": null,
    "prices": [
@@ -7510,7 +7586,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 2799.0,
    "location": null,
    "prices": [
@@ -7548,7 +7624,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-09-24T09:48:42+00:00",
+   "last_seen": "2026-09-24T14:45:41+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -7711,10 +7787,10 @@
    1699.0,
    1699.0,
    1699.0,
+   1699.0,
    1699.0
   ],
   "bergamont grandurance": [
-   1289.0,
    999.0,
    1459.0,
    1459.0,
@@ -7750,6 +7826,10 @@
    999.0,
    999.0,
    999.0,
+   1409.0,
+   1409.0,
+   1409.0,
+   1409.0,
    939.0,
    939.0,
    939.0,
@@ -7759,9 +7839,6 @@
    1459.0,
    1459.0,
    1459.0,
-   1409.0,
-   1409.0,
-   1409.0,
    1619.0,
    1619.0,
    1619.0,
@@ -7776,6 +7853,7 @@
    1459.0
   ],
   "bianchi arcadex": [
+   1800.0,
    1800.0,
    1800.0,
    1800.0,
@@ -7811,9 +7889,11 @@
    1799.99,
    1799.99,
    1799.99,
+   1799.99,
    1799.99
   ],
   "bmc teammachine": [
+   1799.99,
    1799.99,
    1799.99,
    1799.99,
@@ -7849,9 +7929,11 @@
    1500.0,
    1500.0,
    1500.0,
+   1500.0,
    1500.0
   ],
   "br triathlonrad": [
+   1600.0,
    1600.0,
    1600.0,
    1600.0,
@@ -7887,9 +7969,11 @@
    1899.0,
    1899.0,
    1899.0,
+   1899.0,
    1899.0
   ],
   "cannondale slice": [
+   1099.0,
    1099.0,
    1099.0,
    1099.0,
@@ -7925,9 +8009,11 @@
    1750.0,
    1750.0,
    1750.0,
+   1750.0,
    1750.0
   ],
   "cannondale system": [
+   1300.0,
    1300.0,
    1300.0,
    1300.0,
@@ -8033,9 +8119,12 @@
    1259.66,
    1259.66,
    1259.66,
+   1259.66,
    1259.66
   ],
   "canyon endurace": [
+   1000.0,
+   1259.66,
    1000.0,
    1259.66,
    1000.0,
@@ -8182,6 +8271,7 @@
    900.0,
    900.0,
    900.0,
+   900.0,
    900.0
   ],
   "canyon roadlight": [
@@ -8210,9 +8300,11 @@
    2100.0,
    2100.0,
    2100.0,
+   2100.0,
    2100.0
   ],
   "carbon cfr": [
+   1399.0,
    1399.0,
    1399.0,
    1399.0,
@@ -8271,6 +8363,7 @@
    2000.0,
    2000.0,
    2000.0,
+   2000.0,
    2000.0
   ],
   "cinelli hobootleg": [
@@ -8293,9 +8386,12 @@
    1750.0,
    1750.0,
    1750.0,
+   1750.0,
    1750.0
   ],
   "cinelli zydeco": [
+   1590.0,
+   1000.0,
    1590.0,
    1000.0,
    1590.0,
@@ -8363,6 +8459,7 @@
    1450.0,
    1450.0,
    1450.0,
+   1450.0,
    1450.0
   ],
   "cube agree": [
@@ -8374,15 +8471,6 @@
    1999.0
   ],
   "cube attain": [
-   1299.0,
-   1289.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1299.0,
-   1299.0,
-   1289.0,
-   1099.0,
    1099.0,
    1099.0,
    1299.0,
@@ -8431,11 +8519,22 @@
    1699.0,
    1699.0,
    1699.0,
+   1649.0,
+   1299.0,
+   1289.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1099.0,
+   1099.0,
    1649.0,
    1299.0,
    1289.0
   ],
   "cube cross": [
+   2069.0,
+   2069.0,
    2069.0,
    2069.0,
    2069.0,
@@ -8486,9 +8585,11 @@
    2100.0,
    2100.0,
    2100.0,
+   2100.0,
    2100.0
   ],
   "cube nulane": [
+   990.0,
    990.0,
    990.0,
    990.0,
@@ -8516,27 +8617,6 @@
   ],
   "cube nuroad": [
    999.0,
-   1999.0,
-   1099.0,
-   1399.0,
-   1999.0,
-   1299.0,
-   1199.0,
-   1499.0,
-   1999.0,
-   1499.0,
-   1999.0,
-   1999.0,
-   1999.0,
-   1999.0,
-   1199.0,
-   1299.0,
-   1299.0,
-   1299.0,
-   1999.0,
-   1999.0,
-   999.0,
-   999.0,
    999.0,
    1999.0,
    1099.0,
@@ -8574,9 +8654,31 @@
    1999.0,
    1999.0,
    1999.0,
-   1199.0
+   1199.0,
+   1299.0,
+   1299.0,
+   1299.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1099.0,
+   1399.0,
+   1299.0,
+   1199.0,
+   1999.0,
+   1499.0,
+   1499.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   999.0,
+   999.0
   ],
   "cube reaction": [
+   1450.0,
    1450.0,
    1450.0,
    1450.0,
@@ -8619,9 +8721,11 @@
    1199.0,
    1199.0,
    1199.0,
+   1199.0,
    1199.0
   ],
   "diamant jahre": [
+   999.0,
    999.0,
    999.0,
    999.0,
@@ -8668,6 +8772,7 @@
    1999.99,
    1999.99,
    1999.99,
+   1999.99,
    1999.99
   ],
   "focus mares": [
@@ -8685,6 +8790,7 @@
    1299.0
   ],
   "focus paralane2": [
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -8744,6 +8850,8 @@
    1999.0,
    1395.0,
    1999.0,
+   1395.0,
+   1999.0,
    1395.0
   ],
   "ghost bikes": [
@@ -8756,9 +8864,6 @@
    2750.0
   ],
   "giant revolt": [
-   2600.0,
-   975.0,
-   1200.0,
    2100.0,
    980.0,
    975.0,
@@ -8786,6 +8891,9 @@
    2100.0,
    980.0,
    975.0,
+   1200.0,
+   2100.0,
+   980.0,
    1200.0,
    2100.0,
    980.0,
@@ -8818,6 +8926,8 @@
    980.0
   ],
   "giant tcr": [
+   1250.0,
+   1949.0,
    1250.0,
    1949.0,
    1250.0,
@@ -8915,10 +9025,11 @@
    1799.0,
    1839.0,
    1799.0,
+   1839.0,
+   1799.0,
    1839.0
   ],
   "kona rove": [
-   700.0,
    989.0,
    989.0,
    989.0,
@@ -8969,6 +9080,7 @@
    989.0,
    989.0,
    989.0,
+   1169.0,
    1169.0,
    1169.0,
    1169.0,
@@ -9014,6 +9126,7 @@
    1200.0,
    1200.0,
    1200.0,
+   1200.0,
    1200.0
   ],
   "liv langma": [
@@ -9033,9 +9146,11 @@
    1500.0,
    1500.0,
    1500.0,
+   1500.0,
    1500.0
   ],
   "marin bikes dsx": [
+   1000.0,
    1000.0,
    1000.0,
    1000.0,
@@ -9081,12 +9196,10 @@
    1260.0,
    1260.0,
    1260.0,
+   1260.0,
    1260.0
   ],
   "merida silex": [
-   1900.0,
-   1799.0,
-   1499.0,
    1999.0,
    1900.0,
    1799.0,
@@ -9135,6 +9248,9 @@
    1900.0,
    1799.0,
    1499.0,
+   1999.0,
+   1900.0,
+   1799.0,
    1999.0,
    1900.0,
    1799.0,
@@ -9180,6 +9296,7 @@
    1150.0,
    1150.0,
    1150.0,
+   1150.0,
    1150.0
   ],
   "norco search": [
@@ -9206,9 +9323,11 @@
    1399.0,
    1399.0,
    1399.0,
+   1399.0,
    1399.0
   ],
   "norco valence": [
+   1299.0,
    1299.0,
    1299.0,
    1299.0,
@@ -9404,7 +9523,6 @@
    1499.0,
    1889.0,
    1889.0,
-   1889.0,
    1499.0,
    1889.0,
    1889.0,
@@ -9415,6 +9533,7 @@
    1889.0,
    1889.0,
    1499.0,
+   2099.0,
    1889.0,
    1889.0
   ],
@@ -9513,9 +9632,11 @@
    1190.0,
    1190.0,
    1190.0,
+   1190.0,
    1190.0
   ],
   "pinarello dogma": [
+   1900.0,
    1900.0,
    1900.0,
    1900.0,
@@ -9568,6 +9689,8 @@
    1200.0,
    1200.0,
    1200.0,
+   1200.0,
+   1200.0,
    1200.0
   ],
   "pivot cycles": [
@@ -9578,6 +9701,7 @@
    2799.0,
    2799.0,
    2799.0,
+   1800.0,
    1800.0,
    1800.0,
    1800.0,
@@ -9610,9 +9734,12 @@
    1709.0,
    1709.0,
    1709.0,
+   1709.0,
    1709.0
   ],
   "raymon soreno": [
+   1799.0,
+   1799.0,
    1799.0,
    1799.0,
    1799.0,
@@ -9725,18 +9852,19 @@
    999.0,
    999.0,
    999.0,
+   999.0,
    999.0
   ],
   "ridley kanzo": [
-   2799.0,
-   1699.0,
-   1550.0,
    1500.0,
    2799.0,
    1699.0,
    1550.0,
    1500.0,
    2799.0,
+   1699.0,
+   1550.0,
+   1500.0,
    1699.0,
    1550.0,
    1500.0,
@@ -9806,9 +9934,11 @@
    1900.0,
    1900.0,
    1900.0,
+   1900.0,
    1900.0
   ],
   "rondo bogan": [
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -9858,9 +9988,11 @@
    1299.99,
    1299.99,
    1299.99,
+   1299.99,
    1299.99
   ],
   "rondo mutt": [
+   2000.0,
    2000.0,
    2000.0,
    2000.0,
@@ -9901,6 +10033,7 @@
    2799.99,
    1699.99,
    2799.99,
+   1699.99,
    1699.99,
    1699.99,
    1699.99,
@@ -9961,6 +10094,7 @@
    2100.0,
    2100.0,
    2100.0,
+   2100.0,
    2100.0
   ],
   "rose backroad": [
@@ -10004,11 +10138,10 @@
    2099.0,
    2099.0,
    2099.0,
+   2099.0,
    2099.0
   ],
   "rose bikes backroad": [
-   3099.0,
-   1799.0,
    1699.0,
    2799.0,
    2199.0,
@@ -10033,6 +10166,8 @@
    2799.0,
    2199.0,
    3099.0,
+   1799.0,
+   1699.0,
    1799.0,
    1699.0,
    1799.0,
@@ -10069,6 +10204,7 @@
    1699.0
   ],
   "rose bikes reveal": [
+   1600.0,
    1600.0,
    1600.0,
    1600.0,
@@ -10135,9 +10271,12 @@
    1690.0,
    1700.0,
    1690.0,
+   1700.0,
+   1690.0,
    1700.0
   ],
   "rose bikes x": [
+   999.0,
    999.0,
    999.0,
    999.0,
@@ -10196,9 +10335,12 @@
    1300.0,
    1200.0,
    1300.0,
+   1200.0,
+   1300.0,
    1200.0
   ],
   "rose reveal": [
+   1300.0,
    1300.0,
    1300.0,
    1300.0,
@@ -10248,9 +10390,11 @@
    1500.0,
    1500.0,
    1500.0,
+   1500.0,
    1500.0
   ],
   "sc juniper": [
+   1999.0,
    1999.0,
    1999.0,
    1999.0,
@@ -10278,7 +10422,6 @@
   ],
   "scott addict": [
    2019.0,
-   2019.0,
    2069.0,
    2069.0,
    2059.0,
@@ -10333,8 +10476,9 @@
    1939.0,
    1939.0,
    1939.0,
-   1939.0,
    2019.0,
+   2069.0,
+   2069.0,
    2069.0,
    2069.0
   ],
@@ -10371,6 +10515,7 @@
    1790.0,
    1790.0,
    1790.0,
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -10524,6 +10669,7 @@
    2000.0,
    2000.0,
    2000.0,
+   2000.0,
    2000.0
   ],
   "specialized crux": [
@@ -10548,6 +10694,7 @@
    1666.0,
    2500.0,
    2899.0,
+   1666.0,
    1666.0,
    1666.0,
    1666.0,
@@ -10661,6 +10808,7 @@
    1400.0,
    1400.0,
    1400.0,
+   1400.0,
    1400.0
   ],
   "stevens pista": [
@@ -10680,9 +10828,12 @@
    1650.0,
    1650.0,
    1650.0,
+   1650.0,
    1650.0
   ],
   "superior xr": [
+   1979.0,
+   1479.0,
    1979.0,
    1479.0,
    1979.0,
@@ -10754,6 +10905,7 @@
    1160.0,
    1160.0,
    1160.0,
+   1160.0,
    1160.0
   ],
   "trek emonda": [
@@ -10773,9 +10925,11 @@
    1111.0,
    1111.0,
    1111.0,
+   1111.0,
    1111.0
   ],
   "trek fx": [
+   1699.0,
    1699.0,
    1699.0,
    1699.0,
@@ -10818,9 +10972,11 @@
    1400.0,
    1400.0,
    1400.0,
+   1400.0,
    1400.0
   ],
   "trek tct": [
+   1200.0,
    1200.0,
    1200.0,
    1200.0,
@@ -10872,9 +11028,11 @@
    1999.0,
    1999.0,
    1999.0,
+   1999.0,
    1999.0
   ],
   "wilier cento10": [
+   1650.0,
    1650.0,
    1650.0,
    1650.0,
@@ -10913,9 +11071,11 @@
    1170.0,
    1170.0,
    1170.0,
+   1170.0,
    1170.0
   ],
   "wilier rennrad": [
+   1800.0,
    1800.0,
    1800.0,
    1800.0,
@@ -10949,7 +11109,6 @@
  },
  "neupreise": {
   "bergamont grandurance": [
-   1599.0,
    1399.0,
    1799.0,
    1799.0,
@@ -10985,15 +11144,16 @@
    1499.0,
    1499.0,
    1499.0,
+   1799.0,
+   1799.0,
+   1799.0,
+   1799.0,
    1299.0,
    1299.0,
    1299.0,
    1499.0,
    1499.0,
    1499.0,
-   1799.0,
-   1799.0,
-   1799.0,
    1799.0,
    1799.0,
    1799.0,
@@ -11097,9 +11257,11 @@
    1499.0,
    1499.0,
    1499.0,
+   1499.0,
    1499.0
   ],
   "canyon endurace": [
+   1499.0,
    1499.0,
    1499.0,
    1499.0,
@@ -11131,9 +11293,6 @@
    2299.0
   ],
   "canyon grizl": [
-   1499.0,
-   2099.0,
-   2499.0,
    3999.0,
    1499.0,
    2099.0,
@@ -11190,9 +11349,13 @@
    2099.0,
    2499.0,
    1499.0,
+   2099.0,
+   2499.0,
+   1499.0,
    2099.0
   ],
   "cinelli hobootleg": [
+   2092.44,
    2092.44,
    2092.44,
    2092.44,
@@ -11254,6 +11417,8 @@
    1924.37,
    1252.1,
    1924.37,
+   1252.1,
+   1924.37,
    1252.1
   ],
   "cube agree": [
@@ -11265,15 +11430,6 @@
    1999.0
   ],
   "cube attain": [
-   1299.0,
-   1399.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1299.0,
-   1299.0,
-   1399.0,
-   1099.0,
    1099.0,
    1099.0,
    1299.0,
@@ -11322,6 +11478,15 @@
    1699.0,
    1699.0,
    1699.0,
+   1699.0,
+   1299.0,
+   1399.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1099.0,
+   1099.0,
    1699.0,
    1299.0,
    1399.0
@@ -11358,31 +11523,12 @@
    2499.0,
    2499.0,
    2499.0,
+   2499.0,
+   2499.0,
    2499.0
   ],
   "cube nuroad": [
    999.0,
-   1999.0,
-   1099.0,
-   1399.0,
-   1999.0,
-   1299.0,
-   1199.0,
-   1499.0,
-   1999.0,
-   1499.0,
-   1999.0,
-   1999.0,
-   1999.0,
-   1999.0,
-   1199.0,
-   1299.0,
-   1299.0,
-   1299.0,
-   1999.0,
-   1999.0,
-   999.0,
-   999.0,
    999.0,
    1999.0,
    1099.0,
@@ -11420,7 +11566,28 @@
    1999.0,
    1999.0,
    1999.0,
-   1199.0
+   1199.0,
+   1299.0,
+   1299.0,
+   1299.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1099.0,
+   1399.0,
+   1299.0,
+   1199.0,
+   1999.0,
+   1499.0,
+   1499.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   1999.0,
+   999.0,
+   999.0
   ],
   "kona libre": [
    1999.0,
@@ -11428,6 +11595,7 @@
    1999.0
   ],
   "kona ouroboros": [
+   3499.0,
    3499.0,
    3499.0,
    3499.0,
@@ -11504,9 +11672,11 @@
    1799.0,
    1799.0,
    1799.0,
+   1799.0,
    1799.0
   ],
   "marin bikes gestalt": [
+   1487.4,
    1487.4,
    1487.4,
    1487.4,
@@ -11634,6 +11804,9 @@
    2599.0,
    2599.0,
    2599.0,
+   2599.0,
+   2599.0,
+   2599.0,
    2599.0
   ],
   "orbea terra": [
@@ -11714,9 +11887,12 @@
    2499.0,
    2499.0,
    2499.0,
+   2499.0,
    2499.0
   ],
   "raymon soreno": [
+   1999.0,
+   1999.0,
    1999.0,
    1999.0,
    1999.0,
@@ -11853,9 +12029,12 @@
    2799.0,
    2799.0,
    2799.0,
+   2799.0,
    2799.0
   ],
   "rose blend": [
+   1400.0,
+   1300.0,
    1400.0,
    1300.0,
    1400.0,
@@ -11914,6 +12093,7 @@
    2000.0,
    2000.0,
    2000.0,
+   2000.0,
    2000.0
   ],
   "salsa cutthroat": [
@@ -11930,7 +12110,6 @@
    2599.0,
    2599.0,
    2599.0,
-   2599.0,
    2699.0,
    2699.0,
    2599.0,
@@ -11979,7 +12158,8 @@
    2599.0,
    2599.0,
    2599.0,
-   2599.0,
+   2699.0,
+   2699.0,
    2699.0,
    2699.0
   ],
@@ -12139,9 +12319,12 @@
    2629.0,
    1919.0,
    2629.0,
+   1919.0,
+   2629.0,
    1919.0
   ],
   "wilier jaroon": [
+   1336.13,
    1336.13,
    1336.13,
    1336.13,
