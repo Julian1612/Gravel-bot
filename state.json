@@ -107,7 +107,7 @@
    13.4506
   ]
  },
- "last_run": "2026-11-04T12:53:36+00:00",
+ "last_run": "2026-11-04T20:23:16+00:00",
  "listings": {
   "bike_components:v-3698": {
    "alerted": {},
@@ -137,7 +137,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1336.13,
    "location": null,
    "prices": [
@@ -184,7 +184,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1252.1,
    "location": null,
    "prices": [
@@ -203,7 +203,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2092.44,
    "location": null,
    "prices": [
@@ -222,7 +222,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1924.37,
    "location": null,
    "prices": [
@@ -241,7 +241,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1487.4,
    "location": null,
    "prices": [
@@ -254,25 +254,6 @@
    "source": "bike_components",
    "title": "Marin Bikes Gestalt 2 28\" Gravelbike",
    "url": "https://www.bike-components.de/de/Marin-Bikes/Gestalt-2-28-Gravelbike-p227413/?v=57662-blue-grey",
-   "zip": null
-  },
-  "bike_components:v-60646": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3016.81,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     2690.0
-    ]
-   ],
-   "shipping": true,
-   "source": "bike_components",
-   "title": "Salsa Cutthroat Carbon GRX610 29\" Gravelbike",
-   "url": "https://www.bike-components.de/de/Salsa/Cutthroat-Carbon-GRX610-29-Gravelbike-p233910/?v=60646-smoke-black",
    "zip": null
   },
   "bikemarkt:1336786": {
@@ -298,7 +279,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -313,47 +294,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1606949-cannondale-system-six-liquigas-erstklassiger-zustand",
    "zip": null
   },
-  "bikemarkt:1666803": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     550.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Specialized Sequoia Elite 2018 RH 54 verkauft",
-   "url": "https://bikemarkt.mtb-news.de/article/1666803-specialized-sequoia-elite-2018-rh-54-verkauft",
-   "zip": null
-  },
-  "bikemarkt:1698145": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3450.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Basic Bikes BASIC Gravelbike SRAM Apex AXS XPLR 1x12",
-   "url": "https://bikemarkt.mtb-news.de/article/1698145-basic-bikes-basic-gravelbike-sram-apex-axs-xplr-1x12",
-   "zip": null
-  },
   "bikemarkt:1742656": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -365,24 +310,6 @@
    "shipping": false,
    "title": "Spyder Dealer - Gravel One 50 53 56cm SRAM Apex1 UVP 2099,- JobRad",
    "url": "https://bikemarkt.mtb-news.de/article/1742656-spyder-dealer-gravel-one-50-53-56cm-sram-apex1-uvp-2099-jobrad",
-   "zip": null
-  },
-  "bikemarkt:1745747": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2900.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Giant TCX Advanced Pro 0 - Größe ML - AXS, Powermeter, DT Swiss  2300km",
-   "url": "https://bikemarkt.mtb-news.de/article/1745747-giant-tcx-advanced-pro-0-groesse-ml-axs-powermeter-dt-swiss-2300km",
    "zip": null
   },
   "bikemarkt:1767746": {
@@ -465,24 +392,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1778375-merida-silex-400-gravelbike-2024-grx-400-2x10-alu-black-grey-tita",
    "zip": null
   },
-  "bikemarkt:1778461": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Ridley Kanzo Adventure",
-   "url": "https://bikemarkt.mtb-news.de/article/1778461-ridley-kanzo-adventure",
-   "zip": null
-  },
   "bikemarkt:1778528": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
@@ -499,24 +408,6 @@
    "shipping": false,
    "title": "Merida Silex 500 Gravelbike 2026 Sram Apex 1x12 Alu Moose Green Neu",
    "url": "https://bikemarkt.mtb-news.de/article/1778528-merida-silex-500-gravelbike-2026-sram-apex-1x12-alu-moose-green-neu",
-   "zip": null
-  },
-  "bikemarkt:1778543": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2600.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Giant Revolt Advanced 0 M",
-   "url": "https://bikemarkt.mtb-news.de/article/1778543-giant-revolt-advanced-0-m",
    "zip": null
   },
   "bikemarkt:1778840": {
@@ -555,24 +446,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1779033-vannicholas-amazonas-titan-gravel-bike-gr-l-tune-lrs-custom-aufbau",
    "zip": null
   },
-  "bikemarkt:1779278": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3099.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Crossworx Bikes RIDE280 – Größe M – Vorführrad – RAL3015 – Hellrosa",
-   "url": "https://bikemarkt.mtb-news.de/article/1779278-crossworx-bikes-ride280-groesse-m-vorfuehrrad-ral3015-hellrosa",
-   "zip": null
-  },
   "bikemarkt:1779574": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
@@ -590,42 +463,6 @@
    "title": "Rondo Booz ST, Verschiedene Größen",
    "url": "https://bikemarkt.mtb-news.de/article/1779574-rondo-booz-st-verschiedene-groessen",
    "zip": null
-  },
-  "bikemarkt:1779824": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     650.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Canyon Roadlight Preisupdate",
-   "url": "https://bikemarkt.mtb-news.de/article/1779824-canyon-roadlight-preisupdate",
-   "zip": null
-  },
-  "bikemarkt:1781159": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": "67251 Freinsheim",
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2499.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Ceepo Rindo Gravelbike – Showbike / Aussteller – Größe L",
-   "url": "https://bikemarkt.mtb-news.de/article/1781159-ceepo-rindo-gravelbike-showbike-aussteller-groesse-l",
-   "zip": "67251"
   },
   "bikemarkt:1782147": {
    "alerted": {
@@ -648,78 +485,6 @@
    "shipping": false,
    "title": "Canyon Grizl 58",
    "url": "https://bikemarkt.mtb-news.de/article/1782147-canyon-grizl-58",
-   "zip": null
-  },
-  "bikemarkt:1782830": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2500.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Salca Warbird GRX 810 2 x 11 Carbon Gravelbike oliv Größe 56",
-   "url": "https://bikemarkt.mtb-news.de/article/1782830-salca-warbird-grx-810-2-x-11-carbon-gravelbike-oliv-groesse-56",
-   "zip": null
-  },
-  "bikemarkt:1782957": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     700.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Kona ROVE AL DL Gravelbike Aluminium RH. 58 rostbraun",
-   "url": "https://bikemarkt.mtb-news.de/article/1782957-kona-rove-al-dl-gravelbike-aluminium-rh-58-rostbraun",
-   "zip": null
-  },
-  "bikemarkt:1783109": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3500.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Orbea Terra M20i, Carbon, DI2, Zipp Carbon LR",
-   "url": "https://bikemarkt.mtb-news.de/article/1783109-orbea-terra-m20i-carbon-di2-zipp-carbon-lr",
-   "zip": null
-  },
-  "bikemarkt:1783160": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3099.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Rose Bikes Backroad Carbon EQ XPLR AXS Gravel Bike Gr. 59 cm",
-   "url": "https://bikemarkt.mtb-news.de/article/1783160-rose-bikes-backroad-carbon-eq-xplr-axs-gravel-bike-gr-59-cm",
    "zip": null
   },
   "bikemarkt:1783212": {
@@ -756,24 +521,6 @@
    "shipping": false,
    "title": "Merida Silex 7000 Größe M modifiziert und 2 Paar DT-Swiss Felgen",
    "url": "https://bikemarkt.mtb-news.de/article/1783312-merida-silex-7000-groesse-m-modifiziert-und-2-paar-dt-swiss-felgen",
-   "zip": null
-  },
-  "bikemarkt:1783396": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Cervélo Aspero GRX RX610 Peaches and Cream Carbon Gr.: 54",
-   "url": "https://bikemarkt.mtb-news.de/article/1783396-cervelo-aspero-grx-rx610-peaches-and-cream-carbon-gr-54",
    "zip": null
   },
   "bikemarkt:1783545": {
@@ -821,7 +568,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -835,47 +582,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1784449-carbon-cfr-707-gravel-bike-carbonda-m-apex-1x12-dt-370-neuwertig",
    "zip": null
   },
-  "bikemarkt:1784563": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.99
-    ]
-   ],
-   "shipping": false,
-   "title": "Rondo MYLC CF1 Gravel Plus, SRAM Rival XLPR eTap AXS, verschiedene Größen",
-   "url": "https://bikemarkt.mtb-news.de/article/1784563-rondo-mylc-cf1-gravel-plus-sram-rival-xlpr-etap-axs-verschiedene-groessen",
-   "zip": null
-  },
-  "bikemarkt:1784583": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2400.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Trek Checkpoint SL5 Größe L 61cm",
-   "url": "https://bikemarkt.mtb-news.de/article/1784583-trek-checkpoint-sl5-groesse-l-61cm",
-   "zip": null
-  },
   "bikemarkt:1785725": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -893,7 +604,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -907,29 +618,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1785789-kona-ouroboros-cr-gravelbike-2025-apex-1x12-carbon-fox-blue-neu",
    "zip": null
   },
-  "bikemarkt:1786106": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3490.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nicolai Argon GX - Gr. M - Rival AXS, Tune, RS Rudy, 3T, Hope",
-   "url": "https://bikemarkt.mtb-news.de/article/1786106-nicolai-argon-gx-gr-m-rival-axs-tune-rs-rudy-3t-hope",
-   "zip": null
-  },
   "bikemarkt:1786420": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -947,7 +640,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -965,7 +658,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1001,7 +694,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1015,65 +708,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1787163-ridley-kanzo-e",
    "zip": null
   },
-  "bikemarkt:1787272": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Merida Silex 4000 Gravelbike 2024 Carbon 2x10 Grey Neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1787272-merida-silex-4000-gravelbike-2024-carbon-2x10-grey-neu",
-   "zip": null
-  },
-  "bikemarkt:1787364": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Pivot Cycles Vault Gravelbike Vollcarbon Custom XL, DT Swiss, GRX, Easton parts",
-   "url": "https://bikemarkt.mtb-news.de/article/1787364-pivot-cycles-vault-gravelbike-vollcarbon-custom-xl-dt-swiss-grx-easton-parts",
-   "zip": null
-  },
-  "bikemarkt:1787902": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3006.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Van Rysel GCR SRAM Force AXS Reynolds Carbon neuwertig + Zubehör",
-   "url": "https://bikemarkt.mtb-news.de/article/1787902-van-rysel-gcr-sram-force-axs-reynolds-carbon-neuwertig-zubehoer",
-   "zip": null
-  },
   "bikemarkt:1788575": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1087,47 +726,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1788575-canyon-pathlite-7",
    "zip": null
   },
-  "bikemarkt:1788582": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3200.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Dinolfo Cycles Gravel Bike, handgeschweißter Stahlrahmen, feinste Carbonanbauteile",
-   "url": "https://bikemarkt.mtb-news.de/article/1788582-dinolfo-cycles-gravel-bike-handgeschweisster-stahlrahmen-feinste-carbonanbauteile",
-   "zip": null
-  },
-  "bikemarkt:1788775": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2499.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Kona Sutra LTD",
-   "url": "https://bikemarkt.mtb-news.de/article/1788775-kona-sutra-ltd",
-   "zip": null
-  },
   "bikemarkt:1788984": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1141,42 +744,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1788984-ridley-kanzo-e",
    "zip": null
   },
-  "bikemarkt:1789541": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Rose Bikes Backroad Carbon GRX 820 1x12 Gravelbike Green 55 Neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1789541-rose-bikes-backroad-carbon-grx-820-1x12-gravelbike-green-55-neu",
-   "zip": null
-  },
-  "bikemarkt:1789542": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Rose Bikes Backroad EKAR Carbon Gravelbike Wasabi Grey Purple Neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1789542-rose-bikes-backroad-ekar-carbon-gravelbike-wasabi-grey-purple-neu",
-   "zip": null
-  },
   "bikemarkt:1789543": {
    "alerted": {
     "under_market": [
@@ -1186,7 +753,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1209,7 +776,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1246,29 +813,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1789586-specialized-diverge",
    "zip": null
   },
-  "bikemarkt:1790420": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2450.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Trek Checkpoint SL5 Gr. XL 58 Gravel Bike",
-   "url": "https://bikemarkt.mtb-news.de/article/1790420-trek-checkpoint-sl5-gr-xl-58-gravel-bike",
-   "zip": null
-  },
   "bikemarkt:1791296": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1282,29 +831,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1791296-marin-bikes-dsx-3",
    "zip": null
   },
-  "bikemarkt:1791614": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Merida Silex 7000 Gravelbike 2024 GRX 820 1x12 Carbon Neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1791614-merida-silex-7000-gravelbike-2024-grx-820-1x12-carbon-neu",
-   "zip": null
-  },
   "bikemarkt:1792228": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1322,7 +853,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1353,29 +884,6 @@
    "source": "bikemarkt",
    "title": "Scott Foil 20",
    "url": "https://bikemarkt.mtb-news.de/article/1792790-scott-foil-20",
-   "zip": null
-  },
-  "bikemarkt:1793122": {
-   "alerted": {
-    "under_market": [
-     "2026-09-19T18:45:03+00:00",
-     2399.0
-    ]
-   },
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2399.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Cannondale Topstone Carbon Lefty Gr. L | Carbon LRS | SRAM AXS",
-   "url": "https://bikemarkt.mtb-news.de/article/1793122-cannondale-topstone-carbon-lefty-gr-l-carbon-lrs-sram-axs",
    "zip": null
   },
   "bikemarkt:1793195": {
@@ -1434,24 +942,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1793374-sc-juniper-gravel-carbon-bike-braun-1-x-11-rival-gr-xl",
    "zip": null
   },
-  "bikemarkt:1793680": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2299.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Giant Revolt Advanced 1 Rival AXS",
-   "url": "https://bikemarkt.mtb-news.de/article/1793680-giant-revolt-advanced-1-rival-axs",
-   "zip": null
-  },
   "bikemarkt:1793814": {
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
@@ -1499,7 +989,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1522,7 +1012,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1540,7 +1030,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1552,24 +1042,6 @@
    "shipping": false,
    "title": "Fairdale WEEKENDER NOMAD NEU",
    "url": "https://bikemarkt.mtb-news.de/article/1794221-fairdale-weekender-nomad-neu",
-   "zip": null
-  },
-  "bikemarkt:1794582": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2750.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Ghost Bikes Asket",
-   "url": "https://bikemarkt.mtb-news.de/article/1794582-ghost-bikes-asket",
    "zip": null
   },
   "bikemarkt:1794617": {
@@ -1589,42 +1061,6 @@
    "source": "bikemarkt",
    "title": "Focus Paralane2 Gr. 57, (Carbon, DuraAce)",
    "url": "https://bikemarkt.mtb-news.de/article/1794617-focus-paralane2-gr-57-carbon-duraace",
-   "zip": null
-  },
-  "bikemarkt:1794654": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3300.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Specialized Diverge Comp Carbon Gravel gr. 52 grx - wie neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1794654-specialized-diverge-comp-carbon-gravel-gr-52-grx-wie-neu",
-   "zip": null
-  },
-  "bikemarkt:1794711": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3000.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Cannondale Topstone Carbon lefty 1 axs",
-   "url": "https://bikemarkt.mtb-news.de/article/1794711-cannondale-topstone-carbon-lefty-1-axs",
    "zip": null
   },
   "bikemarkt:1794826": {
@@ -1769,7 +1205,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1784,160 +1220,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1795505-norco-valence-ultegra-carbon-groesse-55-carbon-rennrad",
    "zip": null
   },
-  "bikemarkt:1795506": {
-   "alerted": {
-    "under_market": [
-     "2026-09-19T12:47:51+00:00",
-     1799.0
-    ]
-   },
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": "64673 Zwingenberg",
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     1799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger Comp 2021 Gravel Bike Cyclocross Komplettbike - Größe M",
-   "url": "https://bikemarkt.mtb-news.de/article/1795506-nukeproof-digger-comp-2021-gravel-bike-cyclocross-komplettbike-groesse-m",
-   "zip": "64673"
-  },
-  "bikemarkt:1795507": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe XL",
-   "url": "https://bikemarkt.mtb-news.de/article/1795507-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-xl",
-   "zip": null
-  },
-  "bikemarkt:1795508": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe M",
-   "url": "https://bikemarkt.mtb-news.de/article/1795508-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-m",
-   "zip": null
-  },
-  "bikemarkt:1795509": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2799.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger RS Gravel Bike Cyclocross Komplettbike - Größe L",
-   "url": "https://bikemarkt.mtb-news.de/article/1795509-nukeproof-digger-rs-gravel-bike-cyclocross-komplettbike-groesse-l",
-   "zip": null
-  },
-  "bikemarkt:1795510": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": "64673 Zwingenberg",
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger Factory Gravel Bike Cyclocross Komplettbike - Größe L",
-   "url": "https://bikemarkt.mtb-news.de/article/1795510-nukeproof-digger-factory-gravel-bike-cyclocross-komplettbike-groesse-l",
-   "zip": "64673"
-  },
-  "bikemarkt:1795511": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": "64673 Zwingenberg",
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger Factory Gravel Bike Cyclocross Komplettbike - Größe S",
-   "url": "https://bikemarkt.mtb-news.de/article/1795511-nukeproof-digger-factory-gravel-bike-cyclocross-komplettbike-groesse-s",
-   "zip": "64673"
-  },
-  "bikemarkt:1795512": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": "64673 Zwingenberg",
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2199.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Nukeproof Digger Factory 2021 Gravel Bike Cyclocross Komplettbike - Größe L",
-   "url": "https://bikemarkt.mtb-news.de/article/1795512-nukeproof-digger-factory-2021-gravel-bike-cyclocross-komplettbike-groesse-l",
-   "zip": "64673"
-  },
-  "bikemarkt:1795779": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2350.0
-    ]
-   ],
-   "shipping": false,
-   "title": "KTM X-Strada Prime",
-   "url": "https://bikemarkt.mtb-news.de/article/1795779-ktm-x-strada-prime",
-   "zip": null
-  },
   "bikemarkt:1796055": {
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1961,7 +1248,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -1975,29 +1262,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1796200-trek-checkpoint-sl6",
    "zip": null
   },
-  "bikemarkt:1796445": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2999.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Scott Addict Gravel 20 S | SRAM AXS | petrol-black | unisex",
-   "url": "https://bikemarkt.mtb-news.de/article/1796445-scott-addict-gravel-20-s-sram-axs-petrol-black-unisex",
-   "zip": null
-  },
   "bikemarkt:1796483": {
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2020,7 +1289,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2039,7 +1308,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2058,7 +1327,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2077,7 +1346,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2096,7 +1365,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2115,7 +1384,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2134,7 +1403,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2158,7 +1427,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2176,7 +1445,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2210,29 +1479,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1797548-genesis-croix-de-fer-gr-l-reiserad-son-ultegra-randonneur",
    "zip": null
   },
-  "bikemarkt:1797591": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2999.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Orbea Terra M30 TEAM Carbon Nickel - Metallic Cinamon (Matt) Gr.: L",
-   "url": "https://bikemarkt.mtb-news.de/article/1797591-orbea-terra-m30-team-carbon-nickel-metallic-cinamon-matt-gr-l",
-   "zip": null
-  },
   "bikemarkt:1797612": {
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2247,24 +1498,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1797612-bulls-grinder-5-gravelbike-2022-rh-55-nur-100-km-grx",
    "zip": null
   },
-  "bikemarkt:1797634": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3300.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Otso Warakin stainless, 58cm, Onyx, Beast, Ingrid,...",
-   "url": "https://bikemarkt.mtb-news.de/article/1797634-otso-warakin-stainless-58cm-onyx-beast-ingrid",
-   "zip": null
-  },
   "bikemarkt:1797648": {
    "alerted": {
     "price_drop": [
@@ -2274,7 +1507,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": "51702 Bergneustadt Versand",
    "prices": [
@@ -2296,7 +1529,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2311,42 +1544,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1797775-rennrad-colnago",
    "zip": null
   },
-  "bikemarkt:1797809": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2899.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Specialized Crux DSW Gr 54",
-   "url": "https://bikemarkt.mtb-news.de/article/1797809-specialized-crux-dsw-gr-54",
-   "zip": null
-  },
-  "bikemarkt:1797889": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2500.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Specialized Crux Expert (58)",
-   "url": "https://bikemarkt.mtb-news.de/article/1797889-specialized-crux-expert-58",
-   "zip": null
-  },
   "bikemarkt:1798046": {
    "alerted": {
     "under_market": [
@@ -2356,7 +1553,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2368,24 +1565,6 @@
    "shipping": false,
    "title": "Specialized CruX Elite Custom Umbau 58er ca.8.5 kg",
    "url": "https://bikemarkt.mtb-news.de/article/1798046-specialized-crux-elite-custom-umbau-58er-ca-8-5-kg",
-   "zip": null
-  },
-  "bikemarkt:1798121": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2500.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Mondraker gravel Arid M/L custom build",
-   "url": "https://bikemarkt.mtb-news.de/article/1798121-mondraker-gravel-arid-m-l-custom-build",
    "zip": null
   },
   "bikemarkt:1798176": {
@@ -2425,7 +1604,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2443,7 +1622,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2461,7 +1640,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2475,29 +1654,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1798288-rondo-mutt-al-audax-road-plus-bike-gr-xl-custom-build",
    "zip": null
   },
-  "bikemarkt:1798425": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2300.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Cube Nuroad C:62 Pro FE vulcan´n´prism XS",
-   "url": "https://bikemarkt.mtb-news.de/article/1798425-cube-nuroad-c-62-pro-fe-vulcan-n-prism-xs",
-   "zip": null
-  },
   "bikemarkt:1798447": {
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2512,47 +1673,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1798447-trek-madone-5-2",
    "zip": null
   },
-  "bikemarkt:1798677": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     849.99
-    ]
-   ],
-   "shipping": false,
-   "title": "NS Bikes RAG+ 2, 700C Gravel, verschiedene Größen",
-   "url": "https://bikemarkt.mtb-news.de/article/1798677-ns-bikes-rag-2-700c-gravel-verschiedene-groessen",
-   "zip": null
-  },
-  "bikemarkt:1798678": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     729.99
-    ]
-   ],
-   "shipping": false,
-   "title": "NS Bikes RAG+ 3 Road & Gravel Plus 700C Abverkauf, Gr. M oder L",
-   "url": "https://bikemarkt.mtb-news.de/article/1798678-ns-bikes-rag-3-road-gravel-plus-700c-abverkauf-gr-m-oder-l",
-   "zip": null
-  },
   "bikemarkt:1798689": {
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2595,7 +1720,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2636,7 +1761,7 @@
    "alerted": {},
    "first_seen": "2026-10-23T18:58:37+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2691,7 +1816,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2710,7 +1835,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2738,7 +1863,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2761,7 +1886,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2780,7 +1905,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2821,7 +1946,7 @@
    "alerted": {},
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2852,7 +1977,7 @@
    },
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2871,7 +1996,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2890,7 +2015,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -2903,24 +2028,6 @@
    "source": "bikemarkt",
    "title": "Liv avail advanced 2",
    "url": "https://bikemarkt.mtb-news.de/article/1799732-liv-avail-advanced-2",
-   "zip": null
-  },
-  "bikemarkt:1799775": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     3200.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Propain Terrel CF Raw Black - Grösse M - Gravelbike (Neuwertig)",
-   "url": "https://bikemarkt.mtb-news.de/article/1799775-propain-terrel-cf-raw-black-groesse-m-gravelbike-neuwertig",
    "zip": null
   },
   "bikemarkt:1799824": {
@@ -2941,60 +2048,6 @@
    "url": "https://bikemarkt.mtb-news.de/article/1799824-canyon-inflite-cf-sl-gravel",
    "zip": null
   },
-  "bikemarkt:1799880": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2699.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Giant Revolt Advanced 2 - NEU - Carbon Gravel Bike - M/L -Shimano GRX 2x12",
-   "url": "https://bikemarkt.mtb-news.de/article/1799880-giant-revolt-advanced-2-neu-carbon-gravel-bike-m-l-shimano-grx-2x12",
-   "zip": null
-  },
-  "bikemarkt:1799920": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:23:52+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     900.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Kona Libre 2026 Gr. 56cm wie neu",
-   "url": "https://bikemarkt.mtb-news.de/article/1799920-kona-libre-2026-gr-56cm-wie-neu",
-   "zip": null
-  },
-  "bikemarkt:1799940": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2499.0
-    ]
-   ],
-   "shipping": false,
-   "title": "Canyon Grizl CF SL 8 AXS",
-   "url": "https://bikemarkt.mtb-news.de/article/1799940-canyon-grizl-cf-sl-8-axs",
-   "zip": null
-  },
   "bikemarkt:1799977": {
    "alerted": {
     "under_market": [
@@ -3004,7 +2057,7 @@
    },
    "first_seen": "2026-09-19T12:47:51+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3022,7 +2075,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3037,29 +2090,11 @@
    "url": "https://bikemarkt.mtb-news.de/article/1800047-canyon-ultimate-cf-sl-7-gr-s",
    "zip": null
   },
-  "bikemarkt:1800090": {
-   "alerted": {},
-   "first_seen": "2026-09-19T12:47:51+00:00",
-   "is_new": false,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": null,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T12:47:51+00:00",
-     2299.98
-    ]
-   ],
-   "shipping": false,
-   "title": "Rondo Ruut CF 1 Gravel Plus Bike, verschiedene Größen",
-   "url": "https://bikemarkt.mtb-news.de/article/1800090-rondo-ruut-cf-1-gravel-plus-bike-verschiedene-groessen",
-   "zip": null
-  },
   "bikemarkt:1800136": {
    "alerted": {},
    "first_seen": "2026-10-25T09:40:58+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3078,7 +2113,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3169,13 +2204,17 @@
    },
    "first_seen": "2026-09-22T21:38:16+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": "71093 Karte Google",
    "prices": [
     [
      "2026-09-22T21:38:16+00:00",
      1800.0
+    ],
+    [
+     "2026-11-04T20:23:16+00:00",
+     1700.0
     ]
    ],
    "shipping": false,
@@ -3188,7 +2227,7 @@
    "alerted": {},
    "first_seen": "2026-09-24T18:55:26+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3278,7 +2317,7 @@
    },
    "first_seen": "2026-09-27T10:27:42+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3297,7 +2336,7 @@
    "alerted": {},
    "first_seen": "2026-09-29T17:01:05+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3321,7 +2360,7 @@
    },
    "first_seen": "2026-09-29T21:23:49+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3352,7 +2391,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3376,7 +2415,7 @@
    },
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3427,7 +2466,7 @@
    "alerted": {},
    "first_seen": "2026-10-02T16:38:02+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3446,7 +2485,7 @@
    "alerted": {},
    "first_seen": "2026-10-04T22:29:55+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3493,7 +2532,7 @@
    "alerted": {},
    "first_seen": "2026-10-07T11:39:44+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3539,7 +2578,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T18:40:17+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3558,7 +2597,7 @@
    "alerted": {},
    "first_seen": "2026-10-10T16:22:45+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3582,7 +2621,7 @@
    },
    "first_seen": "2026-10-11T11:21:19+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3606,7 +2645,7 @@
    },
    "first_seen": "2026-10-13T12:34:23+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3637,7 +2676,7 @@
    "alerted": {},
    "first_seen": "2026-10-13T12:34:23+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3680,7 +2719,7 @@
    "alerted": {},
    "first_seen": "2026-10-14T15:03:48+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3699,7 +2738,7 @@
    "alerted": {},
    "first_seen": "2026-10-15T14:48:01+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3723,7 +2762,7 @@
    },
    "first_seen": "2026-10-16T09:37:12+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3746,7 +2785,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T22:00:32+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3802,7 +2841,7 @@
    },
    "first_seen": "2026-10-17T16:38:52+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3870,7 +2909,7 @@
    },
    "first_seen": "2026-10-18T16:50:27+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3897,7 +2936,7 @@
    "alerted": {},
    "first_seen": "2026-10-18T13:31:09+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3939,7 +2978,7 @@
    "alerted": {},
    "first_seen": "2026-10-20T19:05:16+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -3996,7 +3035,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T19:13:50+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4042,7 +3081,7 @@
    "alerted": {},
    "first_seen": "2026-10-22T09:57:05+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4061,7 +3100,7 @@
    "alerted": {},
    "first_seen": "2026-10-22T09:57:05+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4080,7 +3119,7 @@
    "alerted": {},
    "first_seen": "2026-10-23T18:58:37+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4118,7 +3157,7 @@
    "alerted": {},
    "first_seen": "2026-10-28T17:19:45+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4137,7 +3176,7 @@
    "alerted": {},
    "first_seen": "2026-10-29T11:25:08+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4156,7 +3195,7 @@
    "alerted": {},
    "first_seen": "2026-10-30T21:43:28+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4194,7 +3233,7 @@
    "alerted": {},
    "first_seen": "2026-11-02T22:29:47+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4213,7 +3252,7 @@
    "alerted": {},
    "first_seen": "2026-11-03T20:03:00+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": "75245 Unterwegs",
    "prices": [
@@ -4232,7 +3271,7 @@
    "alerted": {},
    "first_seen": "2026-11-03T20:03:00+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4251,7 +3290,7 @@
    "alerted": {},
    "first_seen": "2026-11-04T12:53:35+00:00",
    "is_new": false,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": null,
    "location": null,
    "prices": [
@@ -4906,30 +3945,6 @@
    "url": "https://buycycle.com/de-de/product/ultimate-cf-slx-90-sl-2020-26898",
    "zip": null
   },
-  "canyon_outlet:3576": {
-   "alerted": {
-    "under_market": [
-     "2026-09-20T14:01:28+00:00",
-     2268.07
-    ]
-   },
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 2699.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     2268.07
-    ]
-   ],
-   "shipping": true,
-   "source": "canyon_outlet",
-   "title": "Grail CF SL 7 AXS",
-   "url": "https://www.canyon.com/de-de/fahrrad-outlet/gravel-bike/grail-cf-sl-7-axs/3576.html",
-   "zip": null
-  },
   "canyon_outlet:3716": {
    "alerted": {
     "under_market": [
@@ -4982,7 +3997,7 @@
    "alerted": {},
    "first_seen": "2026-11-03T12:44:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2299.0,
    "location": null,
    "prices": [
@@ -5016,25 +4031,6 @@
    "url": "https://www.canyon.com/de-de/gravel-bikes/adventure/grizl/cf/grizl-cf-8-esc-w%2F-eclips/4144.html",
    "zip": null
   },
-  "canyon_outlet:4147": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3999.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     3360.5
-    ]
-   ],
-   "shipping": true,
-   "source": "canyon_outlet",
-   "title": "Grizl CF 9 ESC w/ RIFT",
-   "url": "https://www.canyon.com/de-de/fahrrad-outlet/gravel-bike/grizl-cf-9-esc-w%2F-rift/4147.html",
-   "zip": null
-  },
   "canyon_outlet:4148": {
    "alerted": {
     "under_market": [
@@ -5057,25 +4053,6 @@
    "source": "canyon_outlet",
    "title": "Grail CF 8 1by",
    "url": "https://www.canyon.com/de-de/fahrrad-outlet/gravel-bike/grail-cf-8-1by/4148.html",
-   "zip": null
-  },
-  "canyon_outlet:4150": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3299.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     2772.27
-    ]
-   ],
-   "shipping": true,
-   "source": "canyon_outlet",
-   "title": "Grail CF SL 7 AERO",
-   "url": "https://www.canyon.com/de-de/fahrrad-outlet/gravel-bike/grail-cf-sl-7-aero/4150.html",
    "zip": null
   },
   "canyon_outlet:4167": {
@@ -5125,7 +4102,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -5144,7 +4121,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T14:23:52+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -5168,7 +4145,7 @@
    },
    "first_seen": "2026-10-23T18:58:37+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -5210,7 +4187,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -5252,7 +4229,7 @@
    "alerted": {},
    "first_seen": "2026-09-25T10:06:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5279,7 +4256,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -5335,7 +4312,7 @@
    },
    "first_seen": "2026-10-22T09:57:05+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 999.0,
    "location": null,
    "prices": [
@@ -5426,7 +4403,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -5511,7 +4488,7 @@
    "alerted": {},
    "first_seen": "2026-09-24T14:45:41+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -5760,13 +4737,17 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-10-22T09:57:05+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
     [
      "2026-09-20T17:38:56+00:00",
      1999.0
+    ],
+    [
+     "2026-11-04T20:23:16+00:00",
+     1939.0
     ]
    ],
    "shipping": true,
@@ -6028,7 +5009,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6047,7 +5028,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6066,7 +5047,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6085,7 +5066,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6104,7 +5085,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6123,7 +5104,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -6165,7 +5146,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -6207,7 +5188,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2099.0,
    "location": null,
    "prices": [
@@ -6283,7 +5264,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2599.0,
    "location": null,
    "prices": [
@@ -6435,7 +5416,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -6458,7 +5439,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -6481,7 +5462,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6607,7 +5588,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -6721,7 +5702,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2699.0,
    "location": null,
    "prices": [
@@ -6740,7 +5721,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2699.0,
    "location": null,
    "prices": [
@@ -6835,7 +5816,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6854,7 +5835,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -6911,7 +5892,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -6930,7 +5911,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -6953,7 +5934,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7014,7 +5995,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7037,7 +6018,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T09:44:27+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7060,7 +6041,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7083,7 +6064,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7106,7 +6087,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7129,7 +6110,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7180,7 +6161,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7199,7 +6180,7 @@
    "alerted": {},
    "first_seen": "2026-10-01T11:29:48+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7222,7 +6203,7 @@
    "alerted": {},
    "first_seen": "2026-10-01T11:29:48+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7245,7 +6226,7 @@
    "alerted": {},
    "first_seen": "2026-10-01T11:29:48+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -7268,7 +6249,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7291,7 +6272,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7314,7 +6295,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7337,7 +6318,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -7628,7 +6609,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 3499.0,
    "location": null,
    "prices": [
@@ -7651,7 +6632,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2499.0,
    "location": null,
    "prices": [
@@ -7731,7 +6712,7 @@
    "alerted": {},
    "first_seen": "2026-11-03T20:03:00+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -7759,7 +6740,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -7882,7 +6863,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -7901,7 +6882,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -7920,7 +6901,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -7996,7 +6977,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8015,7 +6996,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8034,7 +7015,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8072,7 +7053,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8091,7 +7072,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8110,7 +7091,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8205,7 +7186,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8224,7 +7205,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8243,7 +7224,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -8300,7 +7281,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -8319,7 +7300,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -8338,7 +7319,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -8357,7 +7338,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8380,7 +7361,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8403,7 +7384,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8426,7 +7407,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8468,7 +7449,7 @@
    "alerted": {},
    "first_seen": "2026-09-22T14:31:31+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -8506,7 +7487,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1399.0,
    "location": null,
    "prices": [
@@ -8525,7 +7506,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8544,7 +7525,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8563,7 +7544,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8582,7 +7563,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -8606,7 +7587,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -8630,7 +7611,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -8654,7 +7635,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -8678,7 +7659,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -8702,7 +7683,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2399.0,
    "location": null,
    "prices": [
@@ -8726,7 +7707,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8769,7 +7750,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8793,7 +7774,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8817,7 +7798,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8836,7 +7817,7 @@
    "alerted": {},
    "first_seen": "2026-10-24T13:33:04+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -8855,7 +7836,7 @@
    "alerted": {},
    "first_seen": "2026-10-24T13:33:04+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -8912,7 +7893,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T18:40:17+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -8950,7 +7931,7 @@
    "alerted": {},
    "first_seen": "2026-10-28T17:19:45+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8969,7 +7950,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -8988,7 +7969,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9007,7 +7988,7 @@
    "alerted": {},
    "first_seen": "2026-09-21T16:37:24+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9026,7 +8007,7 @@
    "alerted": {},
    "first_seen": "2026-09-25T15:30:23+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9050,7 +8031,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9074,7 +8055,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9098,7 +8079,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9122,7 +8103,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9146,7 +8127,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9189,7 +8170,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9208,7 +8189,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9227,7 +8208,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9246,7 +8227,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9265,7 +8246,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9284,7 +8265,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9303,7 +8284,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9322,7 +8303,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9341,7 +8322,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9360,7 +8341,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9379,7 +8360,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9398,7 +8379,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9417,7 +8398,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9436,7 +8417,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9455,7 +8436,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9474,7 +8455,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9493,7 +8474,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9512,7 +8493,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9531,7 +8512,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9550,7 +8531,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9569,7 +8550,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9588,7 +8569,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9607,7 +8588,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T21:22:04+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -9626,7 +8607,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9645,7 +8626,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9664,7 +8645,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9683,7 +8664,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9702,7 +8683,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9721,7 +8702,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9740,7 +8721,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9759,7 +8740,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9778,7 +8759,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9797,7 +8778,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9816,7 +8797,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1799.0,
    "location": null,
    "prices": [
@@ -9835,7 +8816,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9854,7 +8835,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9873,7 +8854,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9892,7 +8873,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9911,7 +8892,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9930,7 +8911,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9949,7 +8930,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9968,7 +8949,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -9987,7 +8968,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10006,7 +8987,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10025,7 +9006,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10044,7 +9025,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10063,7 +9044,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T09:51:42+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10082,7 +9063,7 @@
    "alerted": {},
    "first_seen": "2026-09-29T17:01:05+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10101,7 +9082,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10120,7 +9101,7 @@
    "alerted": {},
    "first_seen": "2026-09-30T16:50:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10139,7 +9120,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10158,7 +9139,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10177,7 +9158,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10196,7 +9177,7 @@
    "alerted": {},
    "first_seen": "2026-10-28T17:19:45+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10215,7 +9196,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10234,7 +9215,7 @@
    "alerted": {},
    "first_seen": "2026-09-23T14:50:24+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -10291,7 +9272,7 @@
    "alerted": {},
    "first_seen": "2026-10-28T21:54:35+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10310,7 +9291,7 @@
    "alerted": {},
    "first_seen": "2026-10-22T09:57:05+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10367,7 +9348,7 @@
    "alerted": {},
    "first_seen": "2026-11-04T12:53:35+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10386,7 +9367,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T11:54:13+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10405,7 +9386,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10429,7 +9410,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10453,7 +9434,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10491,7 +9472,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -10529,7 +9510,7 @@
    "alerted": {},
    "first_seen": "2026-11-04T12:53:35+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -10548,7 +9529,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -10644,7 +9625,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -10711,7 +9692,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10730,7 +9711,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T18:40:17+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10768,7 +9749,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T18:40:17+00:00",
    "is_new": true,
-   "last_seen": "2026-10-22T09:57:05+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -10844,7 +9825,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T11:54:13+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -10868,7 +9849,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -10887,7 +9868,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -10906,7 +9887,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -10925,7 +9906,7 @@
    "alerted": {},
    "first_seen": "2026-10-02T10:59:53+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -10944,7 +9925,7 @@
    "alerted": {},
    "first_seen": "2026-10-24T13:33:04+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -10987,7 +9968,7 @@
    "alerted": {},
    "first_seen": "2026-10-16T14:42:25+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11006,7 +9987,7 @@
    "alerted": {},
    "first_seen": "2026-10-08T11:54:13+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11025,7 +10006,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T14:59:08+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -11044,7 +10025,7 @@
    "alerted": {},
    "first_seen": "2026-10-22T09:57:05+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -11063,7 +10044,7 @@
    "alerted": {},
    "first_seen": "2026-11-03T20:03:00+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1599.0,
    "location": null,
    "prices": [
@@ -11087,7 +10068,7 @@
    },
    "first_seen": "2026-09-30T11:02:47+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -11130,7 +10111,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -11154,7 +10135,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -11178,7 +10159,7 @@
    },
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1299.0,
    "location": null,
    "prices": [
@@ -11197,7 +10178,7 @@
    "alerted": {},
    "first_seen": "2026-10-22T14:58:46+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -11221,7 +10202,7 @@
    },
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1099.0,
    "location": null,
    "prices": [
@@ -11240,7 +10221,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11259,7 +10240,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11278,7 +10259,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11297,7 +10278,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T10:53:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11316,7 +10297,7 @@
    "alerted": {},
    "first_seen": "2026-10-23T18:58:37+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11335,7 +10316,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11377,7 +10358,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11400,7 +10381,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11423,7 +10404,7 @@
    "alerted": {},
    "first_seen": "2026-09-20T17:38:56+00:00",
    "is_new": true,
-   "last_seen": "2026-10-31T23:13:47+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11446,7 +10427,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T22:39:58+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -11465,7 +10446,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T22:39:58+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -11484,7 +10465,7 @@
    "alerted": {},
    "first_seen": "2026-10-14T10:02:20+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11503,7 +10484,7 @@
    "alerted": {},
    "first_seen": "2026-10-14T10:02:20+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11522,7 +10503,7 @@
    "alerted": {},
    "first_seen": "2026-10-14T10:02:20+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1899.0,
    "location": null,
    "prices": [
@@ -11541,7 +10522,7 @@
    "alerted": {},
    "first_seen": "2026-10-14T10:02:20+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1899.0,
    "location": null,
    "prices": [
@@ -11560,7 +10541,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T22:39:58+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -11579,7 +10560,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T22:39:58+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1999.0,
    "location": null,
    "prices": [
@@ -11598,7 +10579,7 @@
    "alerted": {},
    "first_seen": "2026-10-21T22:39:58+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1699.0,
    "location": null,
    "prices": [
@@ -11617,7 +10598,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11636,7 +10617,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11655,7 +10636,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11674,7 +10655,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11693,7 +10674,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11712,7 +10693,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11731,7 +10712,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11750,7 +10731,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11769,7 +10750,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11788,7 +10769,7 @@
    "alerted": {},
    "first_seen": "2026-10-26T17:13:10+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1499.0,
    "location": null,
    "prices": [
@@ -11803,30 +10784,11 @@
    "url": "https://www.fahrrad.de/products/scott-speedster-20-mallow-pink?variant=57634742042997",
    "zip": null
   },
-  "rose_sale:160226": {
-   "alerted": {},
-   "first_seen": "2026-09-20T14:01:28+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3500.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-20T14:01:28+00:00",
-     3450.0
-    ]
-   ],
-   "shipping": true,
-   "source": "rose_sale",
-   "title": "Backroad AL Plus Cues",
-   "url": "https://www.rosebikes.de/p/rose-backroad-al-plus-cues-160226",
-   "zip": null
-  },
   "rose_sale:161842": {
    "alerted": {},
    "first_seen": "2026-11-03T12:44:11+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -11845,7 +10807,7 @@
    "alerted": {},
    "first_seen": "2026-10-29T11:25:08+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -11869,7 +10831,7 @@
    },
    "first_seen": "2026-10-15T09:43:59+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -11945,25 +10907,6 @@
    "url": "https://www.rosebikes.de/p/rose-reveal-al-105-2710170?size=8270&product_shape=20783",
    "zip": null
   },
-  "rose_sale:2710904": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 2999.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     2299.0
-    ]
-   ],
-   "shipping": true,
-   "source": "rose_sale",
-   "title": "Backroad APEX AXS XPLR 1x12",
-   "url": "https://www.rosebikes.de/p/rose-backroad-apex-axs-xplr-1x12-2710904?size=7816&product_shape=20856",
-   "zip": null
-  },
   "rose_sale:2710905": {
    "alerted": {
     "under_market": [
@@ -12001,7 +10944,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1400.0,
    "location": null,
    "prices": [
@@ -12043,25 +10986,6 @@
    "url": "https://www.rosebikes.de/p/rose-backroad-grx-rx820-1x12-2719082?size=7816&product_shape=20856",
    "zip": null
   },
-  "rose_sale:2723817": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3500.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     3450.0
-    ]
-   ],
-   "shipping": true,
-   "source": "rose_sale",
-   "title": "Backroad FF Rival XPLR AXS",
-   "url": "https://www.rosebikes.de/p/rose-backroad-ff-rival-xplr-axs-2723817",
-   "zip": null
-  },
   "rose_sale:2723845": {
    "alerted": {
     "price_drop": [
@@ -12071,7 +10995,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 1300.0,
    "location": null,
    "prices": [
@@ -12090,44 +11014,6 @@
    "url": "https://www.rosebikes.de/p/rose-blend-road-2723845",
    "zip": null
   },
-  "rose_sale:2725742": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 2900.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     2850.0
-    ]
-   ],
-   "shipping": true,
-   "source": "rose_sale",
-   "title": "Backroad GRX 820",
-   "url": "https://www.rosebikes.de/p/rose-backroad-grx-820-2725742",
-   "zip": null
-  },
-  "rose_sale:2725743": {
-   "alerted": {},
-   "first_seen": "2026-09-19T23:23:49+00:00",
-   "is_new": true,
-   "last_seen": "2026-09-20T14:01:28+00:00",
-   "list_price": 3500.0,
-   "location": null,
-   "prices": [
-    [
-     "2026-09-19T23:23:49+00:00",
-     3450.0
-    ]
-   ],
-   "shipping": true,
-   "source": "rose_sale",
-   "title": "Backroad GRX 825 Di2",
-   "url": "https://www.rosebikes.de/p/rose-backroad-grx-825-di2-2725743",
-   "zip": null
-  },
   "rose_sale:2725769": {
    "alerted": {
     "price_drop": [
@@ -12137,7 +11023,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2500.0,
    "location": null,
    "prices": [
@@ -12169,7 +11055,7 @@
    },
    "first_seen": "2026-09-19T23:23:49+00:00",
    "is_new": true,
-   "last_seen": "2026-11-04T12:53:35+00:00",
+   "last_seen": "2026-11-04T20:23:16+00:00",
    "list_price": 2100.0,
    "location": null,
    "prices": [
@@ -12291,6 +11177,7 @@
    1550.0
   ],
   "avenger typhoon": [
+   1900.0,
    1900.0,
    1900.0,
    1900.0,
@@ -12510,20 +11397,6 @@
    1679.0
   ],
   "bergamont grandurance": [
-   1049.0,
-   1049.0,
-   1409.0,
-   1409.0,
-   1129.0,
-   1129.0,
-   1619.0,
-   1619.0,
-   1459.0,
-   1459.0,
-   1459.0,
-   1459.0,
-   1289.0,
-   1289.0,
    1289.0,
    1049.0,
    1049.0,
@@ -12569,6 +11442,20 @@
    1129.0,
    1049.0,
    1049.0,
+   1049.0,
+   1049.0,
+   1409.0,
+   1409.0,
+   1619.0,
+   1619.0,
+   1459.0,
+   1459.0,
+   1459.0,
+   1459.0,
+   1289.0,
+   1289.0,
+   1289.0,
+   1129.0,
    1049.0
   ],
   "bianchi arcadex": [
@@ -13208,8 +12095,6 @@
    1699.0
   ],
   "canyon aeroad": [
-   1259.66,
-   1259.66,
    1679.83,
    1259.66,
    1679.83,
@@ -13260,6 +12145,8 @@
    1259.66,
    1259.66,
    1259.66,
+   1259.66,
+   1679.83,
    1259.66,
    1679.83,
    1259.66,
@@ -13361,7 +12248,6 @@
    1490.0,
    1490.0,
    1490.0,
-   1490.0,
    1390.0,
    1390.0,
    1390.0,
@@ -13383,6 +12269,7 @@
    1390.0,
    1390.0,
    1390.0,
+   1300.0,
    1300.0,
    1300.0,
    1300.0,
@@ -13395,8 +12282,6 @@
   ],
   "canyon grizl": [
    1763.87,
-   1600.0,
-   1763.87,
    2100.0,
    1600.0,
    1763.87,
@@ -13446,6 +12331,8 @@
    1600.0,
    1600.0,
    1600.0,
+   1600.0,
+   1931.93,
    1600.0,
    1931.93,
    1600.0,
@@ -13616,7 +12503,6 @@
    2100.0,
    2100.0,
    2100.0,
-   2100.0,
    1975.0,
    2100.0,
    1975.0,
@@ -13626,6 +12512,7 @@
    1800.0,
    2100.0,
    1800.0,
+   2100.0,
    2100.0,
    2100.0,
    2100.0,
@@ -13983,7 +12870,6 @@
    1200.0,
    1200.0,
    1200.0,
-   1200.0,
    1100.0,
    1100.0,
    1100.0,
@@ -14028,6 +12914,7 @@
    1100.0,
    1100.0,
    1100.0,
+   1000.0,
    1000.0,
    1000.0,
    1000.0,
@@ -14042,22 +12929,6 @@
    1000.0
   ],
   "cube attain": [
-   1099.0,
-   1099.0,
-   1699.0,
-   1699.0,
-   1699.0,
-   1299.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1699.0,
-   1699.0,
-   1699.0,
-   1099.0,
-   1099.0,
-   1699.0,
    1699.0,
    1699.0,
    1099.0,
@@ -14101,13 +12972,29 @@
    1699.0,
    1699.0,
    1299.0,
-   1299.0
+   1299.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1099.0,
+   1099.0,
+   1299.0,
+   1299.0,
+   1299.0,
+   1699.0,
+   1699.0,
+   1699.0
   ],
   "cube cross": [
    2069.0,
    2069.0,
    2069.0,
-   2069.0,
+   1999.0,
    1999.0,
    1999.0,
    1999.0,
@@ -14291,8 +13178,6 @@
   ],
   "cube nuroad": [
    1999.0,
-   1999.0,
-   1999.0,
    1099.0,
    1099.0,
    1299.0,
@@ -14347,9 +13232,11 @@
    1999.0,
    1999.0,
    1999.0,
+   1999.0,
    1099.0,
    1099.0,
-   1299.0
+   1299.0,
+   1939.0
   ],
   "cube reaction": [
    1450.0,
@@ -14746,6 +13633,7 @@
    1299.0,
    1299.0,
    1299.0,
+   1299.0,
    1299.0
   ],
   "focus cayo": [
@@ -14998,7 +13886,6 @@
    1630.0,
    1630.0,
    1630.0,
-   1630.0,
    2100.0,
    1630.0,
    2100.0,
@@ -15034,6 +13921,7 @@
    2100.0,
    1630.0,
    2100.0,
+   1630.0,
    1630.0,
    1630.0,
    1630.0
@@ -15043,12 +13931,10 @@
    1499.0,
    1499.0,
    1499.0,
+   1499.0,
    1499.0
   ],
   "giant revolt": [
-   1200.0,
-   2100.0,
-   980.0,
    1690.0,
    1200.0,
    2100.0,
@@ -15097,6 +13983,9 @@
    1200.0,
    2100.0,
    980.0,
+   1690.0,
+   1200.0,
+   2100.0,
    1690.0,
    1200.0,
    2100.0,
@@ -15295,9 +14184,11 @@
    1890.0,
    1890.0,
    1890.0,
+   1890.0,
    1890.0
   ],
   "koga roqa": [
+   1990.0,
    1990.0,
    1990.0,
    1990.0,
@@ -15363,7 +14254,7 @@
    1799.0,
    1839.0,
    1799.0,
-   1839.0,
+   1939.0,
    1799.0,
    1939.0,
    1799.0,
@@ -15451,11 +14342,6 @@
    939.0,
    939.0,
    939.0,
-   1169.0,
-   939.0,
-   939.0,
-   939.0,
-   939.0,
    939.0,
    939.0,
    939.0,
@@ -15478,6 +14364,11 @@
    939.0,
    939.0,
    1169.0,
+   939.0,
+   939.0,
+   939.0,
+   1169.0,
+   939.0,
    939.0,
    939.0,
    939.0,
@@ -15966,7 +14857,6 @@
    1499.0
   ],
   "merida silex": [
-   1900.0,
    1999.0,
    1900.0,
    1999.0,
@@ -16023,6 +14913,7 @@
    1900.0,
    1999.0,
    1900.0,
+   1999.0,
    1999.0,
    1999.0,
    1999.0
@@ -16418,7 +15309,7 @@
    1499.0,
    2099.0,
    1499.0,
-   2099.0,
+   2049.0,
    1499.0,
    2049.0,
    1499.0,
@@ -16793,7 +15684,7 @@
    1800.0,
    1800.0,
    1800.0,
-   1800.0
+   1700.0
   ],
   "project12 vegur": [
    1500.0,
@@ -16898,7 +15789,7 @@
    1709.0,
    1709.0,
    1709.0,
-   1709.0,
+   1639.0,
    1639.0,
    1639.0,
    1639.0,
@@ -16979,8 +15870,8 @@
    1999.0,
    1799.0,
    1999.0,
-   1799.0,
    1999.0,
+   1799.0,
    1999.0,
    1799.0,
    1999.0,
@@ -16991,6 +15882,10 @@
    1799.0
   ],
   "raymon territ": [
+   1699.0,
+   1699.0,
+   1699.0,
+   1499.0,
    1499.0,
    1499.0,
    1199.0,
@@ -17004,9 +15899,9 @@
    1389.0,
    1389.0,
    1299.0,
-   1299.0,
-   1299.0,
-   1299.0,
+   1229.0,
+   1229.0,
+   1229.0,
    1199.0,
    1199.0,
    1199.0,
@@ -17016,12 +15911,8 @@
    1699.0,
    1699.0,
    1699.0,
-   1499.0,
-   1499.0,
-   1499.0,
    1199.0,
    1199.0,
-   1549.0,
    1099.0,
    1199.0,
    1389.0,
@@ -17139,7 +16030,7 @@
    1950.0,
    1950.0,
    1950.0,
-   1950.0,
+   1850.0,
    1850.0,
    1850.0,
    1850.0,
@@ -17183,10 +16074,10 @@
    1850.0
   ],
   "ridley kanzo": [
+   1500.0,
    1100.0,
    1550.0,
    1500.0,
-   1100.0,
    1550.0,
    1500.0,
    1550.0,
@@ -17245,6 +16136,7 @@
    1500.0
   ],
   "ridley x": [
+   1099.0,
    1099.0,
    1099.0,
    1099.0,
@@ -17639,14 +16531,12 @@
   ],
   "rose backroad": [
    2099.0,
-   1399.0,
    2099.0,
    2099.0,
    2099.0,
    2099.0,
    2099.0,
    2099.0,
-   2099.0,
    1499.0,
    1999.0,
    1999.0,
@@ -17685,6 +16575,8 @@
    1999.0,
    1499.0,
    1999.0,
+   1999.0,
+   1499.0,
    1999.0,
    1499.0,
    1999.0,
@@ -17968,6 +16860,7 @@
    950.0,
    950.0,
    950.0,
+   950.0,
    950.0
   ],
   "rose blend": [
@@ -18033,6 +16926,7 @@
    1099.0
   ],
   "rose hobo": [
+   1199.0,
    1199.0,
    1199.0,
    1199.0,
@@ -18405,7 +17299,7 @@
    1650.0
   ],
   "scott speedster": [
-   1289.0,
+   1439.0,
    1499.0,
    1499.0,
    950.0,
@@ -18428,10 +17322,10 @@
    1499.0,
    1499.0,
    950.0,
-   1699.0,
-   1699.0,
    1239.0,
    1239.0,
+   1699.0,
+   1699.0,
    1499.0,
    1499.0,
    1499.0,
@@ -18529,6 +17423,7 @@
    909.0
   ],
   "simplon kiaro": [
+   999.0,
    999.0,
    999.0,
    999.0
@@ -18681,11 +17576,6 @@
    1350.0,
    1400.0,
    2100.0,
-   1100.0,
-   1000.0,
-   1350.0,
-   1400.0,
-   2100.0,
    2000.0,
    1100.0,
    1000.0,
@@ -18709,6 +17599,11 @@
    1350.0,
    1400.0,
    2100.0,
+   1000.0,
+   1350.0,
+   1400.0,
+   2100.0,
+   1850.0,
    1000.0,
    1350.0,
    1400.0,
@@ -18880,7 +17775,7 @@
    1600.0,
    1600.0,
    1600.0,
-   1600.0,
+   1350.0,
    1350.0,
    1350.0,
    1350.0,
@@ -18961,7 +17856,6 @@
   "stevens trofeo": [
    1299.0,
    1299.0,
-   1299.0,
    1199.0,
    1199.0,
    1199.0,
@@ -18999,6 +17893,7 @@
    1150.0,
    1150.0,
    1150.0,
+   950.0,
    950.0,
    950.0,
    950.0,
@@ -19211,7 +18106,7 @@
    1859.0,
    1859.0,
    1859.0,
-   1859.0,
+   1800.0,
    1800.0,
    1800.0,
    1800.0,
@@ -19753,20 +18648,6 @@
  },
  "neupreise": {
   "bergamont grandurance": [
-   1299.0,
-   1499.0,
-   1799.0,
-   1799.0,
-   1499.0,
-   1499.0,
-   1999.0,
-   1999.0,
-   1799.0,
-   1799.0,
-   1799.0,
-   1799.0,
-   1599.0,
-   1599.0,
    1599.0,
    1299.0,
    1499.0,
@@ -19812,7 +18693,21 @@
    1499.0,
    1299.0,
    1499.0,
-   1499.0
+   1499.0,
+   1499.0,
+   1799.0,
+   1799.0,
+   1999.0,
+   1999.0,
+   1799.0,
+   1799.0,
+   1799.0,
+   1799.0,
+   1599.0,
+   1599.0,
+   1599.0,
+   1499.0,
+   1299.0
   ],
   "bombtrack tension": [
    1168.07,
@@ -19918,8 +18813,6 @@
    1699.0
   ],
   "canyon aeroad": [
-   1499.0,
-   1499.0,
    1999.0,
    1499.0,
    1999.0,
@@ -19970,6 +18863,8 @@
    1499.0,
    1499.0,
    1499.0,
+   1499.0,
+   1999.0,
    1499.0,
    1999.0,
    1499.0,
@@ -20036,7 +18931,6 @@
    2299.0
   ],
   "canyon grizl": [
-   2499.0,
    2099.0,
    2499.0,
    2099.0,
@@ -20092,6 +18986,7 @@
    2099.0,
    1499.0,
    1499.0,
+   2299.0,
    2299.0,
    2299.0,
    2299.0,
@@ -20230,22 +19125,6 @@
    1999.0
   ],
   "cube attain": [
-   1099.0,
-   1099.0,
-   1699.0,
-   1699.0,
-   1699.0,
-   1299.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1099.0,
-   1699.0,
-   1699.0,
-   1699.0,
-   1099.0,
-   1099.0,
-   1699.0,
    1699.0,
    1699.0,
    1099.0,
@@ -20289,7 +19168,23 @@
    1699.0,
    1699.0,
    1299.0,
-   1299.0
+   1299.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1099.0,
+   1699.0,
+   1699.0,
+   1699.0,
+   1099.0,
+   1099.0,
+   1299.0,
+   1299.0,
+   1299.0,
+   1699.0,
+   1699.0,
+   1699.0
   ],
   "cube cross": [
    2499.0,
@@ -20357,8 +19252,6 @@
    1999.0,
    1999.0,
    1999.0,
-   1999.0,
-   1999.0,
    1099.0,
    1099.0,
    1299.0,
@@ -20411,9 +19304,11 @@
    1999.0,
    1999.0,
    1999.0,
+   1999.0,
    1099.0,
    1099.0,
-   1299.0
+   1299.0,
+   1999.0
   ],
   "kona libre": [
    1999.0,
@@ -20512,11 +19407,6 @@
    1499.0,
    1499.0,
    1499.0,
-   1799.0,
-   1499.0,
-   1499.0,
-   1499.0,
-   1499.0,
    1499.0,
    1499.0,
    1499.0,
@@ -20539,6 +19429,11 @@
    1499.0,
    1499.0,
    1799.0,
+   1499.0,
+   1499.0,
+   1499.0,
+   1799.0,
+   1499.0,
    1499.0,
    1499.0,
    1499.0,
@@ -20917,6 +19812,10 @@
    1999.0
   ],
   "raymon territ": [
+   1699.0,
+   1699.0,
+   1699.0,
+   2199.0,
    2199.0,
    2199.0,
    1299.0,
@@ -20942,12 +19841,8 @@
    1699.0,
    1699.0,
    1699.0,
-   2199.0,
-   2199.0,
-   2199.0,
    1299.0,
    1299.0,
-   2199.0,
    1099.0,
    1299.0,
    1699.0,
@@ -20980,8 +19875,6 @@
   ],
   "rose backroad": [
    2799.0,
-   2099.0,
-   2799.0,
    2799.0,
    2799.0,
    2799.0,
@@ -21027,6 +19920,8 @@
    2100.0,
    2500.0,
    2799.0,
+   2100.0,
+   2500.0,
    2100.0,
    2500.0,
    2100.0,
@@ -21106,6 +20001,7 @@
    1300.0,
    1300.0,
    1300.0,
+   1300.0,
    1300.0
   ],
   "rose reveal": [
@@ -21149,7 +20045,7 @@
    3016.81
   ],
   "scott addict": [
-   2699.0,
+   2599.0,
    2699.0,
    2699.0,
    2599.0,
@@ -21211,10 +20107,10 @@
    2699.0
   ],
   "scott speedster": [
+   1599.0,
    1499.0,
    1499.0,
    1799.0,
-   1499.0,
    1499.0,
    1499.0,
    1799.0,
@@ -21235,10 +20131,10 @@
    1799.0,
    1499.0,
    1499.0,
-   1799.0,
-   1799.0,
    1499.0,
    1499.0,
+   1799.0,
+   1799.0,
    1499.0,
    1499.0,
    1499.0,
